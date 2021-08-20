@@ -1,0 +1,100 @@
+version: "3.7"
+networks:
+  surv-cloud:
+    name: surv-cloud
+    driver: bridge
+volumes:
+  gw-data:
+services:
+  tp:
+    image: "${tp}"
+    ports:
+      - 5011:5011
+    volumes:
+      - ./tplogs:/opt/surv-cloud/app/tplogs
+    env_file:
+      - qpbuild/.env    
+    command: sym /opt/surv-cloud/app/tplogs -p 5011
+    networks:
+      - surv-cloud
+    tty: true
+    stdin_open: true
+  rdb:
+    image: "${rdb}"
+    ports:
+      - 5012:5012
+    volumes:
+      - ./tplogs:/opt/surv-cloud/app/tplogs
+    env_file:
+      - qpbuild/.env
+    depends_on:
+      - tp
+    command: tp:5011 hdb -p 5012
+    networks:
+      - surv-cloud
+    tty: true
+    stdin_open: true
+  rte:
+    image: "${rte}"
+    ports:
+      - 5013:5013
+    env_file:
+      - qpbuild/.env
+    depends_on:
+      - tp
+    command: tp:5011 -p 5013
+    networks:
+      - surv-cloud
+    tty: true
+    stdin_open: true
+  feed:
+    image: "${feed}"
+    ports:
+      - 5014:5014
+    env_file:
+      - qpbuild/.env
+    depends_on:
+      - rte
+    command: rte:5013 -p 5014
+    networks:
+      - surv-cloud
+    tty: true
+    stdin_open: true
+  gui-dash:
+    image: "registry.dl.kx.com/kxi-gui-dash:0.8.2"
+    ports: 
+      - 9090:8080
+    networks:
+      - surv-cloud
+    restart: unless-stopped
+    depends_on:
+      - gui-gateway
+  gui-gateway:   
+    image: "registry.dl.kx.com/kxi-gui-gateway:0.8.1"
+    ports:
+      - 10001:10001
+    networks:
+      - surv-cloud
+    restart: unless-stopped
+    # enable the "volumes:" property and relative path property bellow
+    volumes:
+      - gw-data:/opt/kx/app/data
+      # Uncomment for Windows - create lic directory with valid kc.lic file
+      #- ./lic:/opt/kx/lic
+      # Uncomment for Linux - make sure kc.lic file is present in ${HOME}/.qp.licenses
+      - ${HOME}/.qp.licenses:/opt/kx/lic
+    depends_on:
+      - gui-data
+  gui-data:
+    image: "registry.dl.kx.com/kxi-gui-data:0.8.0"
+    ports:
+      - 6812:6812
+    restart: unless-stopped
+    volumes:
+      - .:/opt/kx/app/sample/hdb/date
+      # Uncomment for Windows - create lic directory with valid kc.lic file
+      #- ./lic:/opt/kx/lic
+      # Uncomment for Linux - make sure kc.lic file is present in ${HOME}/.qp.licenses
+      - ${HOME}/.qp.licenses:/opt/kx/lic
+    networks:
+      - surv-cloud

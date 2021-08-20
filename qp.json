@@ -1,0 +1,16 @@
+{
+  "tp": {
+    "entry": [ "tick.q" ]
+  },
+  "feed": {
+    "entry": [ "tick/feed.q" ]
+  },
+  "rdb": {
+    "entry": [ "tick/r.q" ]
+  },
+  "rte": {
+    "entry": [ "tick/rte.q" ]
+  }
+}
+
+
