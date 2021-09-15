@@ -18,3 +18,6 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 4. `docker-compose up`
 5. If running dashboard images, go to http://localhost:9090
 6. If not running dashboard images, use `docker attach image_name` to attach to a Surveillance process. E.g. `docker attach surv-cloud_feed_1` 
+
+## Images
+The pre-built application images can be found in this docker repository https://hub.docker.com/repository/docker/luke275/surv-cloud/
