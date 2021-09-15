@@ -22,3 +22,6 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 
 ## Images
 The pre-built application images can be found in this docker repository https://hub.docker.com/repository/docker/luke275/surv-cloud/
+
+## Dashboard Image Volume Backup
+docker run --rm -v surv-cloud_gw-data:/volume -v /home/lbritton/surv-cloud/dash/gw-data:/backup loomchild/volume-backup backup gw-data-archive
