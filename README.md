@@ -8,7 +8,7 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 - Install docker-compose: https://docs.docker.com/compose/install/
 - Install qpacker: https://code.kx.com/insights/cloud-edition/qpacker/quickstart/
 - Login into registry.dl.kx.com to download the dashboard images. 
-  - If have login credentials, run `docker login registry.dl.kx.com -u username -p password` to login.
+  - If you have login credentials, run `docker login registry.dl.kx.com -u username -p password` to login.
   - If you don't have login credentials comment out the services gui-dash, gui-gateway and gui-data in the docker-compose.yml file. You'll then be able to start the Surveillance app but you won't have a UI.
 
 ## Run
