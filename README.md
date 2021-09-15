@@ -6,6 +6,7 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 ## Prerequisites
 - Install docker: https://docs.docker.com/get-docker/
 - Install docker-compose: https://docs.docker.com/compose/install/
+- Install q: https://code.kx.com/q/learn/install/
 - Install qpacker: https://code.kx.com/insights/cloud-edition/qpacker/quickstart/
 - Login into registry.dl.kx.com to download the dashboard images. 
   - If you have login credentials, run `docker login registry.dl.kx.com -u username -p password` to login.
