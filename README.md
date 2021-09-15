@@ -1,7 +1,7 @@
 # surv-cloud
 
 ## Overview
-Mini surveillance application packaged using qpacker, a kdb+ cloud packaging tool that allows you to easily wrap kdb+ services in docker images.
+Mini market surveillance application packaged using qpacker, a kdb+ cloud packaging tool that allows you to easily wrap kdb+ services in docker images.
 
 ## Prerequisites
 - Install docker: https://docs.docker.com/get-docker/
