@@ -1,6 +1,14 @@
 # surv-cloud
 
-## Notes
-- had to edit dash.q to cd into the dir before running q
-- had to copy docker-compose.yml into the qpbuild directory
-- had to copy the .env file in qpbuild out to the top directory
+## Overview
+
+## Prerequisites
+- Install docker: https://docs.docker.com/get-docker/
+- Install qpacker: https://code.kx.com/insights/cloud-edition/qpacker/quickstart/
+- kc.lic
+- dash image login
+
+## Run
+1. Run `qp build`
+2. Had to copy docker-compose.yml into the qpbuild directory
+3. Had to copy the .env file in qpbuild out to the top directory
