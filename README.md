@@ -13,12 +13,13 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
   - If you don't have login credentials comment out the services gui-dash, gui-gateway and gui-data in the docker-compose.yml file. You'll then be able to start the Surveillance app but you won't have a UI.
 
 ## Run
-1. `git clone git@github.com:lukebrit27/surv-cloud.git`
-2.  Run `qp build`.
-3. copy the .env file in qpbuild out to the top directory: `cp qpbuild/.env .`
-4. `docker-compose up`
-5. If running dashboard images, go to http://localhost:9090
-6. If not running dashboard images, use `docker attach image_name` to attach to a Surveillance process. E.g. `docker attach surv-cloud_feed_1` 
+1. `git clone https://github.com/lukebrit27/surv-cloud.git`
+2. Change permissions of folder to avoid any access issues: `chmod -R 777 surv-cloud`
+3.  Run `qp build`.
+4. copy the .env file in qpbuild out to the top directory: `cp qpbuild/.env .`
+5. `docker-compose up`
+6. If running dashboard images, go to http://localhost:9090
+7. If not running dashboard images, use `docker attach image_name` to attach to a Surveillance process. E.g. `docker attach surv-cloud_feed_1` 
 
 ## Images
 The pre-built application images can be found in this docker repository https://hub.docker.com/repository/docker/luke275/surv-cloud/
