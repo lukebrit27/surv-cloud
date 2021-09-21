@@ -16,7 +16,7 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 1. `git clone https://github.com/lukebrit27/surv-cloud.git`
 2. `cd surv-cloud`
 3. `qp build`
-4. Copy the .env file in qpbuild out to the top directory: `cp qpbuild/.env .`
+4. Copy the .env file in the newly created qpbuild directory out to the top directory: `cp qpbuild/.env .`
 5. Change permissions of all files in the repo to avoid any access issues: `chmod -R 777 *`
 6. `docker-compose up`
 7. If running dashboard images, go to http://localhost:9090
