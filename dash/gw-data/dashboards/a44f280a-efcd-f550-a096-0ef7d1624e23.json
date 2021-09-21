@@ -1,0 +1,1830 @@
+{
+  "id": "a44f280a-efcd-f550-a096-0ef7d1624e23",
+  "name": "Demo Scatter",
+  "creationDate": "Wed, 19 Jun 2019 09:10:37 GMT",
+  "lastUpdateDate": "Tue, 10 Mar 2020 11:19:17 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "2272a15d-bd12-729a-6ff8-33f163110d04"
+    },
+    {
+      "label": "Screen 2",
+      "value": "e616f5fd-7e74-a326-1f74-92a9e108c40c"
+    }
+  ],
+  "screens": [
+    {
+      "id": "2272a15d-bd12-729a-6ff8-33f163110d04",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "ac42f3cf-ff07-fafa-4897-6d05a0201c80",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 24,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "component_2485",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 0,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "543ce764-da64-60c5-3e85-62338f6868a7",
+                "layout": {
+                  "row": 24,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 16
+                },
+                "component": {
+                  "id": "component_2699",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 2
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "8a82d0aa-4a1f-80ff-192a-c01e0bb832c",
+                      "layout": {
+                        "row": 0,
+                        "column": 10,
+                        "rowSpan": 2,
+                        "colSpan": 2
+                      },
+                      "component": {
+                        "id": "component_2675",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Menu"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] {\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"8a82d0aa-4a1f-80ff-192a-c01e0bb832c\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "25ee1992-a598-85bb-e611-bb0c88bc9f4",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_2690",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "17048c8c-67b2-5ef2-7b5f-fdc2307d151",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_2736",
+                  "key": "FlexPanel",
+                  "options": {
+                    "version": "4.3.0",
+                    "Basics": {
+                      "layout": "horizontaltop",
+                      "maxSize": 0,
+                      "minSize": 50
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "97b54d4b-d1b8-9ccd-68f2-692dfe0c8dca",
+                      "layout": {
+                        "row": 24,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 16
+                      },
+                      "component": {
+                        "id": "component_2815",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "Matrix charts show relationships between two or more groups of information in a multi-cross format, illustrating the strength between the different data groups.&nbsp;&nbsp;<span style=\"background-color: transparent;\">For example, this Matrix chart shows the relationship between fuel efficiency, horsepower, engine displacement and acceleration for classic cars manufactured in the 1970s.&nbsp; Strong relationships were found between engine size and horsepower, engine size and acceleration, and horsepower and fuel efficiency.&nbsp; Not surprisingly, certain pairings revealed little; for example, there was no relationship between acceleration and&nbsp; fuel efficiency.&nbsp;&nbsp;</span><span style=\"background-color: transparent;\">A tooltip helps identify individual points within the Matrix, including the name of the model, country of origin and year of production.&nbsp;</span>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "[data-widgetid=\"97b54d4b-d1b8-9ccd-68f2-692dfe0c8dca\"] {\n    width: 50%;\n    margin-left: 24%;\n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "Classic Car Comparison",
+                            "titleFontSize": 12,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": true,
+                            "titleShadow": false,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "2b5ea886-8a-449b-93e0-f334a901c125",
+                      "layout": {
+                        "row": 24,
+                        "column": 0,
+                        "rowSpan": 18,
+                        "colSpan": 16
+                      },
+                      "component": {
+                        "id": "component_2925",
+                        "key": "Scatter",
+                        "options": {
+                          "version": "4.4.0",
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "New node"
+                            },
+                            "ChartType": "matrix",
+                            "LargeDataThreshold": 500
+                          },
+                          "Overlay": {
+                            "Display": true,
+                            "TooltipAxisPointerType": "dashed",
+                            "FillOpacity": 80,
+                            "FontSize": 10,
+                            "FixedPosition": false,
+                            "Snap": true,
+                            "UseCustomTooltip": true,
+                            "CustomTooltip": "<div style=\"font-size:11px;\">\n<table>\n    <tr><td colspan=\"2\">{{capitalizeAll points.0.cols.Name}}</td></tr>\n    <tr><td>Year: </td><td>{{points.0.cols.Year}}</td></tr>\n    <tr><td>Origin: </td><td>{{points.0.cols.Origin}}</td></tr>\n    <tr><td>Miles Per Gallon: </td><td>{{points.0.cols.Miles_per_Gallon}} mpg</td></tr>\n    <tr><td>Horsepower: </td><td>{{points.0.cols.Horsepower}} hp</td></tr>\n    <tr><td>Acceleration: </td><td>{{points.0.cols.Acceleration}} m/s</td></tr>\n    <tr><td>Displacement: </td><td>{{points.0.cols.Displacement}} cc</td></tr>\n</table></div>"
+                          },
+                          "MatrixCols": [
+                            {
+                              "MatrixColId": "Miles_per_Gallon",
+                              "ColumnTitle": "Fuel Efficiency",
+                              "Precision": 0,
+                              "HideTrailingZeroes": false,
+                              "DateFormat": "YYYY-MM-DD",
+                              "Prefix": "",
+                              "Suffix": "mpg",
+                              "_Hidden": {
+                                "_ColId": "col_2489",
+                                "_Index": 0
+                              }
+                            },
+                            {
+                              "MatrixColId": "Horsepower",
+                              "ColumnTitle": "Horsepower",
+                              "Precision": 0,
+                              "HideTrailingZeroes": false,
+                              "DateFormat": "YYYY-MM-DD",
+                              "Prefix": "",
+                              "Suffix": "hp",
+                              "_Hidden": {
+                                "_ColId": "col_2495",
+                                "_Index": 1
+                              }
+                            },
+                            {
+                              "MatrixColId": "Acceleration",
+                              "ColumnTitle": "Acceleration",
+                              "Precision": 0,
+                              "HideTrailingZeroes": false,
+                              "DateFormat": "YYYY-MM-DD",
+                              "Prefix": "",
+                              "Suffix": "m/s",
+                              "_Hidden": {
+                                "_ColId": "col_1731",
+                                "_Index": 3
+                              }
+                            },
+                            {
+                              "MatrixColId": "Displacement",
+                              "ColumnTitle": "Displacement",
+                              "Precision": 0,
+                              "HideTrailingZeroes": false,
+                              "DateFormat": "YYYY-MM-DD",
+                              "Prefix": "",
+                              "Suffix": "cc",
+                              "_Hidden": {
+                                "_ColId": "col_2500",
+                                "_Index": 2
+                              }
+                            }
+                          ],
+                          "MatrixXAxes": {
+                            "Labels": {
+                              "LabelFont": "Verdana",
+                              "LabelFontSize": 10,
+                              "LabelFontStyle": "normal",
+                              "LabelRotate": 0,
+                              "LabelColor": "",
+                              "LabelSize": 2
+                            },
+                            "SplitLine": {
+                              "LineStyle": "solid",
+                              "LineColor": "",
+                              "LineOpacity": 10
+                            },
+                            "Title": {
+                              "AxisTitleSize": 12,
+                              "NameColor": "",
+                              "TitleOffset": 20
+                            }
+                          },
+                          "MatrixYAxes": {
+                            "Labels": {
+                              "LabelFont": "Verdana",
+                              "LabelFontSize": 10,
+                              "LabelFontStyle": "normal",
+                              "LabelRotate": 0,
+                              "LabelColor": "",
+                              "LabelSize": 2
+                            },
+                            "SplitLine": {
+                              "LineStyle": "solid",
+                              "LineColor": "",
+                              "LineOpacity": 10
+                            },
+                            "Title": {
+                              "AxisTitleSize": 12,
+                              "NameColor": "",
+                              "TitleOffset": 30
+                            }
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": "",
+                            "AxisPadding": 3.5,
+                            "MatrixBrushTool": false
+                          },
+                          "possibleKeys": [
+                            "Name",
+                            "Miles_per_Gallon",
+                            "Cylinders",
+                            "Displacement",
+                            "Horsepower",
+                            "Weight_in_lbs",
+                            "Acceleration",
+                            "Year",
+                            "Origin"
+                          ],
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": -30,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 12,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleShadow": false,
+                            "titleBackgroundColor": "#e8e8e8",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "666",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "1011",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "colCount": 36,
+      "floatable": false,
+      "isDefault": true
+    },
+    {
+      "id": "e616f5fd-7e74-a326-1f74-92a9e108c40c",
+      "name": "Screen 2",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "9962a7ef-4223-d38b-a13c-53cf575f8102",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 25,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "component_4648",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 0,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "81611417-44d0-d34c-3cb1-2eda852e4e8d",
+                "layout": {
+                  "row": 25,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 24
+                },
+                "component": {
+                  "id": "component_4852",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 2
+                    },
+                    "Style": {
+                      "advanced": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "7eea7bc1-a11a-6141-8273-8fcac1fdac50",
+                      "layout": {
+                        "row": 0,
+                        "column": 10,
+                        "rowSpan": 2,
+                        "colSpan": 2
+                      },
+                      "component": {
+                        "id": "component_4828",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Menu"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"7eea7bc1-a11a-6141-8273-8fcac1fdac50\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */"
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "7d43cf7a-ede3-e533-23aa-3cde822414ba",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_4843",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "5bcefd06-a785-cfd0-fb4a-6e6a73c2e8c2",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_4905",
+                  "key": "FlexPanel",
+                  "options": {
+                    "version": "4.3.0",
+                    "Basics": {
+                      "layout": "horizontaltop",
+                      "maxSize": 0,
+                      "minSize": 100
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "c9b1e0ac-96ed-4729-6d18-381ef36cf6a2",
+                      "layout": {
+                        "row": 25,
+                        "column": 0,
+                        "rowSpan": 3,
+                        "colSpan": 22
+                      },
+                      "component": {
+                        "id": "component_4984",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "Quadrant graphs are bubble charts divided into four equal sections and is often used in decision making processes. As with the Matrix chart, a tool-tip offers individual details for car model, country of origin and year of manufacture, alongside information on fuel efficiency, displacement, horsepower and acceleration. For example, if looking for a car with excellent acceleration you don't necessarily require a car, with a big engine although if fuel efficiency is also important, then the less horse power available the better. A trendline overlay shows the underlying relationship between paired factors.&nbsp;<div><br></div>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "[data-widgetid=\"c9b1e0ac-96ed-4729-6d18-381ef36cf6a2\"] {\n    width: 50%;\n    margin-left: 24%;\n}\n \n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "Classic Car Comparison",
+                            "titleFontSize": 12,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": true,
+                            "titleShadow": false,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "4f2d32e0-7c27-148c-f2a5-578054b8206c",
+                      "layout": {
+                        "row": 45,
+                        "column": 0,
+                        "rowSpan": 20,
+                        "colSpan": 36
+                      },
+                      "component": {
+                        "id": "component_3641",
+                        "key": "Scatter",
+                        "options": {
+                          "version": "4.4.0",
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "New node"
+                            },
+                            "ChartType": "quartet",
+                            "LargeDataThreshold": 500
+                          },
+                          "Overlay": {
+                            "Display": true,
+                            "TooltipAxisPointerType": "dashed",
+                            "FillOpacity": 80,
+                            "FontSize": 12,
+                            "FixedPosition": false,
+                            "Snap": true,
+                            "UseCustomTooltip": true,
+                            "CustomTooltip": "<div style=\"font-size:11px;\">\n<table>\n    <tr><td colspan=\"2\">{{capitalizeAll points.0.cols.Name}}</td></tr>\n    <tr><td>Year: </td><td>{{points.0.cols.Year}}</td></tr>\n    <tr><td>Origin: </td><td>{{points.0.cols.Origin}}</td></tr>\n    <tr><td>Miles Per Gallon: </td><td>{{points.0.cols.Miles_per_Gallon}} mpg</td></tr>\n    <tr><td>Horsepower: </td><td>{{points.0.cols.Horsepower}} hp</td></tr>\n    <tr><td>Acceleration: </td><td>{{points.0.cols.Acceleration}} m/s</td></tr>\n    <tr><td>Displacement: </td><td>{{points.0.cols.Displacement}} cc</td></tr>\n</table></div>"
+                          },
+                          "Charts": {
+                            "Chart1": {
+                              "XAxisID": "XAxis 3",
+                              "XAxisData": "Acceleration",
+                              "YAxisID": "YAxis 1",
+                              "YAxisData": "Miles_per_Gallon",
+                              "DisplayChart": true,
+                              "Legend": {
+                                "LegendName": "",
+                                "Icon": "",
+                                "IconFa": "fa-circle",
+                                "LegendColor": ""
+                              },
+                              "Radius": {
+                                "FixedRadius": true,
+                                "FixedSize": 10,
+                                "RadiusData": "",
+                                "RadiusScaling": 1
+                              },
+                              "PlotStyles": {
+                                "PlotColor": "#DB5F5B",
+                                "PlotShape": "circle"
+                              },
+                              "MarkLine": {
+                                "DisplayLine": true,
+                                "Animation": false,
+                                "ForceSpan": false,
+                                "LineType": "solid",
+                                "LineWidth": 2,
+                                "LineColor": "#0f0a0f",
+                                "FormulaPosition": "middle",
+                                "ShowLineFormula": true,
+                                "ShowLineTooltip": true,
+                                "MarkLineFontSize": 12
+                              },
+                              "Crosshair": {
+                                "Format": "General",
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD"
+                              }
+                            },
+                            "Chart2": {
+                              "XAxisID": "XAxis 3",
+                              "XAxisData": "Horsepower",
+                              "YAxisID": "YAxis 3",
+                              "YAxisData": "Miles_per_Gallon",
+                              "DisplayChart": true,
+                              "Legend": {
+                                "LegendName": "",
+                                "Icon": "",
+                                "IconFa": "fa-circle",
+                                "LegendColor": ""
+                              },
+                              "Radius": {
+                                "FixedRadius": true,
+                                "FixedSize": 10,
+                                "RadiusData": "",
+                                "RadiusScaling": 1
+                              },
+                              "PlotStyles": {
+                                "PlotColor": "#5a6d7b",
+                                "PlotShape": "circle"
+                              },
+                              "MarkLine": {
+                                "DisplayLine": true,
+                                "Animation": false,
+                                "ForceSpan": false,
+                                "LineType": "solid",
+                                "LineWidth": 2,
+                                "LineColor": "#000000",
+                                "FormulaPosition": "middle",
+                                "ShowLineFormula": true,
+                                "ShowLineTooltip": true,
+                                "MarkLineFontSize": 12
+                              },
+                              "Crosshair": {
+                                "Format": "General",
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD"
+                              }
+                            },
+                            "Chart3": {
+                              "XAxisID": "XAxis 2",
+                              "XAxisData": "Acceleration",
+                              "YAxisID": "YAxis 4",
+                              "YAxisData": "Displacement",
+                              "DisplayChart": true,
+                              "Legend": {
+                                "LegendName": "",
+                                "Icon": "",
+                                "IconFa": "fa-circle",
+                                "LegendColor": ""
+                              },
+                              "Radius": {
+                                "FixedRadius": true,
+                                "FixedSize": 10,
+                                "RadiusData": "",
+                                "RadiusScaling": 1
+                              },
+                              "PlotStyles": {
+                                "PlotColor": "#86BEC4",
+                                "PlotShape": "circle"
+                              },
+                              "MarkLine": {
+                                "DisplayLine": true,
+                                "Animation": false,
+                                "ForceSpan": false,
+                                "LineType": "solid",
+                                "LineWidth": 2,
+                                "LineColor": "#000000",
+                                "FormulaPosition": "middle",
+                                "ShowLineFormula": true,
+                                "ShowLineTooltip": true,
+                                "MarkLineFontSize": 12
+                              },
+                              "Crosshair": {
+                                "Format": "General",
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD"
+                              }
+                            },
+                            "Chart4": {
+                              "XAxisID": "XAxis 4",
+                              "XAxisData": "Horsepower",
+                              "YAxisID": "YAxis 3",
+                              "YAxisData": "Displacement",
+                              "DisplayChart": true,
+                              "Legend": {
+                                "LegendName": "",
+                                "Icon": "",
+                                "IconFa": "fa-circle",
+                                "LegendColor": ""
+                              },
+                              "Radius": {
+                                "FixedRadius": true,
+                                "FixedSize": 10,
+                                "RadiusData": "",
+                                "RadiusScaling": 1
+                              },
+                              "PlotStyles": {
+                                "PlotColor": "#EA9F85",
+                                "PlotShape": "circle"
+                              },
+                              "MarkLine": {
+                                "DisplayLine": true,
+                                "Animation": false,
+                                "ForceSpan": false,
+                                "LineType": "solid",
+                                "LineWidth": 2,
+                                "LineColor": "#000000",
+                                "FormulaPosition": "end",
+                                "ShowLineFormula": true,
+                                "ShowLineTooltip": true,
+                                "MarkLineFontSize": 12
+                              },
+                              "Crosshair": {
+                                "Format": "General",
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD"
+                              }
+                            },
+                            "_Hidden": {
+                              "_PossibleYAxes": [
+                                "YAxis 1",
+                                "YAxis 2",
+                                "YAxis 3",
+                                "YAxis 4"
+                              ],
+                              "_PossibleXAxes": [
+                                "XAxis 1",
+                                "XAxis 2",
+                                "XAxis 3",
+                                "XAxis 4"
+                              ]
+                            }
+                          },
+                          "XAxes": [
+                            {
+                              "DisplayAxis": false,
+                              "Position": "top",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 0,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "",
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 12,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 5,
+                                "Name": "Chart 1"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_1779",
+                                "_Type": "linear",
+                                "_Index": 0,
+                                "_Label": "XAxis 1"
+                              }
+                            },
+                            {
+                              "DisplayAxis": true,
+                              "Position": "bottom",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 10,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 0,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "m/s"
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 20,
+                                "Name": "Acceleration"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_2755",
+                                "_Type": "linear",
+                                "_Index": 1,
+                                "_Label": "XAxis 2"
+                              }
+                            },
+                            {
+                              "DisplayAxis": false,
+                              "Position": "bottom",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 12,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "General",
+                                "DisplayLabel": true,
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": ""
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 20,
+                                "Name": " "
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_3926",
+                                "_Type": "linear",
+                                "_Index": 2,
+                                "_Label": "XAxis 3"
+                              }
+                            },
+                            {
+                              "DisplayAxis": true,
+                              "Position": "bottom",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 10,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 0,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "hp"
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 20,
+                                "Name": " Horsepower"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_4181",
+                                "_Type": "linear",
+                                "_Index": 3,
+                                "_Label": "XAxis 4"
+                              }
+                            }
+                          ],
+                          "YAxes": [
+                            {
+                              "DisplayAxis": true,
+                              "Position": "left",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 10,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 0,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "mpg"
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 30,
+                                "Name": "Fuel Economy"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_1775",
+                                "_Type": "linear",
+                                "_Index": 0,
+                                "_Label": "YAxis 1"
+                              }
+                            },
+                            {
+                              "DisplayAxis": true,
+                              "Position": "right",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 12,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "cc"
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 30,
+                                "Name": "Engine Size"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_2890",
+                                "_Type": "linear",
+                                "_Index": 1,
+                                "_Label": "YAxis 2"
+                              }
+                            },
+                            {
+                              "DisplayAxis": false,
+                              "Position": "left",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 12,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "General",
+                                "DisplayLabel": true,
+                                "Precision": 2,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": ""
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 20,
+                                "Name": " "
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_3892",
+                                "_Type": "linear",
+                                "_Index": 2,
+                                "_Label": "YAxis 3"
+                              }
+                            },
+                            {
+                              "DisplayAxis": true,
+                              "Position": "left",
+                              "Range": {
+                                "UseMinMax": false,
+                                "UseDataRange": false,
+                                "RuleMin": 0,
+                                "RuleMax": 10
+                              },
+                              "Labels": {
+                                "LabelFont": "Verdana",
+                                "LabelFontSize": 10,
+                                "LabelFontStyle": "normal",
+                                "LabelRotate": 0,
+                                "LabelColor": "",
+                                "LabelSize": 2,
+                                "Format": "Number",
+                                "DisplayLabel": true,
+                                "Precision": 0,
+                                "HideTrailingZeroes": false,
+                                "Interval": 0,
+                                "DateFormat": "YYYY-MM-DD",
+                                "Prefix": "",
+                                "Suffix": "cc"
+                              },
+                              "Title": {
+                                "AxisTitleSize": 12,
+                                "NameColor": "",
+                                "TitleOffset": 30,
+                                "Name": " Engine Size"
+                              },
+                              "SplitLine": {
+                                "LineStyle": "solid",
+                                "LineColor": "",
+                                "LineOpacity": 10
+                              },
+                              "_Hidden": {
+                                "_AxisId": "axis_4046",
+                                "_Type": "linear",
+                                "_Index": 3,
+                                "_Label": "YAxis 4"
+                              }
+                            }
+                          ],
+                          "Legend": {
+                            "Display": true,
+                            "ItemGap": 10,
+                            "LegendPosition": "top",
+                            "SelectedMode": "multiple",
+                            "UseHtml": false
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": "",
+                            "AxisPadding": 5,
+                            "MatrixBrushTool": false
+                          },
+                          "possibleKeys": [
+                            "Name",
+                            "Miles_per_Gallon",
+                            "Cylinders",
+                            "Displacement",
+                            "Horsepower",
+                            "Weight_in_lbs",
+                            "Acceleration",
+                            "Year",
+                            "Origin"
+                          ],
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "666",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "1011",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 25,
+      "colCount": 36,
+      "floatable": false
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "colCount": 36,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "value": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {
+    "New node": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Name",
+        "Miles_per_Gallon",
+        "Cylinders",
+        "Displacement",
+        "Horsepower",
+        "Weight_in_lbs",
+        "Acceleration",
+        "Year",
+        "Origin"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Name",
+        "mappings": {},
+        "value": "Miles_per_Gallon"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "Cars",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Menu": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "index",
+        "title",
+        "icon",
+        "url",
+        "color"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "index",
+        "mappings": {},
+        "value": "title"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "([]\r\n  index :til 2;\r\n  title :\"S\"$(\"Matrix\";\"Quartet\");\r\n  icon :\"S\"$(\"fa fa-bar-chart\";\"fa fa-line-chart\");\r\n  url :\"S\"$(\"#a44f280a-efcd-f550-a096-0ef7d1624e23\";\"#a44f280a-efcd-f550-a096-0ef7d1624e23/e616f5fd-7e74-a326-1f74-92a9e108c40c\");\r\n  color :\"S\"$(\"#DBDBDB\";\"#DBDBDB\")\r\n )",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "MenuVS": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "index",
+        "title",
+        "icon",
+        "url",
+        "color"
+      ],
+      "_dataType": "virtual",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_subscriptionKey": "",
+      "_virtualParams": [
+        {
+          "type": "datasource",
+          "name": "source",
+          "value": "Menu",
+          "index": 0,
+          "isVirtual": true
+        }
+      ],
+      "_virtualQueryString": "function (source, callback) {\n\n    var hash = window.location.hash;\n    _.each(source.rows, function(r,i){\n        if(r.url === hash){\n            r.color = '#FFFFFF';\n        }\t\t\n    });   \n    \n    callback(source);\n\n}"
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "version": "4.4.0p7",
+  "action": "replace"
+}

@@ -1,0 +1,1466 @@
+{
+  "id": "7e2ae5d3-53b0-fa94-b7e0-31ef1eb681de",
+  "name": "Demo ChartIQ",
+  "creationDate": "Sat, 13 May 2017 17:59:14 GMT",
+  "lastUpdateDate": "Thu, 02 Jul 2020 16:39:12 GMT",
+  "thumb": "data:image/png;base64,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",
+  "screenDetails": [
+    {
+      "label": "S&P",
+      "value": "762e8d75-4725-a127-dff1-9684d7b68bf9"
+    },
+    {
+      "label": "EUR/USD",
+      "value": "8faad240-987a-e267-8ea4-e50f8b8b317a"
+    }
+  ],
+  "screens": [
+    {
+      "id": "762e8d75-4725-a127-dff1-9684d7b68bf9",
+      "name": "S&P",
+      "thumb": "data:image/png;base64,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",
+      "widgets": [
+        {
+          "id": "c0fa4076-311c-d61b-26af-e383f9e76af5",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 15,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_9205",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "4efa68d1-dad5-a7b8-5a33-d0407cd99c98",
+                "layout": {
+                  "row": 16,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "component_9411",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "773ca44-d8e6-b884-ef58-d26aa5d6b0dd",
+                      "layout": {
+                        "row": 0,
+                        "column": 11,
+                        "rowSpan": 2,
+                        "colSpan": 1
+                      },
+                      "component": {
+                        "id": "component_9372",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "dropdownPossibleValues": [
+                            "",
+                            "name",
+                            "id"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Dropdown/stocks"
+                            },
+                            "SelectedValue": {
+                              "_dashboardsType": "viewstate",
+                              "value": "stock"
+                            },
+                            "ComponentName": "dropdown",
+                            "DataSourceMapping": {
+                              "Value": "id",
+                              "Text": "name"
+                            },
+                            "Items": [],
+                            "Width": 100,
+                            "Theme": "Dark",
+                            "Label": "",
+                            "LabelWidth": 75,
+                            "MultiSelect": false,
+                            "ShowSearch": false,
+                            "UseDataSource": true,
+                            "AcceptEmptyValues": false,
+                            "ForceSelectedValue": false,
+                            "FieldSummaryThreshold": 5,
+                            "TooltipSummaryThreshold": 10,
+                            "SelectAllValue": "",
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": ""
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Actions": []
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "16",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "c914d5b-a2bd-938-f9d5-54d63f1adace",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_9402",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "568393dd-5e11-b4dd-3ed1-6dbdda31457f",
+                      "layout": {
+                        "row": 0,
+                        "column": 9,
+                        "rowSpan": 2,
+                        "colSpan": 2
+                      },
+                      "component": {
+                        "id": "component_8006",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.3.1",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVs"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a href=\"{{url}}\" title=\"{{title}}\"><i style=\"color:{{color}}\" class=\"fa {{icon}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul {\n  display: flex;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] ul li a span {\n  display: block;\n  margin: 3px 9px 15px 9px;\n  text-decoration: none;\n}\n/* [END] */\n\n[data-widgetid=\"568393dd-5e11-b4dd-3ed1-6dbdda31457f\"] div.basicComponents_label > div > div.text-align > div.htmlContent {\n    overflow: hidden;\n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "ad32c438-8d91-68fd-9ece-84fe72664a8",
+                "layout": {
+                  "row": 27,
+                  "column": 0,
+                  "rowSpan": 13,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_9586",
+                  "key": "ChartIQ",
+                  "options": {
+                    "Options": {
+                      "DisplayMenu": true,
+                      "Layout": "{\"interval\":1,\"periodicity\":1,\"timeUnit\":\"minute\",\"candleWidth\":6.727642276422764,\"volumeUnderlay\":false,\"adj\":true,\"crosshair\":true,\"chartType\":\"candle\",\"extended\":false,\"marketSessions\":{},\"aggregationType\":null,\"chartScale\":\"linear\",\"panels\":{\"chart\":{\"percent\":0.512,\"display\":\"SPX\",\"chartName\":\"chart\",\"top\":0,\"On Bal Vol\":{\"percent\":0.128,\"display\":\"On Bal Vol\",\"chartName\":\"chart\",\"top\":413.696},\"Boll %b (20,2,ma)\":{\"percent\":0.15999999999999998,\"display\":\"Boll %b (20,2,ma)\",\"chartName\":\"chart\",\"top\":517.12},\"Awesome\":{\"percent\":0.2,\"display\":\"Awesome\",\"chartName\":\"chart\",\"top\":646.4}},\"pandf\":{},\"symbols\":[{\"symbol\":\"SPX\",\"symbolObject\":{\"layer\":\"layer_10915\",\"source\":\"stockStream\",\"symbol\":\"SPX\",\"type\":\"OHLC\",\"xAxisData\":\"\",\"yAxisData\":\"\"},\"periodicity\":1,\"interval\":1,\"timeUnit\":\"minute\",\"setSpan\":{}}],\"span\":null,\"setSpan\":{},\"range\":{},\"studies\":{\"Bollinger Bands (20,2,ma,y)\":{\"type\":\"Bollinger Bands\",\"inputs\":{\"Period\":20,\"Field\":\"field\",\"Standard Deviations\":2,\"Moving Average Type\":\"ma\",\"Channel Fill\":true,\"id\":\"Bollinger Bands (20,2,ma,y)\",\"display\":\"Bollinger Bands (20,2,ma,y)\"},\"outputs\":{\"Bollinger Bands Top\":\"#0073ba\",\"Bollinger Bands Median\":\"auto\",\"Bollinger Bands Bottom\":\"#0073ba\"},\"panel\":\"chart\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}},\"ma (50,ma,0,n)\":{\"type\":\"ma\",\"inputs\":{\"Period\":50,\"Field\":\"field\",\"Type\":\"ma\",\"Offset\":0,\"Underlay\":false,\"id\":\"ma (50,ma,0,n)\",\"display\":\"ma (50,ma,0,n)\"},\"outputs\":{\"MA\":\"#66308f\"},\"panel\":\"chart\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}},\"ma (200,ma,0,n)\":{\"type\":\"ma\",\"inputs\":{\"Period\":\"200\",\"Field\":\"field\",\"Type\":\"ma\",\"Offset\":0,\"Underlay\":false,\"id\":\"ma (200,ma,0,n)\",\"display\":\"ma (200,ma,0,n)\"},\"outputs\":{\"MA\":\"#a187bd\"},\"panel\":\"chart\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}},\"On Bal Vol\":{\"type\":\"On Bal Vol\",\"inputs\":{\"id\":\"On Bal Vol\",\"display\":\"On Bal Vol\"},\"outputs\":{\"Result\":\"auto\"},\"panel\":\"On Bal Vol\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}},\"ma (20,Result On Bal Vol,ma,0,n)\":{\"type\":\"ma\",\"inputs\":{\"Period\":\"20\",\"Field\":\"Result On Bal Vol\",\"Type\":\"ma\",\"Offset\":0,\"Underlay\":false,\"id\":\"ma (20,Result On Bal Vol,ma,0,n)\",\"display\":\"ma (20,Result On Bal Vol,ma,0,n)\"},\"outputs\":{\"MA\":\"#FF0000\"},\"panel\":\"On Bal Vol\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}},\"Boll %b (20,2,ma)\":{\"type\":\"Boll %b\",\"inputs\":{\"Period\":20,\"Field\":\"field\",\"Standard Deviations\":2,\"Moving Average Type\":\"ma\",\"id\":\"Boll %b (20,2,ma)\",\"display\":\"Boll %b (20,2,ma)\"},\"outputs\":{\"%b\":\"auto\"},\"panel\":\"Boll %b (20,2,ma)\",\"parameters\":{\"studyOverZonesEnabled\":true,\"studyOverBoughtValue\":100,\"studyOverBoughtColor\":\"#ea1d2c\",\"studyOverSoldValue\":0,\"studyOverSoldColor\":\"#8ec648\",\"chartName\":\"chart\",\"editMode\":true}},\"Awesome\":{\"type\":\"Awesome\",\"inputs\":{\"id\":\"Awesome\",\"display\":\"Awesome\"},\"outputs\":{\"Increasing Bar\":\"#8ec648\",\"Decreasing Bar\":\"#ea1d2c\"},\"panel\":\"Awesome\",\"parameters\":{\"chartName\":\"chart\",\"editMode\":true}}}}"
+                    },
+                    "Alignment": {
+                      "titlePaddingRight": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingRight": 0,
+                      "paddingRight": 0,
+                      "innerPaddingLeft": 0,
+                      "paddingTop": 0,
+                      "titlePaddingBottom": 7,
+                      "innerPaddingTop": 0,
+                      "titlePaddingTop": 7,
+                      "paddingLeft": 0
+                    },
+                    "_PossibleAxes": [
+                      "Axis"
+                    ],
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 24,
+                      "titleHorizontal": "Left",
+                      "titleColor": "#FFFFFF",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": false,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Axes": {
+                      "X": {
+                        "DisplayGridLines": true,
+                        "DataStart": {
+                          "_dashboardsType": "viewstate",
+                          "value": "start"
+                        },
+                        "RangeMin": "2019-06-21T12:23:00.000Z",
+                        "RangeMax": "2019-06-21T16:02:00.000Z",
+                        "DataEnd": {
+                          "_dashboardsType": "viewstate",
+                          "value": "end"
+                        }
+                      },
+                      "Y": [
+                        {
+                          "DisplayGridLines": true,
+                          "DecimalPlaces": 2,
+                          "LabelStyle": "roundRectArrow",
+                          "Min": 0,
+                          "Max": 0,
+                          "Name": "Axis",
+                          "Position": "Right"
+                        }
+                      ]
+                    },
+                    "Layers": [
+                      {
+                        "_Type": "OHLC",
+                        "_LayerId": "layer_10915",
+                        "_PossibleColumns": [
+                          "Date",
+                          "Time",
+                          "Open",
+                          "High",
+                          "Low",
+                          "Close",
+                          "Volume"
+                        ],
+                        "Name": " ",
+                        "Data": {
+                          "_dashboardsType": "data",
+                          "value": "stockStream"
+                        },
+                        "XAxisData": "",
+                        "YAxisData": "",
+                        "Color": "#ff0000",
+                        "Opacity": 80,
+                        "SelectedObjectRouting": [],
+                        "YAxis": "Axis"
+                      }
+                    ],
+                    "version": "4.0.0d2"
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "79",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 15,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": false
+    },
+    {
+      "id": "8faad240-987a-e267-8ea4-e50f8b8b317a",
+      "name": "EUR/USD",
+      "thumb": "data:image/png;base64,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",
+      "widgets": [
+        {
+          "id": "cb84931f-8c47-cf61-c776-bfd9bcf68e92",
+          "layout": {
+            "row": 25,
+            "column": 0,
+            "rowSpan": 1,
+            "colSpan": 3
+          },
+          "component": {
+            "id": "component_3099",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.5.0",
+              "Basics": {
+                "ComponentName": "label",
+                "HtmlText": "insert text here",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Menu"
+                },
+                "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                "Theme": "Dark",
+                "FontSize": 13,
+                "horizontal": "Center",
+                "vertical": "Middle",
+                "tooltip": "",
+                "AllowUnsafeContent": false,
+                "version": "4.2.0s2"
+              },
+              "Style": {
+                "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul {\n  display: flex;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"cb84931f-8c47-cf61-c776-bfd9bcf68e92\"] ul li a span {\n  display: block;\n  margin: 3px 9px 15px 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "17",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "3404fc3e-c733-4f20-4bbd-cc508eebdff",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 25,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_6167",
+            "key": "FlexPanel",
+            "options": {
+              "version": 0,
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "eb428bfd-cce2-bab9-9cf6-671d7bde40ba",
+                "layout": {
+                  "row": 27,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "component_6503",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "f19e4c40-e38b-72c-8015-d0b9e8a6acbb",
+                      "layout": {
+                        "row": 0,
+                        "column": 11,
+                        "rowSpan": 2,
+                        "colSpan": 1
+                      },
+                      "component": {
+                        "id": "component_6464",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "dropdownPossibleValues": [
+                            "",
+                            "name",
+                            "id"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Dropdown/fx"
+                            },
+                            "SelectedValue": {
+                              "_dashboardsType": "viewstate",
+                              "value": "selected"
+                            },
+                            "ComponentName": "dropdown",
+                            "DataSourceMapping": {
+                              "Value": "id",
+                              "Text": "id"
+                            },
+                            "Items": [],
+                            "Width": 100,
+                            "Theme": "Dark",
+                            "Label": "",
+                            "LabelWidth": 75,
+                            "MultiSelect": false,
+                            "ShowSearch": false,
+                            "AcceptEmptyValues": false,
+                            "ForceSelectedValue": false,
+                            "FieldSummaryThreshold": 5,
+                            "TooltipSummaryThreshold": 10,
+                            "SelectAllValue": "",
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AdvancedSearch": false
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Actions": []
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "16",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "80a0c34a-e56c-19dc-2cc4-6f9a56704192",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_6494",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "f724e0d3-6cea-ac44-4ed-73f0241310f8",
+                      "layout": {
+                        "row": 0,
+                        "column": 9,
+                        "rowSpan": 2,
+                        "colSpan": 2
+                      },
+                      "component": {
+                        "id": "component_2953",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVs"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a href=\"{{url}}\" title=\"{{title}}\"><i style=\"color:{{color}}\" class=\"fa {{icon}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul {\n  display: flex;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] ul li a span {\n  display: block;\n  margin: 3px 9px 15px 9px;\n  text-decoration: none;\n}\n/* [END] */\n\n[data-widgetid=\"f724e0d3-6cea-ac44-4ed-73f0241310f8\"] div.basicComponents_label > div > div.text-align > div.htmlContent {\n    overflow: hidden;\n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "2a5ce3f6-1ecd-ee38-917c-c40f976acd58",
+                "layout": {
+                  "row": 27,
+                  "column": 0,
+                  "rowSpan": 23,
+                  "colSpan": 7
+                },
+                "component": {
+                  "id": "component_6642",
+                  "key": "ChartIQ",
+                  "options": {
+                    "Options": {
+                      "DisplayMenu": true,
+                      "Layout": "{ \"interval\": 1, \"periodicity\": 1, \"timeUnit\": \"minute\", \"candleWidth\": 7.323008849557522, \"volumeUnderlay\": false, \"adj\": true, \"crosshair\": true, \"chartType\": \"candle\", \"extended\": false, \"marketSessions\": {}, \"aggregationType\": \"ohlc\", \"chartScale\": \"linear\", \"panels\": { \"chart\": { \"percent\": 0.64, \"display\": \" \", \"chartName\": \"chart\", \"top\": 0 }, \"macd (12,26,9)\": { \"percent\": 0.16, \"display\": \"macd (12,26,9)\", \"chartName\": \"chart\", \"top\": 465.28000000000003 }, \"ADX (14,4,y,n)\": { \"percent\": 0.19999999999999996, \"display\": \"ADX (14,4,y,n)\", \"chartName\": \"chart\", \"top\": 581.6 } }, \"pandf\": {}, \"span\": null, \"symbols\": [ { \"symbol\": \" \", \"symbolObject\": { \"layer\": \"layer_5462\", \"source\": \"FXStream\", \"symbol\": \" \", \"type\": \"OHLC\", \"xAxisData\": \"\", \"yAxisData\": \"\" }, \"periodicity\": 1, \"interval\": 1, \"timeUnit\": \"minute\", \"setSpan\": {} } ], \"setSpan\": {}, \"range\": {}, \"studies\": { \"Ichimoku Clouds (9,26,52,26)\": { \"type\": \"Ichimoku Clouds\", \"inputs\": { \"Conversion Line Period\": 9, \"Base Line Period\": 26, \"Leading Span B Period\": 52, \"Lagging Span Period\": 26, \"id\": \"Ichimoku Clouds (9,26,52,26)\", \"display\": \"Ichimoku Clouds (9,26,52,26)\" }, \"outputs\": { \"Conversion Line\": \"#0000FF\", \"Base Line\": \"#FF0000\", \"Leading Span A\": \"#00FF00\", \"Leading Span B\": \"#FF0000\", \"Lagging Span\": \"#808000\" }, \"panel\": \"chart\", \"parameters\": { \"chartName\": \"chart\", \"editMode\": true } }, \"Pivot Points (standard,n)\": { \"type\": \"Pivot Points\", \"inputs\": { \"Type\": \"standard\", \"Continuous\": false, \"Shading\": true, \"id\": \"Pivot Points (standard,n)\", \"display\": \"Pivot Points (standard,n)\" }, \"outputs\": { \"Pivot\": \"auto\", \"Resistance 1\": \"rgb(184,44,11)\", \"Support 1\": \"rgb(105,145,88)\", \"Resistance 2\": \"rgb(227,100,96)\", \"Support 2\": \"rgb(179,217,135)\", \"Resistance 3\": \"rgb(255,208,207)\", \"Support 3\": \"rgb(211,232,174)\" }, \"panel\": \"chart\", \"parameters\": { \"opacity\": 0.2, \"chartName\": \"chart\", \"editMode\": true } }, \"macd (12,26,9)\": { \"type\": \"macd\", \"inputs\": { \"Fast MA Period\": 12, \"Slow MA Period\": 26, \"Signal Period\": 9, \"id\": \"macd (12,26,9)\", \"display\": \"macd (12,26,9)\" }, \"outputs\": { \"MACD\": \"auto\", \"Signal\": \"#FF0000\", \"Increasing Bar\": \"#00DD00\", \"Decreasing Bar\": \"#FF0000\" }, \"panel\": \"macd (12,26,9)\", \"parameters\": { \"chartName\": \"chart\", \"editMode\": true } }, \"ADX (14,4,y,n)\": { \"type\": \"ADX\", \"inputs\": { \"Period\": 14, \"Smoothing Period\": \"4\", \"Series\": true, \"Shading\": false, \"Histogram\": false, \"id\": \"ADX (14,4,y,n)\", \"display\": \"ADX (14,4,y,n)\" }, \"outputs\": { \"+DI\": \"#00FF00\", \"-DI\": \"#FF0000\", \"ADX\": \"auto\", \"Positive Bar\": \"#00DD00\", \"Negative Bar\": \"#FF0000\" }, \"panel\": \"ADX (14,4,y,n)\", \"parameters\": { \"chartName\": \"chart\", \"editMode\": true } } } }"
+                    },
+                    "Alignment": {
+                      "titlePaddingRight": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingRight": 0,
+                      "paddingRight": 0,
+                      "innerPaddingLeft": 0,
+                      "paddingTop": 0,
+                      "titlePaddingBottom": 7,
+                      "innerPaddingTop": 0,
+                      "titlePaddingTop": 7,
+                      "paddingLeft": 0
+                    },
+                    "_PossibleAxes": [
+                      "Axis"
+                    ],
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 24,
+                      "titleHorizontal": "Left",
+                      "titleColor": "#FFFFFF",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": false,
+                      "titleShadow": false,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "Axes": {
+                      "X": {
+                        "DisplayGridLines": true,
+                        "RangeMin": "2020-07-01T23:00:00.000Z",
+                        "RangeMax": "2020-07-03T23:00:00.000Z",
+                        "DataStart": {},
+                        "DataEnd": {}
+                      },
+                      "Y": [
+                        {
+                          "DisplayGridLines": true,
+                          "DecimalPlaces": 4,
+                          "LabelStyle": "roundRectArrow",
+                          "Min": 0,
+                          "Max": 100,
+                          "Name": "Axis",
+                          "Position": "Right"
+                        }
+                      ]
+                    },
+                    "Layers": [
+                      {
+                        "_Type": "OHLC",
+                        "_LayerId": "layer_5462",
+                        "_PossibleColumns": [
+                          "Date",
+                          "Open",
+                          "High",
+                          "Low",
+                          "Close",
+                          "Volume",
+                          "sym",
+                          "Time"
+                        ],
+                        "Name": " ",
+                        "Data": {
+                          "_dashboardsType": "data",
+                          "value": "FXStream"
+                        },
+                        "XAxisData": "",
+                        "YAxisData": "",
+                        "Color": "#ff0000",
+                        "Opacity": 80,
+                        "SelectedObjectRouting": [],
+                        "YAxis": "Axis"
+                      }
+                    ],
+                    "version": "4.0.0d2",
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "79",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 26,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 26,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "start": {
+      "_default": "2016-01-01T08:15:07.122000000Z",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "datetime",
+      "value": "2016-01-01T08:15:07.122000000Z"
+    },
+    "end": {
+      "_default": "2017-05-16T08:15:13.041000000Z",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "datetime",
+      "value": "2017-05-16T08:15:13.041000000Z"
+    },
+    "selected": {
+      "_default": "EUR/USD",
+      "_viewType": true,
+      "_type": "symbol",
+      "value": "EUR/USD"
+    },
+    ".settings": {},
+    "stock": {
+      "_viewType": true,
+      "_default": "FB",
+      "value": "FB",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "Dropdown": {
+      "fx": {
+        "_pagingType": "NONE",
+        "_autoExec": true,
+        "_columns": [
+          "name",
+          "id"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_pageSize": 2000,
+        "_serverPaging": false,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": ".fx.syms",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_aggregateCols": [],
+        "_breakdownCols": [],
+        "_aggregateFns": [],
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query"
+      },
+      "fxList": {
+        "_pagingType": "NONE",
+        "_autoExec": true,
+        "_columns": [
+          "index",
+          "fx",
+          "fxSector",
+          "bid",
+          "ask",
+          "change",
+          "flag1",
+          "flag2",
+          "fxLower"
+        ],
+        "_dataType": "virtual",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_pageSize": 2000,
+        "_serverPaging": false,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_subscriptionKey": "",
+        "_virtualParams": [
+          {
+            "type": "datasource",
+            "name": "source",
+            "value": "Dropdown/fx",
+            "index": 0
+          }
+        ],
+        "_virtualQueryString": "function (source, callback) {\n\n    var copy = _.extend({}, source);\n    copy.columns.push('fxLower');\n    copy.meta['fxLower'] = 9;\n    \n    _.each(copy.rows, function(r){\n      r.fxLower = r.fx.toLowerCase();\n    });\n    \n    \n    callback(copy);\n\n}"
+      },
+      "stocks": {
+        "_pagingType": "NONE",
+        "_autoExec": true,
+        "_columns": [
+          "name",
+          "id"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_pageSize": 2000,
+        "_serverPaging": false,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": ".stocks.syms",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_aggregateCols": [],
+        "_breakdownCols": [],
+        "_aggregateFns": [],
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query"
+      }
+    },
+    "Menu": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "title",
+        "url",
+        "color",
+        "icon"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_queryString": "([]\r\n  title:(`Stock;`FX);\r\n  url:(`$\"#7e2ae5d3-53b0-fa94-b7e0-31ef1eb681de/762e8d75-4725-a127-dff1-9684d7b68bf9\";`$\"#7e2ae5d3-53b0-fa94-b7e0-31ef1eb681de\");\r\n  color:(`$\"#D8D8D8\";`$\"#D8D8D8\");\r\n  icon:(`$\"fa-bar-chart\";`$\"fa-money\")\r\n )\r\n",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "FXStream": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "stream",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "required": false,
+          "value": "<%selected%>",
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "Date",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "stockStream": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "stream",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "required": false,
+          "value": "<%stock%>",
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "MenuVs": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "title",
+        "url",
+        "color",
+        "icon"
+      ],
+      "_dataType": "virtual",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_subscriptionKey": "",
+      "_virtualParams": [
+        {
+          "type": "datasource",
+          "name": "source",
+          "value": "Menu",
+          "index": 0
+        }
+      ],
+      "_virtualQueryString": "function (source, callback) {\n\n  var hash = window.location.hash;\n  _.each(source.rows, function(r,i){\n\t  if(r.url === hash){\n\t\t\t\t r.color = '#FFFFFF';\n\t\t}\t\t\n\t});   \n  callback(source);\n\n}"
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "enableSaveViewState": true,
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "version": "4.4.0p7",
+  "action": "replace"
+}

@@ -1,0 +1,870 @@
+{
+  "id": "f36686ac-3d79-520f-d393-73c302c35ff2",
+  "name": "Spoofing",
+  "creationDate": "Thu, 19 Aug 2021 22:02:49 GMT",
+  "lastUpdateDate": "Thu, 19 Aug 2021 22:50:45 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "8c95f7f6-3d40-e585-9d60-cfbee3eb32e7"
+    }
+  ],
+  "screens": [
+    {
+      "id": "8c95f7f6-3d40-e585-9d60-cfbee3eb32e7",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "2c999826-6fc5-5e14-b909-fe72538f5563",
+          "layout": {
+            "row": 3,
+            "column": 0,
+            "rowSpan": 21,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "b7b44345-bbae-a2d5-efde-798358621eb7",
+            "key": "Accordion",
+            "options": {
+              "version": "4.5.1",
+              "Basics": {
+                "ComponentName": "accordion",
+                "Direction": "Vertical",
+                "ScaleOnResize": false,
+                "Sections": [
+                  {
+                    "SectionId": "section_1882",
+                    "Title": "Alerts",
+                    "TitleAlign": "Left",
+                    "Expanded": true,
+                    "Flex": false,
+                    "Weight": 1,
+                    "Resizeable": false,
+                    "HideTitle": false
+                  },
+                  {
+                    "SectionId": "section_1892",
+                    "Title": "Order Data",
+                    "TitleAlign": "Left",
+                    "Expanded": true,
+                    "Flex": false,
+                    "Weight": 1,
+                    "Resizeable": false,
+                    "HideTitle": false
+                  }
+                ]
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "Theme": "Dark"
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "0b6b983e-5565-573a-3800-3c332a0fa070",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "eaae1a2d-955c-9dc3-d946-da4794894ba9",
+                  "key": "Datagrid",
+                  "options": {
+                    "version": "4.5.0a",
+                    "datagridPossibleColumns": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "alertName",
+                      "totalCancelQty",
+                      "totalCancelCount",
+                      "cancelQtyThreshold",
+                      "cancelCountThreshold",
+                      "lookbackInterval",
+                      "alertID"
+                    ],
+                    "datagridPossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "alertName",
+                      "totalCancelQty",
+                      "totalCancelCount",
+                      "cancelQtyThreshold",
+                      "cancelCountThreshold",
+                      "lookbackInterval",
+                      "alertID"
+                    ],
+                    "selectedColumnPossibleValues": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "alertName",
+                      "totalCancelQty",
+                      "totalCancelCount",
+                      "cancelQtyThreshold",
+                      "cancelCountThreshold",
+                      "lookbackInterval",
+                      "alertID"
+                    ],
+                    "highlightTargetPossibleValues": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "alertName",
+                      "totalCancelQty",
+                      "totalCancelCount",
+                      "cancelQtyThreshold",
+                      "cancelCountThreshold",
+                      "lookbackInterval",
+                      "alertID",
+                      "*"
+                    ],
+                    "sortingPossibleValues": [
+                      "",
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "alertName",
+                      "totalCancelQty",
+                      "totalCancelCount",
+                      "cancelQtyThreshold",
+                      "cancelCountThreshold",
+                      "lookbackInterval",
+                      "alertID"
+                    ],
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "spoofingAlerts"
+                      },
+                      "SortColumn": "alertID",
+                      "SortOrder": "descending",
+                      "Filtering": "Column Filters",
+                      "IsFilterVisible": false
+                    },
+                    "ColumnsConfiguration": [
+                      {
+                        "Field": "alertID",
+                        "DisplayName": "alertID",
+                        "Format": "Formatted Number",
+                        "Precision": 0,
+                        "WidthWeight": 165,
+                        "MinWidthAbsolute": 165,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "time",
+                        "DisplayName": "time",
+                        "Format": "DateTime",
+                        "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                        "WidthWeight": 200,
+                        "MinWidthAbsolute": 200,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "totalCancelQty",
+                        "DisplayName": "totalCancelQty",
+                        "Format": "Formatted Number",
+                        "Precision": 4,
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "totalCancelCount",
+                        "DisplayName": "totalCancelCount",
+                        "Format": "Formatted Number",
+                        "Precision": 0,
+                        "WidthWeight": 165,
+                        "MinWidthAbsolute": 165,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "cancelQtyThreshold",
+                        "DisplayName": "cancelQtyThreshold",
+                        "Format": "Formatted Number",
+                        "Precision": 0,
+                        "WidthWeight": 165,
+                        "MinWidthAbsolute": 165,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "cancelCountThreshold",
+                        "DisplayName": "cancelCountThreshold",
+                        "Format": "Formatted Number",
+                        "Precision": 0,
+                        "WidthWeight": 165,
+                        "MinWidthAbsolute": 165,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "lookbackInterval",
+                        "DisplayName": "lookbackInterval",
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140
+                      },
+                      {
+                        "Field": "sym",
+                        "DisplayName": "sym",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "trader",
+                        "DisplayName": "trader",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100
+                      },
+                      {
+                        "Field": "orderID",
+                        "DisplayName": "orderID",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100
+                      },
+                      {
+                        "Field": "eventType",
+                        "DisplayName": "eventType",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "side",
+                        "DisplayName": "side",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "price",
+                        "DisplayName": "price",
+                        "Format": "Formatted Number",
+                        "Precision": 4,
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "quantity",
+                        "DisplayName": "quantity",
+                        "Format": "Formatted Number",
+                        "Precision": 4,
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "alertName",
+                        "DisplayName": "alertName",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      }
+                    ],
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0
+                    },
+                    "format": {
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "21",
+                  "hasOnSettingsChange": true
+                },
+                "sectionId": "section_1882"
+              },
+              {
+                "id": "bbd96020-9fa2-2ae0-b3bb-dd6166646098",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "259122bc-67ed-5530-00e9-14429b862ddf",
+                  "key": "Datagrid",
+                  "options": {
+                    "version": "4.5.0a",
+                    "datagridPossibleColumns": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity"
+                    ],
+                    "datagridPossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity"
+                    ],
+                    "selectedColumnPossibleValues": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity"
+                    ],
+                    "highlightTargetPossibleValues": [
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity",
+                      "*"
+                    ],
+                    "sortingPossibleValues": [
+                      "",
+                      "time",
+                      "sym",
+                      "eventType",
+                      "trader",
+                      "side",
+                      "orderID",
+                      "price",
+                      "quantity"
+                    ],
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "orderData"
+                      },
+                      "SortColumn": "time",
+                      "SortOrder": "descending",
+                      "Filtering": "Column Filters",
+                      "IsFilterVisible": false
+                    },
+                    "ColumnsConfiguration": [
+                      {
+                        "Field": "time",
+                        "DisplayName": "time",
+                        "Format": "DateTime",
+                        "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                        "WidthWeight": 200,
+                        "MinWidthAbsolute": 200,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "sym",
+                        "DisplayName": "sym",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "eventType",
+                        "DisplayName": "eventType",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "trader",
+                        "DisplayName": "trader",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100
+                      },
+                      {
+                        "Field": "side",
+                        "DisplayName": "side",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100,
+                        "TextAlign": "left"
+                      },
+                      {
+                        "Field": "orderID",
+                        "DisplayName": "orderID",
+                        "WidthWeight": 100,
+                        "MinWidthAbsolute": 100
+                      },
+                      {
+                        "Field": "price",
+                        "DisplayName": "price",
+                        "Format": "Formatted Number",
+                        "Precision": 4,
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140,
+                        "TextAlign": "right"
+                      },
+                      {
+                        "Field": "quantity",
+                        "DisplayName": "quantity",
+                        "Format": "Formatted Number",
+                        "Precision": 4,
+                        "WidthWeight": 140,
+                        "MinWidthAbsolute": 140,
+                        "TextAlign": "right"
+                      }
+                    ],
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0
+                    },
+                    "format": {
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "21",
+                  "hasOnSettingsChange": true
+                },
+                "sectionId": "section_1892"
+              }
+            ],
+            "definitionId": "56",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "18bdf6b4-c3ce-9ba2-5c85-a7cac216424e",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 3,
+            "colSpan": 24
+          },
+          "component": {
+            "id": "1a41f982-14b1-bf3d-11f2-e28265f013c4",
+            "key": "Panel",
+            "options": {
+              "version": "4.4.0",
+              "Basics": {
+                "ComponentName": "panel",
+                "RelativeHeight": true,
+                "Advanced": false,
+                "UserLayout": false,
+                "Floatable": true,
+                "ColCount": 36,
+                "RowHeight": 25,
+                "RowCount": 24
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "583a9ece-2596-957b-04aa-fc32ab4c00ae",
+                "layout": {
+                  "row": 3,
+                  "column": 0,
+                  "rowSpan": 8,
+                  "colSpan": 14
+                },
+                "component": {
+                  "id": "8208a359-37ad-1d64-29f8-3de06a544bc4",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.5.0",
+                    "Actions": [
+                      {
+                        "DataSource": {
+                          "_dashboardsType": "data",
+                          "value": "pushData"
+                        },
+                        "_Type": "query"
+                      }
+                    ],
+                    "Basics": {
+                      "ComponentName": "linkButton",
+                      "Label": "Push Data",
+                      "Icon": "",
+                      "FontSize": 11,
+                      "horizontal": "Center",
+                      "vertical": "Middle",
+                      "tooltip": "",
+                      "fixedWidth": false,
+                      "width": 100,
+                      "isEnabled": true
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": "",
+                      "background": "",
+                      "color": "",
+                      "border": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleShadow": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "25",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "50",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {}
+  },
+  "data": {
+    "spoofingAlerts": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "eventType",
+        "trader",
+        "side",
+        "orderID",
+        "price",
+        "quantity",
+        "alertName",
+        "totalCancelQty",
+        "totalCancelCount",
+        "cancelQtyThreshold",
+        "cancelCountThreshold",
+        "lookbackInterval",
+        "alertID"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "surv-cloud_rdb_1",
+      "_mappings": {
+        "key": "alertID",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": " update alertID:1+til count i from orderAlerts",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "pushData": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "surv-cloud_feed_1",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": ".fd.h\"if[`orderCache in key `.spoofing;delete from `.spoofing.orderCache]\";\r\n.fd.addDataToQueue[2;`order;spoofingData];",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "orderData": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "eventType",
+        "trader",
+        "side",
+        "orderID",
+        "price",
+        "quantity"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "surv-cloud_feed_1",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "spoofingData",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "wasChanged": false,
+  "version": "4.6.0P1",
+  "action": "add"
+}

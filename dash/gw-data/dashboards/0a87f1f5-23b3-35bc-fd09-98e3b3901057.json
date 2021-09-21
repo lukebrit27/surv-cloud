@@ -1,0 +1,327 @@
+{
+  "id": "0a87f1f5-23b3-35bc-fd09-98e3b3901057",
+  "name": "Demo FX Book",
+  "creationDate": "Fri, 21 Aug 2020 12:38:12 GMT",
+  "lastUpdateDate": "Fri, 11 Sep 2020 11:01:50 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "48dfb33e-3f36-c2cb-a9df-9c11ac09c2be"
+    }
+  ],
+  "screens": [
+    {
+      "id": "48dfb33e-3f36-c2cb-a9df-9c11ac09c2be",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "1e2d87b0-cf95-34f5-f81e-d268a1f47368",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 31,
+            "colSpan": 5
+          },
+          "component": {
+            "id": "aabd29d7-7e6c-a83a-1b2c-6d7ce6d6b4f4",
+            "key": "EditableList",
+            "options": {
+              "version": "4.4.1",
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Menu"
+                },
+                "Dropdown": false,
+                "SelectedKey": "Majors",
+                "SelectedValue": {
+                  "_dashboardsType": "viewstate",
+                  "value": "watchlist"
+                },
+                "Vertical": "Middle",
+                "ShowNew": true,
+                "ShowSave": true,
+                "ShowDelete": true,
+                "PromptToSave": true,
+                "ConfirmDelete": true,
+                "Template": "{{id}}"
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleFontBold": false,
+                "titleShadow": false,
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "keyColPossibleValues": [
+                "id",
+                "query"
+              ],
+              "valueColPossibleValues": [
+                "id",
+                "query"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "668",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "45950c7f-626d-c13b-54f4-dd810052c1ea",
+          "layout": {
+            "row": 0,
+            "column": 5,
+            "rowSpan": 31,
+            "colSpan": 31
+          },
+          "component": {
+            "id": "1381d0fd-d327-0aa0-8f67-9882081bd8af",
+            "key": "Trade",
+            "options": {
+              "version": "4.6.0",
+              "Basics": {
+                "Connection": "html5evalcongroup",
+                "Theme": "Dark",
+                "Symbols": {
+                  "_dashboardsType": "data",
+                  "value": "symbols"
+                },
+                "Panels": {
+                  "_dashboardsType": "viewstate",
+                  "value": "watchlist"
+                },
+                "ColorIncrease": "#D1FED9",
+                "ColorDecrease": "#FAD7D6"
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleFontBold": false,
+                "titleShadow": false,
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "9987",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 31,
+      "colCount": 36,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 31,
+  "colCount": 36,
+  "floatable": false,
+  "viewState": {
+    ".settings": {},
+    "watchlist": {
+      "_viewType": true,
+      "_type": "string",
+      "value": "[{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":1,\"order\":0,\"pipSize\":0.0001,\"sym\":\"EUR/USD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":2,\"order\":1,\"pipSize\":0.0001,\"sym\":\"EUR/CHF\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":3,\"order\":2,\"pipSize\":0.0001,\"sym\":\"EUR/GBP\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":4,\"order\":3,\"pipSize\":0.01,\"sym\":\"EUR/JPY\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":5,\"order\":4,\"pipSize\":0.0001,\"sym\":\"EUR/AUD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":6,\"order\":5,\"pipSize\":0.0001,\"sym\":\"USD/CAD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":7,\"order\":6,\"pipSize\":0.0001,\"sym\":\"USD/CHF\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":8,\"order\":7,\"pipSize\":0.01,\"sym\":\"USD/JPY\"}]",
+      "_default": "[{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":1,\"order\":2,\"pipSize\":0.01,\"sym\":\"GBP/JPY\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":2,\"order\":1,\"pipSize\":0.01,\"sym\":\"NZD/JPY\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":3,\"order\":2,\"pipSize\":0.0001,\"sym\":\"EUR/GBP\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":4,\"order\":3,\"pipSize\":0.01,\"sym\":\"EUR/JPY\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":5,\"order\":4,\"pipSize\":0.0001,\"sym\":\"EUR/AUD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":6,\"order\":5,\"pipSize\":0.0001,\"sym\":\"USD/CAD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":7,\"order\":6,\"pipSize\":0.0001,\"sym\":\"USD/CHF\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":8,\"order\":0,\"pipSize\":0.0001,\"sym\":\"EUR/GBP\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":9,\"order\":8,\"pipSize\":0.0001,\"sym\":\"EUR/CHF\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":10,\"order\":9,\"pipSize\":0.0001,\"sym\":\"EUR/USD\"},{\"aggregation\":\"Exact\",\"highlight\":\"On\",\"id\":11,\"order\":10,\"pipSize\":0.01,\"sym\":\"USD/JPY\"}]"
+    }
+  },
+  "data": {
+    "symbols": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "pipsize"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "pipsize"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select sym:id, pipsize from .fx.syms",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Menu": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "id",
+        "query"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "id",
+        "mappings": {},
+        "value": "query"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "tradePanels",
+      "_queryParams": [],
+      "_subscriptionKey": "id",
+      "_hasUpdateQuery": true,
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n\n    $[((count dgUpd)>0);`tradePanels upsert flip dgUpd;];\n    $[((count dgDel)>0);delete from `tradePanels where id in (dgDel[`id]);];\n\n    /generate unique ids for new items\n    $[((count dgAdd)>0);`tradePanels upsert flip dgAdd;];\n}",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "enableSaveViewState": true,
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "saveViewerState": "enabled",
+  "wasChanged": false,
+  "version": "4.4.0p7",
+  "action": "add"
+}

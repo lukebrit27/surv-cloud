@@ -1,0 +1,2866 @@
+{
+  "id": "b206840b-2e64-4209-bacd-166c883928f",
+  "name": "Demo Health",
+  "creationDate": "Thu, 07 Dec 2017 10:54:19 GMT",
+  "lastUpdateDate": "Fri, 13 Nov 2020 10:23:16 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "6d39894-e9db-7da2-cba-bdad3b64223"
+    }
+  ],
+  "screens": [
+    {
+      "id": "6d39894-e9db-7da2-cba-bdad3b64223",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "d119d37f-7ae8-982d-d11d-99f3c457d36b",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 1,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "9be041a3-1371-e33f-9a68-2a1022bef3ae",
+            "key": "FlexPanel",
+            "options": {
+              "version": 0,
+              "Basics": {
+                "layout": "verticalleft",
+                "maxSize": 0,
+                "minSize": 115
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleFontBold": false,
+                "titleShadow": false,
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#00bbff",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "dc9a03dc-0e03-ea50-9de9-4650b6c92267",
+                "layout": {
+                  "row": 0,
+                  "column": 0,
+                  "rowSpan": 28,
+                  "colSpan": 1
+                },
+                "component": {
+                  "id": "74deea81-365b-e3fc-1733-3f0b9d13b54a",
+                  "key": "BasicComponents",
+                  "options": {
+                    "version": "4.3.1p2",
+                    "dropdownPossibleValues": [
+                      "",
+                      "text",
+                      "val",
+                      "color",
+                      "icon"
+                    ],
+                    "Actions": [
+                      {
+                        "_Type": "map",
+                        "Current": "",
+                        "Target": ""
+                      }
+                    ],
+                    "Basics": {
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "Menu"
+                      },
+                      "SelectedValue": {
+                        "_dashboardsType": "viewstate",
+                        "value": "Statistic"
+                      },
+                      "ComponentName": "radio",
+                      "DataSourceMapping": {
+                        "Value": "val",
+                        "Text": ""
+                      },
+                      "Items": [],
+                      "Theme": "Dark",
+                      "Label": "",
+                      "LabelWidth": 75,
+                      "MultiSelect": false,
+                      "UseDataSource": true,
+                      "AcceptEmptyValues": false,
+                      "ForceSelectedValue": false,
+                      "ItemsLayout": "Vertical",
+                      "horizontal": "Left",
+                      "vertical": "Top"
+                    },
+                    "Style": {
+                      "advanced": "[data-widgetid=\"dc9a03dc-0e03-ea50-9de9-4650b6c92267\"] div.basicComponents_radio.Light > div > div.align-div > div > div.radio_buttons.vertical > div > input {\n   display:none; \n}\n\n\n\n[data-widgetid=\"dc9a03dc-0e03-ea50-9de9-4650b6c92267\"] div.basicComponents_radio.Light > div > div.align-div > div > div.radio_buttons.vertical input[type=\"radio\"]:checked+label {\n   opacity: 1.0; \n}\n\n[data-widgetid=\"dc9a03dc-0e03-ea50-9de9-4650b6c92267\"] div.basicComponents_radio.Light > div > div.align-div > div > div.radio_buttons.vertical > div > label  {\n     opacity: 0.5; \n}",
+                      "labelTemplate": "<div style=\"background-color:{{color}};\n    border: 0px solid #ffffff;\n    border-radius: 5px;\n    width: 80px;\n    height: 70px;\n    display: inline-block;\n    padding: 5px;\n    margin: 5px\">\n    <div style=\"height: 100%; text-align: center\">\n        <div style=\"display: inline-block; vertical-align: 0\">\n            <div class=\"{{icon}}\" style=\"font-size: 40px; color: #ffffff; margin: 0px;\"></div>\n        </div>\n        <div style=\"color: #ffffff; display: inline-block; width: 92%;\">\n            <span class=\"span-header\">{{text}} </span>\n            <br>\n            <span class=\"span-body\">&nbsp;</span>\n        </div> \n       \n    </div>\n </div>",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#00bbff",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "34",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "c8c00f00-8062-a1c6-ede9-6fff977e5b58",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "9fbb066d-797d-5d11-3d5a-c04112cabe37",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "Floatable": false,
+                      "ColCount": 1,
+                      "RowCount": 3
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleFontBold": false,
+                      "titleShadow": false,
+                      "titleTransparentBackground": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#00bbff",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "0f0d5b93-d136-74be-2fa9-c0d9eb35d5d9",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      },
+                      "component": {
+                        "id": "3a9e3d86-49ac-9c05-094f-ba1374c4d0b4",
+                        "key": "Panel",
+                        "options": {
+                          "Alignment": {
+                            "titlePaddingRight": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingRight": 0,
+                            "paddingRight": 0,
+                            "innerPaddingLeft": 0,
+                            "paddingTop": 0,
+                            "titlePaddingBottom": 7,
+                            "innerPaddingTop": 0,
+                            "titlePaddingTop": 7,
+                            "paddingLeft": 0
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#00bbff",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Basics": {
+                            "Advanced": false,
+                            "RelativeHeight": true,
+                            "UserLayout": false,
+                            "ComponentName": "panel",
+                            "ColCount": 12,
+                            "Floatable": false,
+                            "RowCount": 1
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "version": "4.4.0"
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [
+                          {
+                            "id": "b4cb207e-4f2f-f952-b4fe-5ca7ca00398f",
+                            "layout": {
+                              "row": 0,
+                              "column": 0,
+                              "rowSpan": 1,
+                              "colSpan": 6
+                            },
+                            "component": {
+                              "id": "277b31d4-3b48-9421-086d-48cbabb99487",
+                              "key": "Heatmap",
+                              "options": {
+                                "format": {
+                                  "widgetTitle": "",
+                                  "titleFontSize": 16,
+                                  "titleHorizontal": "Center",
+                                  "titleColor": "",
+                                  "titleBottomBorderWidth": 0,
+                                  "titleFontBold": "",
+                                  "titleShadow": true,
+                                  "titleBackgroundColor": "",
+                                  "titleTransparentBackground": "",
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false,
+                                  "labelFormat": "string",
+                                  "metricFormat": "Number - 0 decimal"
+                                },
+                                "Basics": {
+                                  "SelectedAttr": "State",
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "StateBySelected"
+                                  },
+                                  "Focus": "",
+                                  "Theme": "Dark",
+                                  "Selected": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "State"
+                                  },
+                                  "Actions": []
+                                },
+                                "Data": [
+                                  {
+                                    "Column": "State",
+                                    "Size": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "Statistic"
+                                    },
+                                    "Name": "State",
+                                    "Color": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "Statistic"
+                                    }
+                                  }
+                                ],
+                                "possibleColumns": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "version": "4.5.0",
+                                "notificationEvent": [
+                                  "sym"
+                                ],
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": "0",
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": "0",
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": "0",
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": "0"
+                                },
+                                "FileExport": {
+                                  "ShowExportCsvButton": false,
+                                  "FileName": {},
+                                  "ShowScreenshot": false,
+                                  "ShowFullExportButton": false,
+                                  "ShowExportExcelButton": false
+                                },
+                                "Style": {
+                                  "advanced": "[data-widgetid=\"b4cb207e-4f2f-f952-b4fe-5ca7ca00398f\"] div.main.Heatmap > div.heatmapingArea > div.legend > span {\n\tcolor: black;\n}\n\n[data-widgetid=\"b4cb207e-4f2f-f952-b4fe-5ca7ca00398f\"] div.main.Heatmap > div.frame > div.heatmapingArea > div.legend > span{\n\tcolor: black;\n}",
+                                  "HeaderColorText": "#ffffff",
+                                  "ColorFill": "#282828",
+                                  "cssClasses": ""
+                                },
+                                "GroupBy": {
+                                  "ShowHeader": false,
+                                  "GroupByColumns": "Date",
+                                  "headerColor": "#ffffff",
+                                  "ScaleByChildren": false
+                                },
+                                "possibleRules": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "possibleLabels": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "ColorPalette": {
+                                  "ColorType": "Fixed",
+                                  "FixedColor": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "color"
+                                  },
+                                  "SelectedColor": "#995f99",
+                                  "HoverColor": "",
+                                  "SelectedColorScheme": "red green",
+                                  "ColorScheme": [
+                                    {
+                                      "type": "#700404"
+                                    },
+                                    {
+                                      "type": "#A30504"
+                                    },
+                                    {
+                                      "type": "#BA1C1B"
+                                    },
+                                    {
+                                      "type": "#C83636"
+                                    },
+                                    {
+                                      "type": "#D05253"
+                                    },
+                                    {
+                                      "type": "#8AB77B"
+                                    },
+                                    {
+                                      "type": "#69BC45"
+                                    },
+                                    {
+                                      "type": "#459945"
+                                    },
+                                    {
+                                      "type": "#24743A"
+                                    },
+                                    {
+                                      "type": "#024D27"
+                                    }
+                                  ]
+                                },
+                                "NodeLabel": {
+                                  "Show": true,
+                                  "ShowLegend": true,
+                                  "Format": "General",
+                                  "DateFormat": "YYYY-MM-DD",
+                                  "Precision": 0,
+                                  "HideTrailingZeros": false,
+                                  "Suffix": "",
+                                  "Prefix": "",
+                                  "customLabel": "",
+                                  "labelColor": "#ffffff",
+                                  "Scale": true,
+                                  "MinValue": 0,
+                                  "MaxValue": 100,
+                                  "BorderColor": "#f0f0f0",
+                                  "BorderWidth": 2,
+                                  "gapWidth": 2,
+                                  "upperLabel": "",
+                                  "upperLabelColour": "#000",
+                                  "upperLabelHeight": "15",
+                                  "upperFontSize": "12",
+                                  "ShowAbsolute": false
+                                },
+                                "Animation": {
+                                  "Duration": 1500,
+                                  "Easing": "quinticInOut"
+                                },
+                                "Tooltip": {
+                                  "ShowTooltip": true,
+                                  "TooltipTemplate": "<table><thead><tr style=\"padding-right: 10px;\"><th>{{_name}}</th><th></th></tr></thead><tr><td><svg style=\"padding: 0 5px; vertical-align: middle;\" width=\"12\" height=\"12\"><rect width=\"12\" height=\"12\"style=\"fill: {{_color}} ;stroke-width:3;stroke: {{_color}}\"></rect></svg>{{_label}}:</td><td style=\"padding-right: 10px; text-align: left;\"><span style=\"padding-left:10px\">{{_value}}</span></td></tr></table>"
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "5",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "3d321f0e-9dfb-9aa9-4029-1b6009304ccd",
+                            "layout": {
+                              "row": 0,
+                              "column": 6,
+                              "rowSpan": 1,
+                              "colSpan": 3
+                            },
+                            "component": {
+                              "id": "61f193cd-3bba-6bf3-f0d3-ca2feed43a84",
+                              "key": "Radar",
+                              "options": {
+                                "Legend": {
+                                  "Position": "top",
+                                  "Show": false,
+                                  "LabelColor": "#000000"
+                                },
+                                "DataSet": {
+                                  "GridLineOpacity": 35,
+                                  "Radar": "State",
+                                  "RadarColorAngle": "#575757",
+                                  "AngleLineOpacity": 35,
+                                  "Layers": [
+                                    {
+                                      "Data": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "Statistic"
+                                      },
+                                      "Color": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "color"
+                                      },
+                                      "BorderColor": "#ffffff",
+                                      "UseColor": false,
+                                      "ColorOpacity": 35,
+                                      "Display": "",
+                                      "PointStyle": "circle",
+                                      "PointRadius": 8
+                                    }
+                                  ],
+                                  "RadarColor": "#575757"
+                                },
+                                "Animations": {
+                                  "Easing": "easeInQuad",
+                                  "Enabled": true,
+                                  "Duration": 150
+                                },
+                                "ticks": {
+                                  "backdropPaddingX": 2,
+                                  "display": true,
+                                  "backdropPaddingY": 2,
+                                  "fontSize": 12,
+                                  "beginAtZero": true,
+                                  "maxTicksLimit": 11,
+                                  "fontColor": "rgba(0, 0, 0, 0.75)",
+                                  "showLabelBackdrop": false,
+                                  "backdropColor": "rgba(255, 255, 255, 0.75)",
+                                  "pointLabels": 11,
+                                  "Format": "General",
+                                  "Precision": 0,
+                                  "HideTrailingZeroes": false,
+                                  "DateFormat": "YYYY-MM-DD",
+                                  "Prefix": "",
+                                  "Suffix": ""
+                                },
+                                "Tooltip": {
+                                  "isStacked": false,
+                                  "handlebarhelper": [],
+                                  "advancedTooltip": "<div>{{title}}<br>{{#each dataSet}}<table><tr><td><svg style=\"width:15px;height:15px\"> <circle fill=\"{{color}}\" stroke- width=\"2\" stroke= \"white\" r=\"6\" cy=\"8\" cx=\"8\" ></circle></svg></td><td> {{legend}}</td><td>{{yaxis}}</td></tr></table></div>{{/each}}"
+                                },
+                                "format": {
+                                  "widgetTitle": "Top Ranked States",
+                                  "titleFontSize": 13,
+                                  "titleHorizontal": "Center",
+                                  "titleColor": "",
+                                  "titleBottomBorderWidth": 0,
+                                  "titleFontBold": true,
+                                  "titleShadow": false,
+                                  "titleBackgroundColor": "",
+                                  "titleTransparentBackground": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "SelectedAttr": "Date",
+                                  "SelectedObjectRouting": [],
+                                  "Focus": {},
+                                  "ChartType": "radar",
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "stats"
+                                  },
+                                  "Selected": {
+                                    "class": "1214",
+                                    "i": 1451606400000
+                                  }
+                                },
+                                "possibleColumns": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "possibleRules": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "version": "4.4.0S2",
+                                "possibleLabels": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "ColorPallette": {
+                                  "scheme": "default",
+                                  "chartBarColors": [
+                                    {
+                                      "type": "#4f6aa6"
+                                    },
+                                    {
+                                      "type": "#7995b8"
+                                    },
+                                    {
+                                      "type": "#808387"
+                                    },
+                                    {
+                                      "type": "#a69775"
+                                    },
+                                    {
+                                      "type": "#749450"
+                                    },
+                                    {
+                                      "type": "#51966a"
+                                    },
+                                    {
+                                      "type": "#e2c7c0"
+                                    },
+                                    {
+                                      "type": "#9acad6"
+                                    },
+                                    {
+                                      "type": "#1995a3"
+                                    },
+                                    {
+                                      "type": "#484d6e"
+                                    }
+                                  ]
+                                },
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": 0
+                                },
+                                "FileExport": {
+                                  "ShowExportCsvButton": false,
+                                  "FileName": [],
+                                  "ShowScreenshot": false,
+                                  "ShowExportExcelButton": false
+                                },
+                                "Padding": {
+                                  "Left": 2,
+                                  "Top": 2,
+                                  "Right": 2,
+                                  "Bottom": 2
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "1008",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "f8a22fcb-8c16-6226-a551-bbfd318ccb6e",
+                            "layout": {
+                              "row": 0,
+                              "column": 9,
+                              "rowSpan": 1,
+                              "colSpan": 3
+                            },
+                            "component": {
+                              "id": "af35d348-013e-a0b8-834e-58ed5569a70a",
+                              "key": "Radar",
+                              "options": {
+                                "Legend": {
+                                  "Position": "top",
+                                  "Show": false,
+                                  "LabelColor": "#000000"
+                                },
+                                "DataSet": {
+                                  "GridLineOpacity": 35,
+                                  "Radar": "State",
+                                  "RadarColorAngle": "#575757",
+                                  "AngleLineOpacity": 35,
+                                  "Layers": [
+                                    {
+                                      "Data": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "Statistic"
+                                      },
+                                      "Color": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "color"
+                                      },
+                                      "BorderColor": "#ffffff",
+                                      "UseColor": false,
+                                      "ColorOpacity": 35,
+                                      "Display": "",
+                                      "PointStyle": "circle",
+                                      "PointRadius": 8
+                                    }
+                                  ],
+                                  "RadarColor": "#575757"
+                                },
+                                "Animations": {
+                                  "Easing": "easeInQuad",
+                                  "Enabled": true,
+                                  "Duration": 150
+                                },
+                                "ticks": {
+                                  "backdropPaddingX": 2,
+                                  "display": true,
+                                  "backdropPaddingY": 2,
+                                  "fontSize": 12,
+                                  "beginAtZero": true,
+                                  "maxTicksLimit": 11,
+                                  "fontColor": "rgba(0, 0, 0, 0.75)",
+                                  "showLabelBackdrop": false,
+                                  "backdropColor": "rgba(255, 255, 255, 0.75)",
+                                  "pointLabels": 11,
+                                  "Format": "General",
+                                  "Precision": 0,
+                                  "HideTrailingZeroes": false,
+                                  "DateFormat": "YYYY-MM-DD",
+                                  "Prefix": "",
+                                  "Suffix": ""
+                                },
+                                "Tooltip": {
+                                  "isStacked": false,
+                                  "handlebarhelper": [],
+                                  "advancedTooltip": "<div>{{title}}<br>{{#each dataSet}}<table><tr><td><svg style=\"width:15px;height:15px\"> <circle fill=\"{{color}}\" stroke- width=\"2\" stroke= \"white\" r=\"6\" cy=\"8\" cx=\"8\" ></circle></svg></td><td> {{legend}}</td><td>{{yaxis}}</td></tr></table></div>{{/each}}"
+                                },
+                                "format": {
+                                  "widgetTitle": "Bottom Ranked States",
+                                  "titleFontSize": 13,
+                                  "titleHorizontal": "Center",
+                                  "titleColor": "",
+                                  "titleFontBold": true,
+                                  "titleShadow": false,
+                                  "titleTransparentBackground": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "SelectedAttr": "Date",
+                                  "SelectedObjectRouting": [],
+                                  "Focus": "",
+                                  "ChartType": "radar",
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "bottomStats"
+                                  },
+                                  "Selected": ""
+                                },
+                                "possibleColumns": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "possibleRules": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "version": "4.4.0S2",
+                                "possibleLabels": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "ColorPallette": {
+                                  "scheme": "default",
+                                  "chartBarColors": [
+                                    {
+                                      "type": "#4f6aa6"
+                                    },
+                                    {
+                                      "type": "#7995b8"
+                                    },
+                                    {
+                                      "type": "#808387"
+                                    },
+                                    {
+                                      "type": "#a69775"
+                                    },
+                                    {
+                                      "type": "#749450"
+                                    },
+                                    {
+                                      "type": "#51966a"
+                                    },
+                                    {
+                                      "type": "#e2c7c0"
+                                    },
+                                    {
+                                      "type": "#9acad6"
+                                    },
+                                    {
+                                      "type": "#1995a3"
+                                    },
+                                    {
+                                      "type": "#484d6e"
+                                    }
+                                  ]
+                                },
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": 0
+                                },
+                                "FileExport": {
+                                  "ShowExportCsvButton": false,
+                                  "FileName": [],
+                                  "ShowScreenshot": false,
+                                  "ShowExportExcelButton": false
+                                },
+                                "Padding": {
+                                  "Left": 2,
+                                  "Top": 2,
+                                  "Right": 2,
+                                  "Bottom": 2
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "1008",
+                              "hasOnSettingsChange": true
+                            }
+                          }
+                        ],
+                        "definitionId": "50",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "37831d23-3e28-6c7e-9ce8-2598c738ef21",
+                      "layout": {
+                        "row": 1,
+                        "column": 0,
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      },
+                      "component": {
+                        "id": "98a21450-a9e2-6f50-136b-6f6a0ecfc8c4",
+                        "key": "Panel",
+                        "options": {
+                          "Alignment": {
+                            "titlePaddingRight": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingRight": 0,
+                            "paddingRight": 0,
+                            "innerPaddingLeft": 0,
+                            "paddingTop": 0,
+                            "titlePaddingBottom": 7,
+                            "innerPaddingTop": 0,
+                            "titlePaddingTop": 7,
+                            "paddingLeft": 0
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#00bbff",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Basics": {
+                            "Advanced": false,
+                            "RelativeHeight": true,
+                            "UserLayout": false,
+                            "ComponentName": "panel",
+                            "ColCount": 12,
+                            "Floatable": false,
+                            "RowCount": 32
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "version": "4.4.0"
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [
+                          {
+                            "id": "730bdea3-b672-22e9-b2c7-cbdbbbc8a645",
+                            "layout": {
+                              "row": 0,
+                              "column": 0,
+                              "rowSpan": 32,
+                              "colSpan": 6
+                            },
+                            "component": {
+                              "id": "3dc5929a-417d-b77e-1847-75bc3ebdfa14",
+                              "key": "Datagrid",
+                              "options": {
+                                "sortingPossibleValues": [
+                                  "",
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "highlightTargetPossibleValues": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate",
+                                  "*"
+                                ],
+                                "format": {
+                                  "titleFontBold": false,
+                                  "titleShadow": true,
+                                  "titleTransparentBackground": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "ShowPagingControl": false,
+                                  "EnableGrouping": false,
+                                  "Filtering": "Disabled",
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "gridValues"
+                                  }
+                                },
+                                "datagridPossibleColumns": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "version": "4.5.0a",
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "innerPaddingTop": 0,
+                                  "paddingLeft": 0
+                                },
+                                "FileExport": {
+                                  "ShowExportExcelButton": false
+                                },
+                                "ColumnsConfiguration": [
+                                  {
+                                    "Field": "Date",
+                                    "Format": "Date",
+                                    "TextAlign": "right",
+                                    "DisplayName": "Date",
+                                    "Hidden": true,
+                                    "MinWidthAbsolute": 80,
+                                    "WidthWeight": 80
+                                  },
+                                  {
+                                    "Field": "State",
+                                    "TextAlign": "left",
+                                    "DisplayName": "State",
+                                    "MinWidthAbsolute": 100,
+                                    "WidthWeight": 100
+                                  },
+                                  {
+                                    "Field": "Population",
+                                    "DisplayName": "Population",
+                                    "Format": "Number",
+                                    "Precision": 0,
+                                    "WidthWeight": 85,
+                                    "MinWidthAbsolute": 85,
+                                    "TextAlign": "right"
+                                  },
+                                  {
+                                    "Field": "DiabetesRate",
+                                    "DisplayName": "DiabetesRate",
+                                    "Format": "Percentage",
+                                    "WidthWeight": 80,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "ObesityRate",
+                                    "DisplayName": "ObesityRate",
+                                    "Format": "Percentage",
+                                    "WidthWeight": 80,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "InactivityRate",
+                                    "DisplayName": "InactivityRate",
+                                    "Format": "Percentage",
+                                    "WidthWeight": 80,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "HypertensionRate",
+                                    "DisplayName": "HypertensionRate",
+                                    "Format": "Percentage",
+                                    "WidthWeight": 80
+                                  }
+                                ],
+                                "Style": {
+                                  "EvenRowBackgroundColorOverride": "#ffffff",
+                                  "advanced": "[data-widgetid=\"730bdea3-b672-22e9-b2c7-cbdbbbc8a645\"] div.Datagrid.Light > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row > div.slick-cell.l2.r2 > div > div.percentageFormatter > p {\n\tbackground-color: #61a8f9;\n}\n\n[data-widgetid=\"730bdea3-b672-22e9-b2c7-cbdbbbc8a645\"] div.Datagrid.Light > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row > div.slick-cell.l3.r3 > div > div.percentageFormatter > p {\n\tbackground-color: #ffab3c;\n}\n\n[data-widgetid=\"730bdea3-b672-22e9-b2c7-cbdbbbc8a645\"] div.Datagrid.Light > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row > div.slick-cell.l4.r4 > div > div.percentageFormatter > p {\n\tbackground-color: #59bd5b;\n}\n\n[data-widgetid=\"730bdea3-b672-22e9-b2c7-cbdbbbc8a645\"] div.Datagrid.Light > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row > div.slick-cell.l5.r5 > div > div.percentageFormatter > p {\n\tbackground-color: #f76767;\n}\n\n[data-widgetid=\"730bdea3-b672-22e9-b2c7-cbdbbbc8a645\"] div.Datagrid.Light > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row.odd > div.slick-cell.l5.r5 > div > div.percentageFormatter > p {\n\tbackground-color: #f76767\n}",
+                                  "OddRowBackgroundColorOverride": "#f4f4f4",
+                                  "DashboardTheme": ""
+                                },
+                                "selectedColumnPossibleValues": [
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "datagridPossibleColumnsWithItself": [
+                                  "<this>",
+                                  "Date",
+                                  "State",
+                                  "Population",
+                                  "DiabetesRate",
+                                  "ObesityRate",
+                                  "InactivityRate",
+                                  "HypertensionRate"
+                                ],
+                                "Selection": {
+                                  "Mode": "Single Row",
+                                  "RowSelectionColumn": "State",
+                                  "SelectedValue": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "State"
+                                  }
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "21",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "b5fd7965-6276-df09-5419-c3750e108b16",
+                            "layout": {
+                              "row": 0,
+                              "column": 6,
+                              "rowSpan": 30,
+                              "colSpan": 6
+                            },
+                            "component": {
+                              "id": "2989b29b-3664-90a9-9a2c-e2e4d3692a73",
+                              "key": "GeoMap",
+                              "options": {
+                                "possibleFloats": [
+                                  "default"
+                                ],
+                                "Basics": {
+                                  "Focus": "",
+                                  "Theme": "Dark",
+                                  "ComponentName": "GeoMap"
+                                },
+                                "overlayall": [],
+                                "Voronoi": {
+                                  "DotColor": "0000ff",
+                                  "ShowScale": false,
+                                  "LineColor": "#ff0000",
+                                  "Data": "",
+                                  "Scale": "",
+                                  "Opacity": 0.2,
+                                  "ScaleColor": "blue"
+                                },
+                                "possibleStrings": [
+                                  "default"
+                                ],
+                                "possibleDValues": [],
+                                "possibleShapes": [
+                                  "default"
+                                ],
+                                "Points": {
+                                  "Tracker": "",
+                                  "Shape": "default",
+                                  "TrackedItem": "default",
+                                  "ShapeColor": "#000000",
+                                  "Latitude": "default",
+                                  "ShapeColorDB": "StateName",
+                                  "ClusterShape": "default",
+                                  "ShapeDB": "default",
+                                  "Zoom": true,
+                                  "Selected": "",
+                                  "ShapeSize": 10,
+                                  "ShapeHoverColor": "#000000",
+                                  "ZoomBase": false,
+                                  "Center": true,
+                                  "ClusterSize": "default",
+                                  "Title": "default",
+                                  "Cluster": true,
+                                  "Data": "",
+                                  "Longitude": "default",
+                                  "ShapeSelectedColor": "#000000",
+                                  "ShapeColorOpacity": 100,
+                                  "ShapeHoverColorOpacity": 100,
+                                  "TooltipData": "",
+                                  "PointsInView": false,
+                                  "ShowTooltip": true,
+                                  "ShapeSelectedColorOpacity": 100,
+                                  "Actions": [],
+                                  "ShapeCanRotation": false,
+                                  "ShapeRotation": 0
+                                },
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": 0
+                                },
+                                "Format": {
+                                  "titlePaddingRight": 0,
+                                  "titlePaddingLeft": 0,
+                                  "titleFontSize": "16",
+                                  "titleHorizontal": "Center",
+                                  "titlePaddingBottom": 0,
+                                  "titlePaddingTop": 0,
+                                  "widgetTitle": ""
+                                },
+                                "possibleGKeys": [
+                                  "GEO_ID",
+                                  "STATE",
+                                  "NAME",
+                                  "CENSUSAREA",
+                                  "gx_id"
+                                ],
+                                "possibleLFloats": [],
+                                "overlayGeoJSONKeys": [
+                                  "GEO_ID",
+                                  "STATE",
+                                  "NAME",
+                                  "CENSUSAREA",
+                                  "gx_id"
+                                ],
+                                "Style": {
+                                  "advanced": ".rect-auto,\n.c100.p51 .slice,\n.c100.p52 .slice,\n.c100.p53 .slice,\n.c100.p54 .slice,\n.c100.p55 .slice,\n.c100.p56 .slice,\n.c100.p57 .slice,\n.c100.p58 .slice,\n.c100.p59 .slice,\n.c100.p60 .slice,\n.c100.p61 .slice,\n.c100.p62 .slice,\n.c100.p63 .slice,\n.c100.p64 .slice,\n.c100.p65 .slice,\n.c100.p66 .slice,\n.c100.p67 .slice,\n.c100.p68 .slice,\n.c100.p69 .slice,\n.c100.p70 .slice,\n.c100.p71 .slice,\n.c100.p72 .slice,\n.c100.p73 .slice,\n.c100.p74 .slice,\n.c100.p75 .slice,\n.c100.p76 .slice,\n.c100.p77 .slice,\n.c100.p78 .slice,\n.c100.p79 .slice,\n.c100.p80 .slice,\n.c100.p81 .slice,\n.c100.p82 .slice,\n.c100.p83 .slice,\n.c100.p84 .slice,\n.c100.p85 .slice,\n.c100.p86 .slice,\n.c100.p87 .slice,\n.c100.p88 .slice,\n.c100.p89 .slice,\n.c100.p90 .slice,\n.c100.p91 .slice,\n.c100.p92 .slice,\n.c100.p93 .slice,\n.c100.p94 .slice,\n.c100.p95 .slice,\n.c100.p96 .slice,\n.c100.p97 .slice,\n.c100.p98 .slice,\n.c100.p99 .slice,\n.c100.p100 .slice {\n\tclip: rect(auto, auto, auto, auto);\n}\n\n.pie,\n.c100 .bar,\n.c100.p51 .fill,\n.c100.p52 .fill,\n.c100.p53 .fill,\n.c100.p54 .fill,\n.c100.p55 .fill,\n.c100.p56 .fill,\n.c100.p57 .fill,\n.c100.p58 .fill,\n.c100.p59 .fill,\n.c100.p60 .fill,\n.c100.p61 .fill,\n.c100.p62 .fill,\n.c100.p63 .fill,\n.c100.p64 .fill,\n.c100.p65 .fill,\n.c100.p66 .fill,\n.c100.p67 .fill,\n.c100.p68 .fill,\n.c100.p69 .fill,\n.c100.p70 .fill,\n.c100.p71 .fill,\n.c100.p72 .fill,\n.c100.p73 .fill,\n.c100.p74 .fill,\n.c100.p75 .fill,\n.c100.p76 .fill,\n.c100.p77 .fill,\n.c100.p78 .fill,\n.c100.p79 .fill,\n.c100.p80 .fill,\n.c100.p81 .fill,\n.c100.p82 .fill,\n.c100.p83 .fill,\n.c100.p84 .fill,\n.c100.p85 .fill,\n.c100.p86 .fill,\n.c100.p87 .fill,\n.c100.p88 .fill,\n.c100.p89 .fill,\n.c100.p90 .fill,\n.c100.p91 .fill,\n.c100.p92 .fill,\n.c100.p93 .fill,\n.c100.p94 .fill,\n.c100.p95 .fill,\n.c100.p96 .fill,\n.c100.p97 .fill,\n.c100.p98 .fill,\n.c100.p99 .fill,\n.c100.p100 .fill {\n\tposition: absolute;\n\tborder: 0.08em solid #307bbb;\n\twidth: 0.84em;\n\theight: 0.84em;\n\tclip: rect(0em, 0.5em, 1em, 0em);\n\tborder-radius: 50%;\n\t-webkit-transform: rotate(0deg);\n\t-moz-transform: rotate(0deg);\n\t-ms-transform: rotate(0deg);\n\t-o-transform: rotate(0deg);\n\ttransform: rotate(0deg);\n}\n\n.pie-fill,\n.c100.p51 .bar:after,\n.c100.p51 .fill,\n.c100.p52 .bar:after,\n.c100.p52 .fill,\n.c100.p53 .bar:after,\n.c100.p53 .fill,\n.c100.p54 .bar:after,\n.c100.p54 .fill,\n.c100.p55 .bar:after,\n.c100.p55 .fill,\n.c100.p56 .bar:after,\n.c100.p56 .fill,\n.c100.p57 .bar:after,\n.c100.p57 .fill,\n.c100.p58 .bar:after,\n.c100.p58 .fill,\n.c100.p59 .bar:after,\n.c100.p59 .fill,\n.c100.p60 .bar:after,\n.c100.p60 .fill,\n.c100.p61 .bar:after,\n.c100.p61 .fill,\n.c100.p62 .bar:after,\n.c100.p62 .fill,\n.c100.p63 .bar:after,\n.c100.p63 .fill,\n.c100.p64 .bar:after,\n.c100.p64 .fill,\n.c100.p65 .bar:after,\n.c100.p65 .fill,\n.c100.p66 .bar:after,\n.c100.p66 .fill,\n.c100.p67 .bar:after,\n.c100.p67 .fill,\n.c100.p68 .bar:after,\n.c100.p68 .fill,\n.c100.p69 .bar:after,\n.c100.p69 .fill,\n.c100.p70 .bar:after,\n.c100.p70 .fill,\n.c100.p71 .bar:after,\n.c100.p71 .fill,\n.c100.p72 .bar:after,\n.c100.p72 .fill,\n.c100.p73 .bar:after,\n.c100.p73 .fill,\n.c100.p74 .bar:after,\n.c100.p74 .fill,\n.c100.p75 .bar:after,\n.c100.p75 .fill,\n.c100.p76 .bar:after,\n.c100.p76 .fill,\n.c100.p77 .bar:after,\n.c100.p77 .fill,\n.c100.p78 .bar:after,\n.c100.p78 .fill,\n.c100.p79 .bar:after,\n.c100.p79 .fill,\n.c100.p80 .bar:after,\n.c100.p80 .fill,\n.c100.p81 .bar:after,\n.c100.p81 .fill,\n.c100.p82 .bar:after,\n.c100.p82 .fill,\n.c100.p83 .bar:after,\n.c100.p83 .fill,\n.c100.p84 .bar:after,\n.c100.p84 .fill,\n.c100.p85 .bar:after,\n.c100.p85 .fill,\n.c100.p86 .bar:after,\n.c100.p86 .fill,\n.c100.p87 .bar:after,\n.c100.p87 .fill,\n.c100.p88 .bar:after,\n.c100.p88 .fill,\n.c100.p89 .bar:after,\n.c100.p89 .fill,\n.c100.p90 .bar:after,\n.c100.p90 .fill,\n.c100.p91 .bar:after,\n.c100.p91 .fill,\n.c100.p92 .bar:after,\n.c100.p92 .fill,\n.c100.p93 .bar:after,\n.c100.p93 .fill,\n.c100.p94 .bar:after,\n.c100.p94 .fill,\n.c100.p95 .bar:after,\n.c100.p95 .fill,\n.c100.p96 .bar:after,\n.c100.p96 .fill,\n.c100.p97 .bar:after,\n.c100.p97 .fill,\n.c100.p98 .bar:after,\n.c100.p98 .fill,\n.c100.p99 .bar:after,\n.c100.p99 .fill,\n.c100.p100 .bar:after,\n.c100.p100 .fill {\n\t-webkit-transform: rotate(180deg);\n\t-moz-transform: rotate(180deg);\n\t-ms-transform: rotate(180deg);\n\t-o-transform: rotate(180deg);\n\ttransform: rotate(180deg);\n}\n\n.c100 {\n\tposition: relative;\n\tfont-size: 120px;\n\twidth: 1em;\n\theight: 1em;\n\tborder-radius: 50%;\n\tfloat: left;\n\tmargin: 0 0.1em 0.1em 0;\n\tbackground-color: #cccccc;\n}\n\n.c100 *,\n.c100 *:before,\n.c100 *:after {\n\t-webkit-box-sizing: content-box;\n\t-moz-box-sizing: content-box;\n\tbox-sizing: content-box;\n}\n\n.c100.center {\n\tfloat: none;\n\tmargin: 0 auto;\n}\n\n.c100.big {\n\tfont-size: 240px;\n}\n\n.c100.small {\n\tfont-size: 80px;\n}\n\n.c100 > span {\n\tposition: absolute;\n\twidth: 100%;\n\tz-index: 1;\n\tleft: 0;\n\ttop: 0;\n\twidth: 5em;\n\tline-height: 5em;\n\tfont-size: 0.2em;\n\tcolor: #cccccc;\n\tdisplay: block;\n\ttext-align: center;\n\twhite-space: nowrap;\n\t-webkit-transition-property: all;\n\t-moz-transition-property: all;\n\t-o-transition-property: all;\n\ttransition-property: all;\n\t-webkit-transition-duration: 0.2s;\n\t-moz-transition-duration: 0.2s;\n\t-o-transition-duration: 0.2s;\n\ttransition-duration: 0.2s;\n\t-webkit-transition-timing-function: ease-out;\n\t-moz-transition-timing-function: ease-out;\n\t-o-transition-timing-function: ease-out;\n\ttransition-timing-function: ease-out;\n}\n\n.c100:after {\n\tposition: absolute;\n\ttop: 0.08em;\n\tleft: 0.08em;\n\tdisplay: block;\n\tcontent: \" \";\n\tborder-radius: 50%;\n\tbackground-color: #f5f5f5;\n\twidth: 0.84em;\n\theight: 0.84em;\n\t-webkit-transition-property: all;\n\t-moz-transition-property: all;\n\t-o-transition-property: all;\n\ttransition-property: all;\n\t-webkit-transition-duration: 0.2s;\n\t-moz-transition-duration: 0.2s;\n\t-o-transition-duration: 0.2s;\n\ttransition-duration: 0.2s;\n\t-webkit-transition-timing-function: ease-in;\n\t-moz-transition-timing-function: ease-in;\n\t-o-transition-timing-function: ease-in;\n\ttransition-timing-function: ease-in;\n}\n\n.c100 .slice {\n\tposition: absolute;\n\twidth: 1em;\n\theight: 1em;\n\tclip: rect(0em, 1em, 1em, 0.5em);\n}\n\n.c100.p1 .bar {\n\t-webkit-transform: rotate(3.6deg);\n\t-moz-transform: rotate(3.6deg);\n\t-ms-transform: rotate(3.6deg);\n\t-o-transform: rotate(3.6deg);\n\ttransform: rotate(3.6deg);\n}\n\n.c100.p2 .bar {\n\t-webkit-transform: rotate(7.2deg);\n\t-moz-transform: rotate(7.2deg);\n\t-ms-transform: rotate(7.2deg);\n\t-o-transform: rotate(7.2deg);\n\ttransform: rotate(7.2deg);\n}\n\n.c100.p3 .bar {\n\t-webkit-transform: rotate(10.8deg);\n\t-moz-transform: rotate(10.8deg);\n\t-ms-transform: rotate(10.8deg);\n\t-o-transform: rotate(10.8deg);\n\ttransform: rotate(10.8deg);\n}\n\n.c100.p4 .bar {\n\t-webkit-transform: rotate(14.4deg);\n\t-moz-transform: rotate(14.4deg);\n\t-ms-transform: rotate(14.4deg);\n\t-o-transform: rotate(14.4deg);\n\ttransform: rotate(14.4deg);\n}\n\n.c100.p5 .bar {\n\t-webkit-transform: rotate(18deg);\n\t-moz-transform: rotate(18deg);\n\t-ms-transform: rotate(18deg);\n\t-o-transform: rotate(18deg);\n\ttransform: rotate(18deg);\n}\n\n.c100.p6 .bar {\n\t-webkit-transform: rotate(21.6deg);\n\t-moz-transform: rotate(21.6deg);\n\t-ms-transform: rotate(21.6deg);\n\t-o-transform: rotate(21.6deg);\n\ttransform: rotate(21.6deg);\n}\n\n.c100.p7 .bar {\n\t-webkit-transform: rotate(25.2deg);\n\t-moz-transform: rotate(25.2deg);\n\t-ms-transform: rotate(25.2deg);\n\t-o-transform: rotate(25.2deg);\n\ttransform: rotate(25.2deg);\n}\n\n.c100.p8 .bar {\n\t-webkit-transform: rotate(28.8deg);\n\t-moz-transform: rotate(28.8deg);\n\t-ms-transform: rotate(28.8deg);\n\t-o-transform: rotate(28.8deg);\n\ttransform: rotate(28.8deg);\n}\n\n.c100.p9 .bar {\n\t-webkit-transform: rotate(32.4deg);\n\t-moz-transform: rotate(32.4deg);\n\t-ms-transform: rotate(32.4deg);\n\t-o-transform: rotate(32.4deg);\n\ttransform: rotate(32.4deg);\n}\n\n.c100.p10 .bar {\n\t-webkit-transform: rotate(36deg);\n\t-moz-transform: rotate(36deg);\n\t-ms-transform: rotate(36deg);\n\t-o-transform: rotate(36deg);\n\ttransform: rotate(36deg);\n}\n\n.c100.p11 .bar {\n\t-webkit-transform: rotate(39.6deg);\n\t-moz-transform: rotate(39.6deg);\n\t-ms-transform: rotate(39.6deg);\n\t-o-transform: rotate(39.6deg);\n\ttransform: rotate(39.6deg);\n}\n\n.c100.p12 .bar {\n\t-webkit-transform: rotate(43.2deg);\n\t-moz-transform: rotate(43.2deg);\n\t-ms-transform: rotate(43.2deg);\n\t-o-transform: rotate(43.2deg);\n\ttransform: rotate(43.2deg);\n}\n\n.c100.p13 .bar {\n\t-webkit-transform: rotate(46.800000000000004deg);\n\t-moz-transform: rotate(46.800000000000004deg);\n\t-ms-transform: rotate(46.800000000000004deg);\n\t-o-transform: rotate(46.800000000000004deg);\n\ttransform: rotate(46.800000000000004deg);\n}\n\n.c100.p14 .bar {\n\t-webkit-transform: rotate(50.4deg);\n\t-moz-transform: rotate(50.4deg);\n\t-ms-transform: rotate(50.4deg);\n\t-o-transform: rotate(50.4deg);\n\ttransform: rotate(50.4deg);\n}\n\n.c100.p15 .bar {\n\t-webkit-transform: rotate(54deg);\n\t-moz-transform: rotate(54deg);\n\t-ms-transform: rotate(54deg);\n\t-o-transform: rotate(54deg);\n\ttransform: rotate(54deg);\n}\n\n.c100.p16 .bar {\n\t-webkit-transform: rotate(57.6deg);\n\t-moz-transform: rotate(57.6deg);\n\t-ms-transform: rotate(57.6deg);\n\t-o-transform: rotate(57.6deg);\n\ttransform: rotate(57.6deg);\n}\n\n.c100.p17 .bar {\n\t-webkit-transform: rotate(61.2deg);\n\t-moz-transform: rotate(61.2deg);\n\t-ms-transform: rotate(61.2deg);\n\t-o-transform: rotate(61.2deg);\n\ttransform: rotate(61.2deg);\n}\n\n.c100.p18 .bar {\n\t-webkit-transform: rotate(64.8deg);\n\t-moz-transform: rotate(64.8deg);\n\t-ms-transform: rotate(64.8deg);\n\t-o-transform: rotate(64.8deg);\n\ttransform: rotate(64.8deg);\n}\n\n.c100.p19 .bar {\n\t-webkit-transform: rotate(68.4deg);\n\t-moz-transform: rotate(68.4deg);\n\t-ms-transform: rotate(68.4deg);\n\t-o-transform: rotate(68.4deg);\n\ttransform: rotate(68.4deg);\n}\n\n.c100.p20 .bar {\n\t-webkit-transform: rotate(72deg);\n\t-moz-transform: rotate(72deg);\n\t-ms-transform: rotate(72deg);\n\t-o-transform: rotate(72deg);\n\ttransform: rotate(72deg);\n}\n\n.c100.p21 .bar {\n\t-webkit-transform: rotate(75.60000000000001deg);\n\t-moz-transform: rotate(75.60000000000001deg);\n\t-ms-transform: rotate(75.60000000000001deg);\n\t-o-transform: rotate(75.60000000000001deg);\n\ttransform: rotate(75.60000000000001deg);\n}\n\n.c100.p22 .bar {\n\t-webkit-transform: rotate(79.2deg);\n\t-moz-transform: rotate(79.2deg);\n\t-ms-transform: rotate(79.2deg);\n\t-o-transform: rotate(79.2deg);\n\ttransform: rotate(79.2deg);\n}\n\n.c100.p23 .bar {\n\t-webkit-transform: rotate(82.8deg);\n\t-moz-transform: rotate(82.8deg);\n\t-ms-transform: rotate(82.8deg);\n\t-o-transform: rotate(82.8deg);\n\ttransform: rotate(82.8deg);\n}\n\n.c100.p24 .bar {\n\t-webkit-transform: rotate(86.4deg);\n\t-moz-transform: rotate(86.4deg);\n\t-ms-transform: rotate(86.4deg);\n\t-o-transform: rotate(86.4deg);\n\ttransform: rotate(86.4deg);\n}\n\n.c100.p25 .bar {\n\t-webkit-transform: rotate(90deg);\n\t-moz-transform: rotate(90deg);\n\t-ms-transform: rotate(90deg);\n\t-o-transform: rotate(90deg);\n\ttransform: rotate(90deg);\n}\n\n.c100.p26 .bar {\n\t-webkit-transform: rotate(93.60000000000001deg);\n\t-moz-transform: rotate(93.60000000000001deg);\n\t-ms-transform: rotate(93.60000000000001deg);\n\t-o-transform: rotate(93.60000000000001deg);\n\ttransform: rotate(93.60000000000001deg);\n}\n\n.c100.p27 .bar {\n\t-webkit-transform: rotate(97.2deg);\n\t-moz-transform: rotate(97.2deg);\n\t-ms-transform: rotate(97.2deg);\n\t-o-transform: rotate(97.2deg);\n\ttransform: rotate(97.2deg);\n}\n\n.c100.p28 .bar {\n\t-webkit-transform: rotate(100.8deg);\n\t-moz-transform: rotate(100.8deg);\n\t-ms-transform: rotate(100.8deg);\n\t-o-transform: rotate(100.8deg);\n\ttransform: rotate(100.8deg);\n}\n\n.c100.p29 .bar {\n\t-webkit-transform: rotate(104.4deg);\n\t-moz-transform: rotate(104.4deg);\n\t-ms-transform: rotate(104.4deg);\n\t-o-transform: rotate(104.4deg);\n\ttransform: rotate(104.4deg);\n}\n\n.c100.p30 .bar {\n\t-webkit-transform: rotate(108deg);\n\t-moz-transform: rotate(108deg);\n\t-ms-transform: rotate(108deg);\n\t-o-transform: rotate(108deg);\n\ttransform: rotate(108deg);\n}\n\n.c100.p31 .bar {\n\t-webkit-transform: rotate(111.60000000000001deg);\n\t-moz-transform: rotate(111.60000000000001deg);\n\t-ms-transform: rotate(111.60000000000001deg);\n\t-o-transform: rotate(111.60000000000001deg);\n\ttransform: rotate(111.60000000000001deg);\n}\n\n.c100.p32 .bar {\n\t-webkit-transform: rotate(115.2deg);\n\t-moz-transform: rotate(115.2deg);\n\t-ms-transform: rotate(115.2deg);\n\t-o-transform: rotate(115.2deg);\n\ttransform: rotate(115.2deg);\n}\n\n.c100.p33 .bar {\n\t-webkit-transform: rotate(118.8deg);\n\t-moz-transform: rotate(118.8deg);\n\t-ms-transform: rotate(118.8deg);\n\t-o-transform: rotate(118.8deg);\n\ttransform: rotate(118.8deg);\n}\n\n.c100.p34 .bar {\n\t-webkit-transform: rotate(122.4deg);\n\t-moz-transform: rotate(122.4deg);\n\t-ms-transform: rotate(122.4deg);\n\t-o-transform: rotate(122.4deg);\n\ttransform: rotate(122.4deg);\n}\n\n.c100.p35 .bar {\n\t-webkit-transform: rotate(126deg);\n\t-moz-transform: rotate(126deg);\n\t-ms-transform: rotate(126deg);\n\t-o-transform: rotate(126deg);\n\ttransform: rotate(126deg);\n}\n\n.c100.p36 .bar {\n\t-webkit-transform: rotate(129.6deg);\n\t-moz-transform: rotate(129.6deg);\n\t-ms-transform: rotate(129.6deg);\n\t-o-transform: rotate(129.6deg);\n\ttransform: rotate(129.6deg);\n}\n\n.c100.p37 .bar {\n\t-webkit-transform: rotate(133.20000000000002deg);\n\t-moz-transform: rotate(133.20000000000002deg);\n\t-ms-transform: rotate(133.20000000000002deg);\n\t-o-transform: rotate(133.20000000000002deg);\n\ttransform: rotate(133.20000000000002deg);\n}\n\n.c100.p38 .bar {\n\t-webkit-transform: rotate(136.8deg);\n\t-moz-transform: rotate(136.8deg);\n\t-ms-transform: rotate(136.8deg);\n\t-o-transform: rotate(136.8deg);\n\ttransform: rotate(136.8deg);\n}\n\n.c100.p39 .bar {\n\t-webkit-transform: rotate(140.4deg);\n\t-moz-transform: rotate(140.4deg);\n\t-ms-transform: rotate(140.4deg);\n\t-o-transform: rotate(140.4deg);\n\ttransform: rotate(140.4deg);\n}\n\n.c100.p40 .bar {\n\t-webkit-transform: rotate(144deg);\n\t-moz-transform: rotate(144deg);\n\t-ms-transform: rotate(144deg);\n\t-o-transform: rotate(144deg);\n\ttransform: rotate(144deg);\n}\n\n.c100.p41 .bar {\n\t-webkit-transform: rotate(147.6deg);\n\t-moz-transform: rotate(147.6deg);\n\t-ms-transform: rotate(147.6deg);\n\t-o-transform: rotate(147.6deg);\n\ttransform: rotate(147.6deg);\n}\n\n.c100.p42 .bar {\n\t-webkit-transform: rotate(151.20000000000002deg);\n\t-moz-transform: rotate(151.20000000000002deg);\n\t-ms-transform: rotate(151.20000000000002deg);\n\t-o-transform: rotate(151.20000000000002deg);\n\ttransform: rotate(151.20000000000002deg);\n}\n\n.c100.p43 .bar {\n\t-webkit-transform: rotate(154.8deg);\n\t-moz-transform: rotate(154.8deg);\n\t-ms-transform: rotate(154.8deg);\n\t-o-transform: rotate(154.8deg);\n\ttransform: rotate(154.8deg);\n}\n\n.c100.p44 .bar {\n\t-webkit-transform: rotate(158.4deg);\n\t-moz-transform: rotate(158.4deg);\n\t-ms-transform: rotate(158.4deg);\n\t-o-transform: rotate(158.4deg);\n\ttransform: rotate(158.4deg);\n}\n\n.c100.p45 .bar {\n\t-webkit-transform: rotate(162deg);\n\t-moz-transform: rotate(162deg);\n\t-ms-transform: rotate(162deg);\n\t-o-transform: rotate(162deg);\n\ttransform: rotate(162deg);\n}\n\n.c100.p46 .bar {\n\t-webkit-transform: rotate(165.6deg);\n\t-moz-transform: rotate(165.6deg);\n\t-ms-transform: rotate(165.6deg);\n\t-o-transform: rotate(165.6deg);\n\ttransform: rotate(165.6deg);\n}\n\n.c100.p47 .bar {\n\t-webkit-transform: rotate(169.20000000000002deg);\n\t-moz-transform: rotate(169.20000000000002deg);\n\t-ms-transform: rotate(169.20000000000002deg);\n\t-o-transform: rotate(169.20000000000002deg);\n\ttransform: rotate(169.20000000000002deg);\n}\n\n.c100.p48 .bar {\n\t-webkit-transform: rotate(172.8deg);\n\t-moz-transform: rotate(172.8deg);\n\t-ms-transform: rotate(172.8deg);\n\t-o-transform: rotate(172.8deg);\n\ttransform: rotate(172.8deg);\n}\n\n.c100.p49 .bar {\n\t-webkit-transform: rotate(176.4deg);\n\t-moz-transform: rotate(176.4deg);\n\t-ms-transform: rotate(176.4deg);\n\t-o-transform: rotate(176.4deg);\n\ttransform: rotate(176.4deg);\n}\n\n.c100.p50 .bar {\n\t-webkit-transform: rotate(180deg);\n\t-moz-transform: rotate(180deg);\n\t-ms-transform: rotate(180deg);\n\t-o-transform: rotate(180deg);\n\ttransform: rotate(180deg);\n}\n\n.c100.p51 .bar {\n\t-webkit-transform: rotate(183.6deg);\n\t-moz-transform: rotate(183.6deg);\n\t-ms-transform: rotate(183.6deg);\n\t-o-transform: rotate(183.6deg);\n\ttransform: rotate(183.6deg);\n}\n\n.c100.p52 .bar {\n\t-webkit-transform: rotate(187.20000000000002deg);\n\t-moz-transform: rotate(187.20000000000002deg);\n\t-ms-transform: rotate(187.20000000000002deg);\n\t-o-transform: rotate(187.20000000000002deg);\n\ttransform: rotate(187.20000000000002deg);\n}\n\n.c100.p53 .bar {\n\t-webkit-transform: rotate(190.8deg);\n\t-moz-transform: rotate(190.8deg);\n\t-ms-transform: rotate(190.8deg);\n\t-o-transform: rotate(190.8deg);\n\ttransform: rotate(190.8deg);\n}\n\n.c100.p54 .bar {\n\t-webkit-transform: rotate(194.4deg);\n\t-moz-transform: rotate(194.4deg);\n\t-ms-transform: rotate(194.4deg);\n\t-o-transform: rotate(194.4deg);\n\ttransform: rotate(194.4deg);\n}\n\n.c100.p55 .bar {\n\t-webkit-transform: rotate(198deg);\n\t-moz-transform: rotate(198deg);\n\t-ms-transform: rotate(198deg);\n\t-o-transform: rotate(198deg);\n\ttransform: rotate(198deg);\n}\n\n.c100.p56 .bar {\n\t-webkit-transform: rotate(201.6deg);\n\t-moz-transform: rotate(201.6deg);\n\t-ms-transform: rotate(201.6deg);\n\t-o-transform: rotate(201.6deg);\n\ttransform: rotate(201.6deg);\n}\n\n.c100.p57 .bar {\n\t-webkit-transform: rotate(205.20000000000002deg);\n\t-moz-transform: rotate(205.20000000000002deg);\n\t-ms-transform: rotate(205.20000000000002deg);\n\t-o-transform: rotate(205.20000000000002deg);\n\ttransform: rotate(205.20000000000002deg);\n}\n\n.c100.p58 .bar {\n\t-webkit-transform: rotate(208.8deg);\n\t-moz-transform: rotate(208.8deg);\n\t-ms-transform: rotate(208.8deg);\n\t-o-transform: rotate(208.8deg);\n\ttransform: rotate(208.8deg);\n}\n\n.c100.p59 .bar {\n\t-webkit-transform: rotate(212.4deg);\n\t-moz-transform: rotate(212.4deg);\n\t-ms-transform: rotate(212.4deg);\n\t-o-transform: rotate(212.4deg);\n\ttransform: rotate(212.4deg);\n}\n\n.c100.p60 .bar {\n\t-webkit-transform: rotate(216deg);\n\t-moz-transform: rotate(216deg);\n\t-ms-transform: rotate(216deg);\n\t-o-transform: rotate(216deg);\n\ttransform: rotate(216deg);\n}\n\n.c100.p61 .bar {\n\t-webkit-transform: rotate(219.6deg);\n\t-moz-transform: rotate(219.6deg);\n\t-ms-transform: rotate(219.6deg);\n\t-o-transform: rotate(219.6deg);\n\ttransform: rotate(219.6deg);\n}\n\n.c100.p62 .bar {\n\t-webkit-transform: rotate(223.20000000000002deg);\n\t-moz-transform: rotate(223.20000000000002deg);\n\t-ms-transform: rotate(223.20000000000002deg);\n\t-o-transform: rotate(223.20000000000002deg);\n\ttransform: rotate(223.20000000000002deg);\n}\n\n.c100.p63 .bar {\n\t-webkit-transform: rotate(226.8deg);\n\t-moz-transform: rotate(226.8deg);\n\t-ms-transform: rotate(226.8deg);\n\t-o-transform: rotate(226.8deg);\n\ttransform: rotate(226.8deg);\n}\n\n.c100.p64 .bar {\n\t-webkit-transform: rotate(230.4deg);\n\t-moz-transform: rotate(230.4deg);\n\t-ms-transform: rotate(230.4deg);\n\t-o-transform: rotate(230.4deg);\n\ttransform: rotate(230.4deg);\n}\n\n.c100.p65 .bar {\n\t-webkit-transform: rotate(234deg);\n\t-moz-transform: rotate(234deg);\n\t-ms-transform: rotate(234deg);\n\t-o-transform: rotate(234deg);\n\ttransform: rotate(234deg);\n}\n\n.c100.p66 .bar {\n\t-webkit-transform: rotate(237.6deg);\n\t-moz-transform: rotate(237.6deg);\n\t-ms-transform: rotate(237.6deg);\n\t-o-transform: rotate(237.6deg);\n\ttransform: rotate(237.6deg);\n}\n\n.c100.p67 .bar {\n\t-webkit-transform: rotate(241.20000000000002deg);\n\t-moz-transform: rotate(241.20000000000002deg);\n\t-ms-transform: rotate(241.20000000000002deg);\n\t-o-transform: rotate(241.20000000000002deg);\n\ttransform: rotate(241.20000000000002deg);\n}\n\n.c100.p68 .bar {\n\t-webkit-transform: rotate(244.8deg);\n\t-moz-transform: rotate(244.8deg);\n\t-ms-transform: rotate(244.8deg);\n\t-o-transform: rotate(244.8deg);\n\ttransform: rotate(244.8deg);\n}\n\n.c100.p69 .bar {\n\t-webkit-transform: rotate(248.4deg);\n\t-moz-transform: rotate(248.4deg);\n\t-ms-transform: rotate(248.4deg);\n\t-o-transform: rotate(248.4deg);\n\ttransform: rotate(248.4deg);\n}\n\n.c100.p70 .bar {\n\t-webkit-transform: rotate(252deg);\n\t-moz-transform: rotate(252deg);\n\t-ms-transform: rotate(252deg);\n\t-o-transform: rotate(252deg);\n\ttransform: rotate(252deg);\n}\n\n.c100.p71 .bar {\n\t-webkit-transform: rotate(255.6deg);\n\t-moz-transform: rotate(255.6deg);\n\t-ms-transform: rotate(255.6deg);\n\t-o-transform: rotate(255.6deg);\n\ttransform: rotate(255.6deg);\n}\n\n.c100.p72 .bar {\n\t-webkit-transform: rotate(259.2deg);\n\t-moz-transform: rotate(259.2deg);\n\t-ms-transform: rotate(259.2deg);\n\t-o-transform: rotate(259.2deg);\n\ttransform: rotate(259.2deg);\n}\n\n.c100.p73 .bar {\n\t-webkit-transform: rotate(262.8deg);\n\t-moz-transform: rotate(262.8deg);\n\t-ms-transform: rotate(262.8deg);\n\t-o-transform: rotate(262.8deg);\n\ttransform: rotate(262.8deg);\n}\n\n.c100.p74 .bar {\n\t-webkit-transform: rotate(266.40000000000003deg);\n\t-moz-transform: rotate(266.40000000000003deg);\n\t-ms-transform: rotate(266.40000000000003deg);\n\t-o-transform: rotate(266.40000000000003deg);\n\ttransform: rotate(266.40000000000003deg);\n}\n\n.c100.p75 .bar {\n\t-webkit-transform: rotate(270deg);\n\t-moz-transform: rotate(270deg);\n\t-ms-transform: rotate(270deg);\n\t-o-transform: rotate(270deg);\n\ttransform: rotate(270deg);\n}\n\n.c100.p76 .bar {\n\t-webkit-transform: rotate(273.6deg);\n\t-moz-transform: rotate(273.6deg);\n\t-ms-transform: rotate(273.6deg);\n\t-o-transform: rotate(273.6deg);\n\ttransform: rotate(273.6deg);\n}\n\n.c100.p77 .bar {\n\t-webkit-transform: rotate(277.2deg);\n\t-moz-transform: rotate(277.2deg);\n\t-ms-transform: rotate(277.2deg);\n\t-o-transform: rotate(277.2deg);\n\ttransform: rotate(277.2deg);\n}\n\n.c100.p78 .bar {\n\t-webkit-transform: rotate(280.8deg);\n\t-moz-transform: rotate(280.8deg);\n\t-ms-transform: rotate(280.8deg);\n\t-o-transform: rotate(280.8deg);\n\ttransform: rotate(280.8deg);\n}\n\n.c100.p79 .bar {\n\t-webkit-transform: rotate(284.40000000000003deg);\n\t-moz-transform: rotate(284.40000000000003deg);\n\t-ms-transform: rotate(284.40000000000003deg);\n\t-o-transform: rotate(284.40000000000003deg);\n\ttransform: rotate(284.40000000000003deg);\n}\n\n.c100.p80 .bar {\n\t-webkit-transform: rotate(288deg);\n\t-moz-transform: rotate(288deg);\n\t-ms-transform: rotate(288deg);\n\t-o-transform: rotate(288deg);\n\ttransform: rotate(288deg);\n}\n\n.c100.p81 .bar {\n\t-webkit-transform: rotate(291.6deg);\n\t-moz-transform: rotate(291.6deg);\n\t-ms-transform: rotate(291.6deg);\n\t-o-transform: rotate(291.6deg);\n\ttransform: rotate(291.6deg);\n}\n\n.c100.p82 .bar {\n\t-webkit-transform: rotate(295.2deg);\n\t-moz-transform: rotate(295.2deg);\n\t-ms-transform: rotate(295.2deg);\n\t-o-transform: rotate(295.2deg);\n\ttransform: rotate(295.2deg);\n}\n\n.c100.p83 .bar {\n\t-webkit-transform: rotate(298.8deg);\n\t-moz-transform: rotate(298.8deg);\n\t-ms-transform: rotate(298.8deg);\n\t-o-transform: rotate(298.8deg);\n\ttransform: rotate(298.8deg);\n}\n\n.c100.p84 .bar {\n\t-webkit-transform: rotate(302.40000000000003deg);\n\t-moz-transform: rotate(302.40000000000003deg);\n\t-ms-transform: rotate(302.40000000000003deg);\n\t-o-transform: rotate(302.40000000000003deg);\n\ttransform: rotate(302.40000000000003deg);\n}\n\n.c100.p85 .bar {\n\t-webkit-transform: rotate(306deg);\n\t-moz-transform: rotate(306deg);\n\t-ms-transform: rotate(306deg);\n\t-o-transform: rotate(306deg);\n\ttransform: rotate(306deg);\n}\n\n.c100.p86 .bar {\n\t-webkit-transform: rotate(309.6deg);\n\t-moz-transform: rotate(309.6deg);\n\t-ms-transform: rotate(309.6deg);\n\t-o-transform: rotate(309.6deg);\n\ttransform: rotate(309.6deg);\n}\n\n.c100.p87 .bar {\n\t-webkit-transform: rotate(313.2deg);\n\t-moz-transform: rotate(313.2deg);\n\t-ms-transform: rotate(313.2deg);\n\t-o-transform: rotate(313.2deg);\n\ttransform: rotate(313.2deg);\n}\n\n.c100.p88 .bar {\n\t-webkit-transform: rotate(316.8deg);\n\t-moz-transform: rotate(316.8deg);\n\t-ms-transform: rotate(316.8deg);\n\t-o-transform: rotate(316.8deg);\n\ttransform: rotate(316.8deg);\n}\n\n.c100.p89 .bar {\n\t-webkit-transform: rotate(320.40000000000003deg);\n\t-moz-transform: rotate(320.40000000000003deg);\n\t-ms-transform: rotate(320.40000000000003deg);\n\t-o-transform: rotate(320.40000000000003deg);\n\ttransform: rotate(320.40000000000003deg);\n}\n\n.c100.p90 .bar {\n\t-webkit-transform: rotate(324deg);\n\t-moz-transform: rotate(324deg);\n\t-ms-transform: rotate(324deg);\n\t-o-transform: rotate(324deg);\n\ttransform: rotate(324deg);\n}\n\n.c100.p91 .bar {\n\t-webkit-transform: rotate(327.6deg);\n\t-moz-transform: rotate(327.6deg);\n\t-ms-transform: rotate(327.6deg);\n\t-o-transform: rotate(327.6deg);\n\ttransform: rotate(327.6deg);\n}\n\n.c100.p92 .bar {\n\t-webkit-transform: rotate(331.2deg);\n\t-moz-transform: rotate(331.2deg);\n\t-ms-transform: rotate(331.2deg);\n\t-o-transform: rotate(331.2deg);\n\ttransform: rotate(331.2deg);\n}\n\n.c100.p93 .bar {\n\t-webkit-transform: rotate(334.8deg);\n\t-moz-transform: rotate(334.8deg);\n\t-ms-transform: rotate(334.8deg);\n\t-o-transform: rotate(334.8deg);\n\ttransform: rotate(334.8deg);\n}\n\n.c100.p94 .bar {\n\t-webkit-transform: rotate(338.40000000000003deg);\n\t-moz-transform: rotate(338.40000000000003deg);\n\t-ms-transform: rotate(338.40000000000003deg);\n\t-o-transform: rotate(338.40000000000003deg);\n\ttransform: rotate(338.40000000000003deg);\n}\n\n.c100.p95 .bar {\n\t-webkit-transform: rotate(342deg);\n\t-moz-transform: rotate(342deg);\n\t-ms-transform: rotate(342deg);\n\t-o-transform: rotate(342deg);\n\ttransform: rotate(342deg);\n}\n\n.c100.p96 .bar {\n\t-webkit-transform: rotate(345.6deg);\n\t-moz-transform: rotate(345.6deg);\n\t-ms-transform: rotate(345.6deg);\n\t-o-transform: rotate(345.6deg);\n\ttransform: rotate(345.6deg);\n}\n\n.c100.p97 .bar {\n\t-webkit-transform: rotate(349.2deg);\n\t-moz-transform: rotate(349.2deg);\n\t-ms-transform: rotate(349.2deg);\n\t-o-transform: rotate(349.2deg);\n\ttransform: rotate(349.2deg);\n}\n\n.c100.p98 .bar {\n\t-webkit-transform: rotate(352.8deg);\n\t-moz-transform: rotate(352.8deg);\n\t-ms-transform: rotate(352.8deg);\n\t-o-transform: rotate(352.8deg);\n\ttransform: rotate(352.8deg);\n}\n\n.c100.p99 .bar {\n\t-webkit-transform: rotate(356.40000000000003deg);\n\t-moz-transform: rotate(356.40000000000003deg);\n\t-ms-transform: rotate(356.40000000000003deg);\n\t-o-transform: rotate(356.40000000000003deg);\n\ttransform: rotate(356.40000000000003deg);\n}\n\n.c100.p100 .bar {\n\t-webkit-transform: rotate(360deg);\n\t-moz-transform: rotate(360deg);\n\t-ms-transform: rotate(360deg);\n\t-o-transform: rotate(360deg);\n\ttransform: rotate(360deg);\n}\n\n.c100:hover {\n\tcursor: default;\n}\n\n.c100:hover > span {\n\twidth: 3.33em;\n\tline-height: 3.33em;\n\tfont-size: 0.3em;\n\tcolor: #307bbb;\n}\n\n.c100:hover:after {\n\ttop: 0.04em;\n\tleft: 0.04em;\n\twidth: 0.92em;\n\theight: 0.92em;\n}\n\n.c100.dark {\n\tbackground-color: #777777;\n}\n\n.c100.dark .bar,\n.c100.dark .fill {\n\tborder-color: #c6ff00 !important;\n}\n\n.c100.dark > span {\n\tcolor: #777777;\n}\n\n.c100.dark:after {\n\tbackground-color: #666666;\n}\n\n.c100.dark:hover > span {\n\tcolor: #c6ff00;\n}\n\n.c100.green .bar,\n.c100.green .fill {\n\tborder-color: #4db53c !important;\n}\n\n.c100.green:hover > span {\n\tcolor: #4db53c;\n}\n\n.c100.green.dark .bar,\n.c100.green.dark .fill {\n\tborder-color: #5fd400 !important;\n}\n\n.c100.green.dark:hover > span {\n\tcolor: #5fd400;\n}\n\n.c100.orange .bar,\n.c100.orange .fill {\n\tborder-color: #dd9d22 !important;\n}\n\n.c100.orange:hover > span {\n\tcolor: #dd9d22;\n}\n\n.c100.orange.dark .bar,\n.c100.orange.dark .fill {\n\tborder-color: #e08833 !important;\n}\n\n.c100.orange.dark:hover > span {\n\tcolor: #e08833;\n}\n\n[data-widgetid=\"b5fd7965-6276-df09-5419-c3750e108b16\"] div.GeoMap > div.frame > div.googleMap > div > div.gm-style > div > div > div{\n\t svg > g > g:last-child { pointer-events: none }\n}",
+                                  "cssClasses": ""
+                                },
+                                "vall": [],
+                                "all": [],
+                                "possibleHFloats": [
+                                  "default"
+                                ],
+                                "possiblePLatLong": [
+                                  "default"
+                                ],
+                                "Bounds": [
+                                  {}
+                                ],
+                                "format": {
+                                  "titleFontSize": "16",
+                                  "titleHorizontal": "Center",
+                                  "titleFontBold": false,
+                                  "titleShadow": true,
+                                  "titleTransparentBackground": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "possibleColors": [],
+                                "Heatmap": {
+                                  "Radius": 20,
+                                  "Gradient": "default",
+                                  "Data": "",
+                                  "Show": true,
+                                  "Opacity": 100
+                                },
+                                "version": "4.4.0",
+                                "possible_viewstates": [
+                                  "Kieran",
+                                  "New node",
+                                  "New node 2",
+                                  "State",
+                                  "Statistic",
+                                  "bounds",
+                                  "color",
+                                  "dColor",
+                                  "dLabel",
+                                  "date",
+                                  "diabetes",
+                                  "hColor",
+                                  "hLabel",
+                                  "hypertension",
+                                  "iColor",
+                                  "iLabel",
+                                  "inactivity",
+                                  "label",
+                                  "oColor",
+                                  "oLabel",
+                                  "obesity",
+                                  "pColor",
+                                  "pIcon",
+                                  "population",
+                                  "selectedDate",
+                                  "selectedIndex"
+                                ],
+                                "possibleImageString": [
+                                  "none"
+                                ],
+                                "possibleDString": [],
+                                "possibleVString": [],
+                                "possibleDKeys": [],
+                                "possible_dashboards": [
+                                  {
+                                    "title": "none",
+                                    "value": "none"
+                                  },
+                                  {
+                                    "title": "Demo Liquidity",
+                                    "value": "34bc1f04-b59d-a35a-9942-3a6ee0c222fa"
+                                  },
+                                  {
+                                    "title": "Demo Fitness Tracker",
+                                    "value": "3764adb7-e0b1-2b85-c673-d0adc26f2f7e"
+                                  },
+                                  {
+                                    "title": "Demo Property",
+                                    "value": "39795426-db77-dea-becc-5d19218f9224"
+                                  },
+                                  {
+                                    "title": "Demo Notifications",
+                                    "value": "3fcc2766-f904-d2ba-4470-8e91d9e949de"
+                                  },
+                                  {
+                                    "title": "Demo Visualize",
+                                    "value": "53c5e521-2d14-4d6d-fe61-16ca42cea162"
+                                  },
+                                  {
+                                    "title": "Demo Virtual Datasources",
+                                    "value": "79e19013-f14e-ba9d-65f1-7adb3d238f55"
+                                  },
+                                  {
+                                    "title": "Demo ChartIQ",
+                                    "value": "7e2ae5d3-53b0-fa94-b7e0-31ef1eb681de"
+                                  },
+                                  {
+                                    "title": "Demo Data",
+                                    "value": "80c52499-cd0a-a1ca-46bb-178be3aaeed"
+                                  },
+                                  {
+                                    "title": "Demo Stream",
+                                    "value": "8e3e8c4f-8fd1-166e-fe4e-f49cc5504161"
+                                  },
+                                  {
+                                    "title": "Demo Actions Examples",
+                                    "value": "9252b787-d7cc-9bab-d20d-f19ffad41405"
+                                  },
+                                  {
+                                    "title": "Demo Scatter",
+                                    "value": "a44f280a-efcd-f550-a096-0ef7d1624e23"
+                                  },
+                                  {
+                                    "title": "Demo Health",
+                                    "value": "b206840b-2e64-4209-bacd-166c883928f"
+                                  },
+                                  {
+                                    "title": "Demo",
+                                    "value": "b417c690-e82d-375a-ed74-484286ccfce0"
+                                  },
+                                  {
+                                    "title": "Demo Graph",
+                                    "value": "b58fe5e3-d02f-3130-2e53-5bddc0bbac3d"
+                                  },
+                                  {
+                                    "title": "Demo Sensors",
+                                    "value": "c02f1251-9300-2c35-9efe-85a0b87665f4"
+                                  },
+                                  {
+                                    "title": "Demo DrillDown",
+                                    "value": "ca36fe7-d6c7-acfc-14b1-a08a706b49d1"
+                                  },
+                                  {
+                                    "title": "My New Dashboard (1)",
+                                    "value": "ced148ad-80bc-b11c-7967-09ed53dae6db"
+                                  },
+                                  {
+                                    "title": "My New Dashboard (1)",
+                                    "value": "89bec630-3620-3343-c3c0-05af67163661"
+                                  }
+                                ],
+                                "MapDetails": {
+                                  "CustomMarkers": "",
+                                  "Type": "terrain",
+                                  "MapKey": "AIzaSyDbowUQV3uh--tRrjuN6iACvS_YFIWvvqg",
+                                  "TrackChanges": true,
+                                  "Bounds": "",
+                                  "Zoom": 3,
+                                  "CenterY": -94.09988901361044,
+                                  "CenterX": 41.3740629727181,
+                                  "Style": ""
+                                },
+                                "OverLay": {
+                                  "LegendColor": "blue",
+                                  "SelectedObjectRouting": [
+                                    {
+                                      "ViewstateProperty": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "State"
+                                      },
+                                      "ColumnProperty": "StateName"
+                                    }
+                                  ],
+                                  "ImageEast": 0,
+                                  "ColorDB": "StateName",
+                                  "ImageWest": 0,
+                                  "DataGeoId": "GEO_ID",
+                                  "DataType": "GeoJSON",
+                                  "DataGeo": "USA",
+                                  "Selected": "",
+                                  "GeoFilter": "",
+                                  "LegendType": "percent",
+                                  "GeoSelected": "",
+                                  "Bounds": "",
+                                  "Data": "",
+                                  "ImageNorth": 0,
+                                  "GeoColumn": "GEO_ID",
+                                  "layerProperties": {
+                                    "DataValue": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "Statistic"
+                                    },
+                                    "DataKey": "StateId",
+                                    "SelectedBounds": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "bounds"
+                                    },
+                                    "Data": {
+                                      "_dashboardsType": "data",
+                                      "value": "chartValues"
+                                    },
+                                    "DataGeo": "https://storage.googleapis.com/mapsdevsite/json/states.js",
+                                    "Selected": "",
+                                    "LayerOpacity": 74,
+                                    "ShowLegend": true,
+                                    "GeoColumn": "STATE"
+                                  },
+                                  "ImageSrc": "none",
+                                  "TooltipData": "<div>StateName : {{StateName}}</div><div>Population : {{Population}}</div><div><b>Rates:</b></div><table>  <tbody>    <tr>      <td>        <div class=\"c100 p{{DiabetesRate}} small\"> <span>{{DiabetesRate}}%</span>          <div class=\"slice\">            <div class=\"bar\"></div>            <div class=\"fill\"></div>          </div>        </div>      </td>      <td>        <div class=\"c100 p{{ObesityRate}}  small\"> <span> {{ObesityRate}}%</span>          <div class=\"slice\">            <div class=\"bar\"></div>            <div class=\"fill\"></div>          </div>        </div>      </td>      <td>        <div class=\"c100 p{{InactivityRate}} small\"> <span> {{InactivityRate}}%</span>          <div class=\"slice\">            <div class=\"bar\"></div>            <div class=\"fill\"></div>          </div>        </div>      </td>      <td>        <div class=\"c100 p{{HypertensionRate}} small\"> <span> {{HypertensionRate}}%</span>          <div class=\"slice\">            <div class=\"bar\"></div>            <div class=\"fill\"></div>          </div>        </div>      </td>    </tr>    <tr>      <td>Diabetes</td>      <td>Obesity</td>      <td>Inactivity</td>      <td>Hypertension</td>    </tr>  </tbody></table>",
+                                  "ImageSouth": 0,
+                                  "ImageOpacity": 30,
+                                  "ShowLegend": true
+                                },
+                                "possibleTrack": [
+                                  "default"
+                                ],
+                                "tooltips": "",
+                                "Lines": {
+                                  "Color": "#ff0000",
+                                  "LabelText": "",
+                                  "Data": "",
+                                  "Selected": "",
+                                  "LabelColor": "#ffffff",
+                                  "ShowLabel": true,
+                                  "LabelSize": 10,
+                                  "ShowTooltip": true,
+                                  "Geodesic": true
+                                },
+                                "possibleCircle": [],
+                                "Circles": {
+                                  "Data": "",
+                                  "StrokeColor": "",
+                                  "StrokeWeight": "",
+                                  "StrokeOpacity": "",
+                                  "FillColor": "",
+                                  "FillOpacity": "",
+                                  "Radius": "",
+                                  "Latitude": "",
+                                  "Longitude": "",
+                                  "ShowTooltip": false,
+                                  "Tooltip": ""
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "46",
+                              "hasOnSettingsChange": true
+                            }
+                          }
+                        ],
+                        "definitionId": "50",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "3aee562a-58ff-1bee-c2af-ab869d87c084",
+                      "layout": {
+                        "row": 2,
+                        "column": 0,
+                        "rowSpan": 1,
+                        "colSpan": 1
+                      },
+                      "component": {
+                        "id": "03a2967c-743e-c387-5893-dabc61534c62",
+                        "key": "Panel",
+                        "options": {
+                          "Alignment": {
+                            "titlePaddingRight": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingRight": 0,
+                            "paddingRight": 0,
+                            "innerPaddingLeft": 0,
+                            "paddingTop": 0,
+                            "titlePaddingBottom": 7,
+                            "innerPaddingTop": 0,
+                            "titlePaddingTop": 7,
+                            "paddingLeft": 0
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#00bbff",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Basics": {
+                            "Advanced": false,
+                            "RelativeHeight": true,
+                            "UserLayout": false,
+                            "ComponentName": "panel",
+                            "ColCount": 12,
+                            "Floatable": false,
+                            "RowCount": 33
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "version": "4.4.0"
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [
+                          {
+                            "id": "3bff4366-51b8-2a8c-6869-3fc6c6ddd80d",
+                            "layout": {
+                              "row": 4,
+                              "column": 8,
+                              "rowSpan": 26,
+                              "colSpan": 4
+                            },
+                            "component": {
+                              "id": "fa32bcd0-71a7-27f0-6cd1-036c21a314e8",
+                              "key": "Radar",
+                              "options": {
+                                "Legend": {
+                                  "Position": "right",
+                                  "Show": true,
+                                  "LabelColor": "#4a4a4a"
+                                },
+                                "DataSet": {
+                                  "GridLineOpacity": 35,
+                                  "Radar": "Property",
+                                  "RadarColorAngle": "#545454",
+                                  "AngleLineOpacity": 35,
+                                  "Layers": [
+                                    {
+                                      "UseColor": true,
+                                      "PointStyle": "circle",
+                                      "Color": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "color"
+                                      },
+                                      "BorderColor": "#ffffff",
+                                      "Data": "Value",
+                                      "PointRadius": 6,
+                                      "ColorOpacity": 62,
+                                      "Display": ""
+                                    }
+                                  ],
+                                  "RadarColor": "#525252"
+                                },
+                                "Animations": {
+                                  "Easing": "easeInQuad",
+                                  "Enabled": true,
+                                  "Duration": 250
+                                },
+                                "ticks": {
+                                  "backdropPaddingX": 10,
+                                  "display": true,
+                                  "backdropPaddingY": 2,
+                                  "fontSize": 12,
+                                  "beginAtZero": true,
+                                  "maxTicksLimit": 11,
+                                  "fontColor": "rgba(0, 0, 0, 0.75)",
+                                  "showLabelBackdrop": false,
+                                  "backdropColor": "rgba(255, 255, 255, 0.75)",
+                                  "pointLabels": 12,
+                                  "Format": "General",
+                                  "Precision": 0,
+                                  "HideTrailingZeroes": false,
+                                  "DateFormat": "YYYY-MM-DD",
+                                  "Prefix": "",
+                                  "Suffix": ""
+                                },
+                                "Tooltip": {
+                                  "isStacked": false,
+                                  "handlebarhelper": {},
+                                  "advancedTooltip": "<div>{{title}}<br>{{#each dataSet}}\t<table>\t\t<tr>\t\t\t<td><svg style=\"width:15px;height:15px\"> <circle cx=\"8\" cy=\"8\" r=\"6\" stroke=\"white\" width=\"2\" fill=\"{{color}}\"></circle></svg></td>\t\t\t<td>{{layerValue}}%</td>\t\t</tr>\t</table></div>{{/each}}"
+                                },
+                                "format": {
+                                  "titleFontSize": "16",
+                                  "titleHorizontal": "Center",
+                                  "titleShadow": true,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#00bbff",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "SelectedAttr": "Property",
+                                  "SelectedObjectRouting": {},
+                                  "Focus": "",
+                                  "ChartType": "polarArea",
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "Radar"
+                                  },
+                                  "Selected": ""
+                                },
+                                "possibleColumns": [
+                                  "Property",
+                                  "Value"
+                                ],
+                                "possibleRules": [
+                                  "Property",
+                                  "Value"
+                                ],
+                                "version": "4.4.0S2",
+                                "possibleLabels": [
+                                  "Property",
+                                  "Value"
+                                ],
+                                "ColorPallette": {
+                                  "scheme": "default",
+                                  "chartBarColors": [
+                                    {
+                                      "type": "#61a8f9"
+                                    },
+                                    {
+                                      "type": "#ffab3c"
+                                    },
+                                    {
+                                      "type": "#59bd5b"
+                                    },
+                                    {
+                                      "type": "#f76767"
+                                    },
+                                    {
+                                      "type": "#749450"
+                                    },
+                                    {
+                                      "type": "#51966a"
+                                    },
+                                    {
+                                      "type": "#e2c7c0"
+                                    },
+                                    {
+                                      "type": "#9acad6"
+                                    },
+                                    {
+                                      "type": "#1995a3"
+                                    },
+                                    {
+                                      "type": "#484d6e"
+                                    }
+                                  ]
+                                },
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 5,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 0,
+                                  "innerPaddingTop": 5,
+                                  "titlePaddingTop": 0,
+                                  "paddingLeft": 0
+                                },
+                                "FileExport": {
+                                  "ShowExportCsvButton": false,
+                                  "FileName": {},
+                                  "ShowScreenshot": false,
+                                  "ShowExportExcelButton": false
+                                },
+                                "Padding": {
+                                  "Left": 2,
+                                  "Top": 2,
+                                  "Right": 2,
+                                  "Bottom": 2
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "1008",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "b14a7265-cfe7-f279-d685-d728af57ca8a",
+                            "layout": {
+                              "row": 0,
+                              "column": 0,
+                              "rowSpan": 4,
+                              "colSpan": 8
+                            },
+                            "component": {
+                              "id": "4528ee7c-fc38-4af8-75f8-222b8f93d775",
+                              "key": "BasicComponents",
+                              "options": {
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 5,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": 0
+                                },
+                                "format": {
+                                  "widgetTitle": "",
+                                  "titleFontSize": 16,
+                                  "titleHorizontal": "Center",
+                                  "titleColor": "",
+                                  "titleBottomBorderWidth": 0,
+                                  "titleFontBold": "",
+                                  "titleShadow": true,
+                                  "titleBackgroundColor": "",
+                                  "titleTransparentBackground": "",
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "color"
+                                  },
+                                  "tileTransparentBackground": false,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "AllowUnsafeContent": false,
+                                  "horizontal": "Left",
+                                  "FontSize": 13,
+                                  "tooltip": "",
+                                  "HtmlText": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "State"
+                                  },
+                                  "Theme": "Dark",
+                                  "ComponentName": "label",
+                                  "Data": "",
+                                  "vertical": "Middle",
+                                  "version": "3.3.1S3",
+                                  "Template": ""
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                },
+                                "version": "4.5.0"
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "17",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "df6ff258-1a1a-3e7f-7ae0-459adaf2b194",
+                            "layout": {
+                              "row": 0,
+                              "column": 8,
+                              "rowSpan": 4,
+                              "colSpan": 4
+                            },
+                            "component": {
+                              "id": "9b874a9e-2781-8455-4ced-82e89bbffb9f",
+                              "key": "BasicComponents",
+                              "options": {
+                                "Alignment": {
+                                  "titlePaddingRight": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingRight": 0,
+                                  "paddingRight": 0,
+                                  "innerPaddingLeft": 0,
+                                  "paddingTop": 0,
+                                  "titlePaddingBottom": 7,
+                                  "innerPaddingTop": 0,
+                                  "titlePaddingTop": 7,
+                                  "paddingLeft": 0
+                                },
+                                "format": {
+                                  "widgetTitle": "",
+                                  "titleFontSize": 16,
+                                  "titleHorizontal": "Center",
+                                  "titleColor": "",
+                                  "titleBottomBorderWidth": 0,
+                                  "titleFontBold": "",
+                                  "titleShadow": true,
+                                  "titleBackgroundColor": "",
+                                  "titleTransparentBackground": "",
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "color"
+                                  },
+                                  "tileTransparentBackground": false,
+                                  "tileShadow": false
+                                },
+                                "Basics": {
+                                  "AllowUnsafeContent": false,
+                                  "horizontal": "Center",
+                                  "FontSize": 13,
+                                  "tooltip": "",
+                                  "HtmlText": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "selectedDate"
+                                  },
+                                  "Theme": "Dark",
+                                  "ComponentName": "label",
+                                  "Data": "",
+                                  "vertical": "Middle",
+                                  "version": "3.3.1S3",
+                                  "Template": ""
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                },
+                                "version": "4.5.0"
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "17",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "ce6640f0-07be-157d-a80d-2a8e97733f21",
+                            "layout": {
+                              "row": 4,
+                              "column": 0,
+                              "rowSpan": 29,
+                              "colSpan": 8
+                            },
+                            "component": {
+                              "id": "de00d4c9-34d8-80fc-d739-ad9de32cdaf2",
+                              "key": "ChartGL",
+                              "options": {
+                                "version": "4.5.1.1",
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                },
+                                "Basics": {
+                                  "Hover": "",
+                                  "Selected": "",
+                                  "Duration": 400,
+                                  "Easing": "easeOutQuart"
+                                },
+                                "Layers": [
+                                  {
+                                    "_Id": "L0",
+                                    "_Type": "Bar",
+                                    "possibleRulesColumns": [],
+                                    "possibleXColumns": [
+                                      "Date",
+                                      "Population",
+                                      "DiabetesRate",
+                                      "ObesityRate",
+                                      "InactivityRate",
+                                      "HypertensionRate",
+                                      "x"
+                                    ],
+                                    "possibleYColumns": [
+                                      "",
+                                      "*",
+                                      "Date",
+                                      "Population",
+                                      "DiabetesRate",
+                                      "ObesityRate",
+                                      "InactivityRate",
+                                      "HypertensionRate",
+                                      "x"
+                                    ],
+                                    "Data": {
+                                      "_dashboardsType": "data",
+                                      "value": "StateHistoric"
+                                    },
+                                    "XAxis": "Date",
+                                    "YAxis": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "Statistic"
+                                    },
+                                    "XAxisId": "X-Axis 1",
+                                    "YAxisId": "Y-Axis 1",
+                                    "Color": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "color"
+                                    },
+                                    "Opacity": 100,
+                                    "Name": {
+                                      "_dashboardsType": "viewstate",
+                                      "value": "Statistic"
+                                    },
+                                    "Enabled": true,
+                                    "Legend": true,
+                                    "Actions": [],
+                                    "HighlightRules": [],
+                                    "BarWidth": 80,
+                                    "BarFixedWidth": 10,
+                                    "BarWidthType": "Percentage",
+                                    "possibleXAxes": [
+                                      "X-Axis 1"
+                                    ],
+                                    "possibleYAxes": [
+                                      "Y-Axis 1"
+                                    ]
+                                  }
+                                ],
+                                "Xaxes": [
+                                  {
+                                    "Bounds": "",
+                                    "Type": "Linear",
+                                    "Position": "Bottom",
+                                    "Width": 0,
+                                    "Ticks": 10,
+                                    "Title": {
+                                      "Display": false,
+                                      "LabelString": "",
+                                      "FontSize": 16
+                                    },
+                                    "Format": {
+                                      "Display": true,
+                                      "Format": "Number",
+                                      "Precision": 2,
+                                      "FontSize": 12,
+                                      "Prefix": "",
+                                      "Suffix": "",
+                                      "HideTrailingZeroes": false
+                                    },
+                                    "Range": {
+                                      "UseMinMax": false,
+                                      "Min": "",
+                                      "Max": "",
+                                      "SelectionMin": "",
+                                      "SelectionMax": ""
+                                    },
+                                    "Gridlines": {
+                                      "GridlinesOffset": false,
+                                      "GridlinesColor": "",
+                                      "GridlinesOpacity": 15
+                                    }
+                                  }
+                                ],
+                                "Yaxes": [
+                                  {
+                                    "Bounds": "",
+                                    "Type": "Linear",
+                                    "Position": "Left",
+                                    "Width": 0,
+                                    "Ticks": 10,
+                                    "Title": {
+                                      "Display": false,
+                                      "LabelString": "",
+                                      "FontSize": 16
+                                    },
+                                    "Range": {
+                                      "UseMinMax": false,
+                                      "Min": "",
+                                      "Max": "",
+                                      "SelectionMin": "",
+                                      "SelectionMax": ""
+                                    },
+                                    "Gridlines": {
+                                      "GridlinesOffset": false,
+                                      "GridlinesColor": "",
+                                      "GridlinesOpacity": 15
+                                    },
+                                    "Format": {
+                                      "Display": true,
+                                      "Format": "Smart Number",
+                                      "Precision": 2,
+                                      "FontSize": 12,
+                                      "Prefix": "",
+                                      "Suffix": "",
+                                      "HideTrailingZeroes": false
+                                    }
+                                  }
+                                ],
+                                "Overlay": {
+                                  "ShowCrosshairs": true,
+                                  "UseCustomTooltip": false,
+                                  "CustomTooltip": "<table><thead><tr><th>{{this.0.0.xAxis}}</th><th></th></tr></thead>{{#each this}}{{#each this}}<tr><td width=\"{{width}}\"><i class=\"{{icon}}\" style=\"color:{{color}}; {{image}};\"></i> {{name}}: </td><td>{{yAxis}}</td></tr>{{/each}}{{/each}}</table>",
+                                  "ShowAllPoints": false,
+                                  "GroupByLayer": false
+                                },
+                                "Palette": [
+                                  {
+                                    "type": "#4f6aa6"
+                                  },
+                                  {
+                                    "type": "#7995b8"
+                                  },
+                                  {
+                                    "type": "#808387"
+                                  },
+                                  {
+                                    "type": "#a69775"
+                                  },
+                                  {
+                                    "type": "#749450"
+                                  },
+                                  {
+                                    "type": "#51966a"
+                                  },
+                                  {
+                                    "type": "#e2c7c0"
+                                  },
+                                  {
+                                    "type": "#9acad6"
+                                  },
+                                  {
+                                    "type": "#1995a3"
+                                  },
+                                  {
+                                    "type": "#484d6e"
+                                  }
+                                ],
+                                "Alignment": {
+                                  "paddingLeft": 0,
+                                  "paddingRight": 0,
+                                  "paddingTop": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingLeft": 0,
+                                  "innerPaddingRight": 0,
+                                  "innerPaddingTop": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "titlePaddingRight": 0,
+                                  "titlePaddingTop": 7,
+                                  "titlePaddingBottom": 7
+                                },
+                                "format": {
+                                  "titleFontSize": 16,
+                                  "titleHorizontal": "Center",
+                                  "titleShadow": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#000000",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "669",
+                              "hasOnSettingsChange": true
+                            }
+                          }
+                        ],
+                        "definitionId": "50",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 1,
+      "rowHeight": 25,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": false,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 1,
+  "rowHeight": 25,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "date": {
+      "_default": 0,
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "float"
+    },
+    "iLabel": {
+      "_default": "location-arrow",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "oLabel": {
+      "_default": "stethoscope",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "color": {
+      "_default": "#53d0bf",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "pIcon": {
+      "_default": "user",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "hColor": {
+      "_default": "#f76767",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "selectedDate": {
+      "_default": "2016-01-01",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "date"
+    },
+    "pColor": {
+      "_default": "#53d0bf",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "Statistic": {
+      "_default": "Population",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "dColor": {
+      "_default": "#61a8f9",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "New node": {
+      "_default": "",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "obesity": {
+      "_default": "ObesityRate",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    ".settings": {
+      "component_2151": {
+        "UsersColumnsConfiguration": null,
+        "GroupingConfiguration": [],
+        "version": 27
+      },
+      "component_37766": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "disabled",
+          "value": null
+        }
+      },
+      "component_3880": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "disabled",
+          "value": null
+        }
+      },
+      "component_3226": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "disabled",
+          "value": null
+        }
+      },
+      "3dc5929a-417d-b77e-1847-75bc3ebdfa14": {
+        "version": 0,
+        "GroupingConfiguration": []
+      }
+    },
+    "inactivity": {
+      "_default": "InactivityRate",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "New node 2": {
+      "_default": "",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "Kieran": {
+      "_default": 0,
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "float"
+    },
+    "iColor": {
+      "_default": "#59bd5b",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "label": {
+      "_default": "user",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "population": {
+      "_default": "Population",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "selectedIndex": {
+      "_default": 0,
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "int"
+    },
+    "dLabel": {
+      "_default": "tint",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "State": {
+      "_default": "Alabama",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "bounds": {
+      "_default": "",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "hLabel": {
+      "_default": "heartbeat",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "oColor": {
+      "_default": "#ffab3c",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "hypertension": {
+      "_default": "HypertensionRate",
+      "_viewType": true,
+      "_rolling": false,
+      "_type": "symbol"
+    },
+    "diabetes": {
+      "_default": "DiabetesRate",
+      "_viewType": true,
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "StateBySelected": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "State",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select from StateData where Date = 2016.01.01",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "StateHistoric": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_maxRows": 2000,
+      "_serverPaging": false,
+      "_aggregateFns": [],
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_aggregateCols": [],
+      "_subscriptionInterval": 3,
+      "_dataType": "query",
+      "_hasUpdateQuery": false,
+      "_subscriptionKey": "",
+      "_dataSource": "kdb",
+      "_columns": [
+        "Date",
+        "State",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate",
+        "x"
+      ],
+      "_breakdownCols": [],
+      "_queryString": "{[s] `Date xasc select Date, State, Population, DiabetesRate, ObesityRate, InactivityRate, HypertensionRate, i  from StateData where State =s }\n",
+      "_queryParams": [
+        {
+          "isViewState": true,
+          "name": "s",
+          "IsKdbParam": true,
+          "index": 0,
+          "i": 0,
+          "type": "symbol",
+          "value": "<%State%>"
+        }
+      ],
+      "_updateQueryString": "",
+      "_subscriptionType": "static",
+      "_connection": "html5evalcongroup"
+    },
+    "gridValues": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_maxRows": 2000,
+      "_serverPaging": false,
+      "_aggregateFns": [],
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_aggregateCols": [],
+      "_subscriptionInterval": 3,
+      "_dataType": "query",
+      "_hasUpdateQuery": false,
+      "_subscriptionKey": "",
+      "_pageSize": 2000,
+      "_dataSource": "kdb",
+      "_columns": [
+        "Date",
+        "State",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate"
+      ],
+      "_breakdownCols": [],
+      "_queryString": "select Date, State, Population, DiabetesRate %100, ObesityRate %100, InactivityRate %100, HypertensionRate %100 from StateData where Date = 2016.01.01",
+      "_queryParams": [],
+      "_updateQueryString": "",
+      "_subscriptionType": "static",
+      "_connection": "html5evalcongroup"
+    },
+    "stats": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "State",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": "10",
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s] tab: select from StateData where Date = 2016.01.01;\n  s xdesc tab\n }\n\n\n\n\n\n",
+      "_queryParams": [
+        {
+          "isViewState": true,
+          "name": "s",
+          "IsKdbParam": true,
+          "index": 0,
+          "i": 0,
+          "type": "symbol",
+          "value": "<%Statistic%>"
+        }
+      ],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "Radar": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_maxRows": 2000,
+      "_serverPaging": false,
+      "_aggregateFns": [],
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2.7971014492753623
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 1.2028985507246377
+        }
+      ],
+      "_aggregateCols": [],
+      "_subscriptionInterval": 3,
+      "_dataType": "query",
+      "_hasUpdateQuery": false,
+      "_subscriptionKey": "",
+      "_dataSource": "kdb",
+      "_columns": [
+        "Property",
+        "Value"
+      ],
+      "_breakdownCols": [],
+      "_queryString": "{[s;d;index]\n\tdateIndex: select distinct Date, i from StateData;\n\tdate: first  (exec Date from dateIndex where x = index);\n\t\n\tflip select DiabetesRate,ObesityRate,InactivityRate,HypertensionRate from StateData where (State =s),(Date =  d)\n\t\n\t}",
+      "_queryParams": [
+        {
+          "isViewState": true,
+          "name": "s",
+          "IsKdbParam": true,
+          "index": 0,
+          "i": 0,
+          "type": "symbol",
+          "value": "<%State%>"
+        },
+        {
+          "isViewState": true,
+          "name": "d",
+          "IsKdbParam": true,
+          "index": 1,
+          "i": 1,
+          "type": "date",
+          "value": "<%selectedDate%>"
+        },
+        {
+          "isViewState": true,
+          "name": "index",
+          "IsKdbParam": true,
+          "index": 2,
+          "i": 2,
+          "type": "int",
+          "value": "<%selectedIndex%>"
+        }
+      ],
+      "_updateQueryString": "",
+      "_subscriptionType": "static",
+      "_connection": "html5evalcongroup"
+    },
+    "chartValues": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "StateName",
+        "StateId",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "tab:flip `StateName`StateId`Population`DiabetesRate`ObesityRate`InactivityRate`HypertensionRate!(\n `Alabama`Alaska`Arizona`Arkansas`California`Colorado`Connecticut`DC`Delaware`Florida`Georgia`Hawaii`Idaho`Illinois`Indiana`Iowa`Kansas`Kentucky`Louisiana`Maine`Maryland`Massachusetts`Michigan`Minnesota`Mississippi`Missouri`Montana`Nebraska`Nevada`NewHampshire`NewJersey`NewMexico`NewYork`NorthCarolina`NorthDakota`Ohio`Oklahoma`Oregon`Pennsylvania`RhodeIsland`SouthCarolina`SouthDakota`Tennessee`Texas`Utah`Vermont`Virginia`Washington`WestVirginia`Wisconsin`Wyoming;\n 1\t2\t4\t5\t6\t8\t9\t11\t10\t12\t13\t15\t16\t17\t18\t19\t20\t21\t22\t23\t24\t25\t26\t27\t28\t29\t30\t31\t32\t33\t34\t35\t36\t37\t38\t39\t40\t41\t42\t44\t45\t46\t47\t48\t49\t50\t51\t53\t54\t55\t56;\n  4858979\t738432\t6828065\t2978204\t39144818\t5456574\t3590886\t672228\t945934\t20271272\t10214860\t1431603\t1654930\t12859995\t6619680\t3123899\t2911641\t4425092\t4670724\t1329328\t6006401\t6794422\t9922576\t5489594\t2992333\t6083672\t1032949\t1896190\t2890845\t1330608\t8958013\t2085109\t19795791\t10042802\t756927\t11613423\t3911338\t4028977\t12802503\t1056298\t4896146\t858469\t6600299\t27469114\t2995919\t626042\t8382993\t7170351\t1844128\t5771337\t586107;\n 15 8 11 14 10 7 10 11 8 12 12 11 9 10 12 9 9 13 12 11 11 9 11 8 14 12 8 9 11 9 9 12 11 11 9 11 12 10 11 10 13 8 13 11 7 8 10 9 15 10 8;\n 36 31 29 36 25 22 26 31 23 27 31 24 27 32 33 32 31 34 36 30 30 24 33 28 37 32 26 32 26 27 27 28 26 32 32 32 33 29 30 27 32 30 35 34 25 27 29 29 38 31 28;\n 29 19 23 33 21 16 21 27 16 30 29 21 20 24 27 23 24 30 29 21 23 20 24 18 30 25 20 22 25 19 30 20 26 23 22 26 29 17 23 24 27 19 28 25 16 20 23 18 29 20 23;\n 40 28 31 39 29 26 30 35 29 34 36 32 31 31 32 31 32 39 39 34 33 30 33 26 42 34 29 30 28 29 31 30 29 35 30 34 36 30 33 32 38 30 39 30 24 29 33 30 43 30 30\n )\n\n\n\n\n\n",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "bottomStats": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "State",
+        "Population",
+        "DiabetesRate",
+        "ObesityRate",
+        "InactivityRate",
+        "HypertensionRate"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": "10",
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 0,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": true
+        }
+      ],
+      "_queryString": "{[s] tab: select from StateData where Date = 2016.01.01;\n  s xasc tab\n }",
+      "_queryParams": [
+        {
+          "isViewState": true,
+          "name": "s",
+          "IsKdbParam": true,
+          "index": 0,
+          "i": 0,
+          "type": "symbol",
+          "value": "<%Statistic%>"
+        }
+      ],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "Menu": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "text",
+        "val",
+        "color",
+        "icon"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "([]\r\n  text:(`Population;`Obesity;`Diabetes;`Inactivity;`Hypertension);\r\n  val:(`Population;`ObesityRate;`DiabetesRate;`InactivityRate;`HypertensionRate);\r\n  color:\"S\"$(\"#53D0BF\";\"#FFAB3C\";\"#61A8F9\";\"#59BD5B\";\"#F76767\");\r\n  icon:\"S\"$(\"mi mi-people\";\"fa fa-stethoscope\";\"fa fa-tint\";\"mi mi-directions-run\";\"fa fa-heartbeat\")\r\n  \r\n  )\r\n",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "queryMapper": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "prop",
+        "val"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s]\r\n\r\n\r\n  data: ([]\r\n    text:(`Population;`Obesity;`Diabetes;`Inactivity;`Hypertension);\r\n    val:(`Population;`ObesityRate;`DiabetesRate;`InactivityRate;`HypertensionRate);\r\n    color:`$(\"#53d0bf\";\"#ffab3C\";\"#61a8f9\";\"#59bd5b\";\"#f76767\");\r\n    icon:\"S\"$(\"mi mi-people\";\"fa fa-stethoscope\";\"fa fa-tint\";\"mi mi-directions-run\";\"fa fa-heartbeat\")\r\n  );\r\n\r\n c:  exec color from data where val = s;\r\n\r\n ([]\r\n    prop:(`color;`color2);\r\n    val:(c[0];c[0])\r\n  )\r\n }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%Statistic%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_mappings": {
+        "key": "prop",
+        "value": "val",
+        "mappings": {
+          "color": {
+            "_dashboardsType": "viewstate",
+            "value": "color"
+          },
+          "color2": ""
+        }
+      }
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "00bbff",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": false,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "version": "4.6.0",
+  "action": "replace"
+}

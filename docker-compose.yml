@@ -78,7 +78,7 @@ services:
     restart: unless-stopped
     # enable the "volumes:" property and relative path property bellow
     volumes:
-      - gw-data:/opt/kx/app/data
+      - ./dash/gw-data:/opt/kx/app/data
       # Uncomment for Windows - create lic directory with valid kc.lic file
       #- ./lic:/opt/kx/lic
       # Uncomment for Linux - make sure kc.lic file is present in ${HOME}/.qp.licenses

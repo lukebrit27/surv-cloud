@@ -1,0 +1,2858 @@
+{
+  "id": "b58fe5e3-d02f-3130-2e53-5bddc0bbac3d",
+  "name": "Demo Graph",
+  "creationDate": "Wed, 23 May 2018 13:43:31 GMT",
+  "lastUpdateDate": "Mon, 06 Apr 2020 13:25:04 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "2514c5e-83f3-babf-d736-5431fced05"
+    },
+    {
+      "label": "Screen 2",
+      "value": "f44a3f22-2063-5d59-58f5-568c55f0cdad"
+    },
+    {
+      "label": "Screen 2 copy",
+      "value": "a256cabe-e64-3faa-b967-45af94a4c02b"
+    },
+    {
+      "label": "Organization",
+      "value": "263e383a-b9c8-d841-c4a8-f3c77ebc5b7"
+    }
+  ],
+  "screens": [
+    {
+      "id": "2514c5e-83f3-babf-d736-5431fced05",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "a285f797-49a-2546-2543-60b5fa43536a",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 36,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_2173",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 0,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "9e8f923a-6570-a673-e3db-bfdb88e6afe9",
+                "layout": {
+                  "row": 55,
+                  "column": 0,
+                  "rowSpan": 3,
+                  "colSpan": 5
+                },
+                "component": {
+                  "id": "component_2498",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 2
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "38c2716-8b57-e10c-1f55-7bc66e1564b0",
+                      "layout": {
+                        "row": 0,
+                        "column": 7,
+                        "rowSpan": 2,
+                        "colSpan": 5
+                      },
+                      "component": {
+                        "id": "component_2474",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVS"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"38c2716-8b57-e10c-1f55-7bc66e1564b0\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "9bc2939f-d770-22d2-b444-e752d1d613e",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_2489",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "8d9b18c5-389b-5e6c-1e62-c9d9882fc4cf",
+                "layout": {
+                  "row": 54,
+                  "column": 0,
+                  "rowSpan": 32,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "component_2598",
+                  "key": "Graph",
+                  "options": {
+                    "version": "4.4.0S2",
+                    "Hidden": {
+                      "NodeColumns": [
+                        "",
+                        "id",
+                        "rank1",
+                        "name",
+                        "position",
+                        "department"
+                      ],
+                      "EdgeColumns": [
+                        "",
+                        "to",
+                        "from"
+                      ]
+                    },
+                    "Basic": {
+                      "Selected": {
+                        "_dashboardsType": "viewstate",
+                        "value": "selected"
+                      },
+                      "Theme": "Dark"
+                    },
+                    "Data": {
+                      "Nodes": {
+                        "Source": {
+                          "_dashboardsType": "data",
+                          "value": "OrgGraph/Nodes"
+                        },
+                        "label": "name",
+                        "id": "id",
+                        "level": "",
+                        "group": "department",
+                        "color": {
+                          "background": "",
+                          "border": "",
+                          "hover": {
+                            "background": "",
+                            "border": ""
+                          },
+                          "highlight": {
+                            "background": "",
+                            "border": ""
+                          }
+                        },
+                        "shape": []
+                      },
+                      "Edges": {
+                        "Source": {
+                          "_dashboardsType": "data",
+                          "value": "OrgGraph/Edges"
+                        },
+                        "from": "from",
+                        "to": "to"
+                      }
+                    },
+                    "Layout": {
+                      "randomSeed": 1111,
+                      "hierarchical": {
+                        "enabled": false,
+                        "levelSeparation": 150,
+                        "nodeSpacing": 100,
+                        "direction": "LR"
+                      },
+                      "clusterScale": 48
+                    },
+                    "Interaction": {
+                      "dragNodes": true,
+                      "dragView": true,
+                      "selectConnectedEdges": true
+                    },
+                    "Nodes": {
+                      "borderWidth": 1,
+                      "borderWidthSelected": 2,
+                      "color": {
+                        "border": "#999",
+                        "background": "#97c3fc",
+                        "highlight": {
+                          "border": "#1795D3",
+                          "background": "#b33d6c"
+                        },
+                        "hover": {
+                          "border": "#2B7CE9",
+                          "background": "#D2E5FF"
+                        }
+                      }
+                    },
+                    "Edges": {
+                      "width": 1,
+                      "selectionWidth": 2,
+                      "arrows": {
+                        "to": {
+                          "enabled": true,
+                          "scaleFactor": 1
+                        },
+                        "from": {
+                          "enabled": false,
+                          "scaleFactor": 1
+                        }
+                      },
+                      "color": {
+                        "color": "#999",
+                        "highlight": "#97c2fc",
+                        "opacity": 1
+                      }
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "Tooltips": {
+                      "tooltips": false,
+                      "tooltipsTemplate": ""
+                    },
+                    "Actions": [],
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "11110",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 36,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    },
+    {
+      "id": "f44a3f22-2063-5d59-58f5-568c55f0cdad",
+      "name": "Screen 2",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "94ba543b-14f8-acfb-44cd-88cfa9f86ca5",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 25,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_2882",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "5f8dc502-e995-76e-bb61-8828796a6c44",
+                "layout": {
+                  "row": 35,
+                  "column": 0,
+                  "rowSpan": 3,
+                  "colSpan": 5
+                },
+                "component": {
+                  "id": "component_2984",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "6fe645b-9ecd-b46-8f4d-3cfbe66292d",
+                      "layout": {
+                        "row": 0,
+                        "column": 7,
+                        "rowSpan": 2,
+                        "colSpan": 5
+                      },
+                      "component": {
+                        "id": "component_2960",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVS"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a href=\"{{url}}\" title=\"{{title}}\"><i style=\"color:{{color}}\" class=\"fa {{icon}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"6fe645b-9ecd-b46-8f4d-3cfbe66292d\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "d3eadeb6-6d3c-80a-4e27-c999d32c3de",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_2975",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "6f7f6549-c5e3-1f2b-cd7b-92ffddfc478b",
+                "layout": {
+                  "row": 35,
+                  "column": 0,
+                  "rowSpan": 32,
+                  "colSpan": 5
+                },
+                "component": {
+                  "id": "component_3281",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 20
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "6d271f2-5880-2e91-d1fc-c05bce809507",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 7,
+                        "colSpan": 12
+                      },
+                      "component": {
+                        "id": "component_3257",
+                        "key": "Graph",
+                        "options": {
+                          "version": "4.4.0S2",
+                          "Hidden": {
+                            "NodeColumns": [
+                              "",
+                              "index",
+                              "point",
+                              "level",
+                              "statistic"
+                            ],
+                            "EdgeColumns": [
+                              "",
+                              "from",
+                              "to"
+                            ]
+                          },
+                          "Basic": {
+                            "Selected": {
+                              "_dashboardsType": "viewstate",
+                              "value": "selected"
+                            },
+                            "Theme": "Dark"
+                          },
+                          "Data": {
+                            "Nodes": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "Process/Nodes"
+                              },
+                              "label": "point",
+                              "id": "index",
+                              "level": "level",
+                              "color": {
+                                "background": "",
+                                "border": "",
+                                "hover": {
+                                  "background": "",
+                                  "border": ""
+                                },
+                                "highlight": {
+                                  "background": "",
+                                  "border": ""
+                                }
+                              },
+                              "group": "",
+                              "shape": []
+                            },
+                            "Edges": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "Process/Edges"
+                              },
+                              "from": "from",
+                              "to": "to"
+                            }
+                          },
+                          "Layout": {
+                            "randomSeed": 1111,
+                            "hierarchical": {
+                              "enabled": true,
+                              "levelSeparation": 250,
+                              "nodeSpacing": 100,
+                              "direction": "LR"
+                            }
+                          },
+                          "Interaction": {
+                            "dragNodes": true,
+                            "dragView": true,
+                            "selectConnectedEdges": true
+                          },
+                          "Nodes": {
+                            "borderWidth": 1,
+                            "borderWidthSelected": 2,
+                            "color": {
+                              "border": "#999",
+                              "background": "#97c2fc",
+                              "highlight": {
+                                "border": "#1795D3",
+                                "background": "#FFFF7A"
+                              },
+                              "hover": {
+                                "border": "#2B7CE9",
+                                "background": "#D2E5FF"
+                              }
+                            }
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Tooltips": {
+                            "tooltips": false,
+                            "tooltipsTemplate": ""
+                          },
+                          "Actions": [],
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "200",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "26ff8972-fe02-4e9a-1c85-83fd614ce247",
+                      "layout": {
+                        "row": 7,
+                        "column": 0,
+                        "rowSpan": 13,
+                        "colSpan": 12
+                      },
+                      "component": {
+                        "id": "component_3272",
+                        "key": "Datagrid",
+                        "options": {
+                          "version": "4.5.0",
+                          "datagridPossibleColumns": [
+                            "index",
+                            "point",
+                            "level",
+                            "statistic"
+                          ],
+                          "selectedColumnPossibleValues": [
+                            "index",
+                            "point",
+                            "level",
+                            "statistic"
+                          ],
+                          "highlightTargetPossibleValues": [
+                            "index",
+                            "point",
+                            "level",
+                            "statistic",
+                            "*"
+                          ],
+                          "sortingPossibleValues": [
+                            "",
+                            "index",
+                            "point",
+                            "level",
+                            "statistic"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Process/Nodes"
+                            }
+                          },
+                          "ColumnsConfiguration": [
+                            {
+                              "Field": "index",
+                              "DisplayName": "index",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left"
+                            },
+                            {
+                              "Field": "point",
+                              "DisplayName": "point",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left"
+                            },
+                            {
+                              "Field": "level",
+                              "DisplayName": "level",
+                              "Format": "Formatted Number",
+                              "Precision": 0,
+                              "WidthWeight": 165,
+                              "MinWidthAbsolute": 165,
+                              "TextAlign": "right"
+                            },
+                            {
+                              "Field": "statistic",
+                              "DisplayName": "statistic",
+                              "Format": "Formatted Number",
+                              "Precision": 0,
+                              "WidthWeight": 165,
+                              "MinWidthAbsolute": 165,
+                              "TextAlign": "right"
+                            }
+                          ],
+                          "Selection": {
+                            "Mode": "Multi Row",
+                            "RowSelectionColumn": "index",
+                            "SelectedValue": {
+                              "_dashboardsType": "viewstate",
+                              "value": "selected"
+                            }
+                          },
+                          "Tooltip": {
+                            "Template": "<div style=\"margin:0 2px; padding:10px; background: #f0f0f0; color: #101010; font-size:11px; border:1px solid #c0c0c0; border-radius: 2px;\">\r\n  {{#each this}}<b>{{@key}}</b> : {{this}}<br>{{/each}}\r\n</div>"
+                          },
+                          "SummaryRow_Groupings": [
+                            {}
+                          ],
+                          "HighlightRules": [
+                            {
+                              "RuleType": "discrete",
+                              "Name": "",
+                              "Enabled": true,
+                              "Target": "*",
+                              "ConditionSource": "<this>",
+                              "ConditionOperator": "",
+                              "ConditionValue": "previous value",
+                              "Color": "",
+                              "BackgroundColor": "",
+                              "BorderColor": "",
+                              "RuleMin": 0,
+                              "RuleMax": 1,
+                              "RuleLimitEnabled": false,
+                              "TargetElement": "background",
+                              "Icon": "",
+                              "IconColor": "",
+                              "Palette": [
+                                {
+                                  "color": "#b71c1c"
+                                },
+                                {
+                                  "color": "#F57F17"
+                                },
+                                {
+                                  "color": "#33691E"
+                                }
+                              ]
+                            }
+                          ],
+                          "Style": {
+                            "EvenRowBackgroundColorOverride": "#f0f0f0",
+                            "OddRowBackgroundColorOverride": "#e0e0e0",
+                            "DashboardTheme": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleBackgroundColor": "#ffffff",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#ffffff",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "datagridPossibleColumnsWithItself": [
+                            "<this>",
+                            "index",
+                            "point",
+                            "level",
+                            "statistic"
+                          ]
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "21",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 20
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 25,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    },
+    {
+      "id": "a256cabe-e64-3faa-b967-45af94a4c02b",
+      "name": "Screen 2 copy",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "bf77c910-6997-aa9b-a-700a26878455",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 31,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_4562",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "f3836ba6-ba18-d0da-d013-793d31223f5f",
+                "layout": {
+                  "row": 39,
+                  "column": 0,
+                  "rowSpan": 3,
+                  "colSpan": 5
+                },
+                "component": {
+                  "id": "component_4688",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "f013273-3d60-d4e6-12aa-609094988cd4",
+                      "layout": {
+                        "row": 0,
+                        "column": 7,
+                        "rowSpan": 2,
+                        "colSpan": 5
+                      },
+                      "component": {
+                        "id": "component_4664",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVS"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"f013273-3d60-d4e6-12aa-609094988cd4\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "54daa20e-5f46-b1b0-e893-97706f31d5d8",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_4679",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "ad503e28-1470-ca07-47c0-e7bb6a697c0f",
+                "layout": {
+                  "row": 39,
+                  "column": 0,
+                  "rowSpan": 33,
+                  "colSpan": 4
+                },
+                "component": {
+                  "id": "component_4986",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 4
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "6b1eead2-4685-2a1b-5a08-71bc9a92d313",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 4,
+                        "colSpan": 6
+                      },
+                      "component": {
+                        "id": "component_4962",
+                        "key": "Graph",
+                        "options": {
+                          "version": "4.4.0S2",
+                          "Hidden": {
+                            "NodeColumns": [
+                              "",
+                              "index",
+                              "point",
+                              "level",
+                              "statistic"
+                            ],
+                            "EdgeColumns": [
+                              "",
+                              "from",
+                              "to"
+                            ]
+                          },
+                          "Basic": {
+                            "Selected": [
+                              "1",
+                              "6"
+                            ],
+                            "Theme": "Dark"
+                          },
+                          "Data": {
+                            "Nodes": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "AT/ActionTrackerNodes"
+                              },
+                              "label": "point",
+                              "id": "index",
+                              "level": "level",
+                              "color": {
+                                "background": "",
+                                "border": "",
+                                "hover": {
+                                  "background": "",
+                                  "border": ""
+                                },
+                                "highlight": {
+                                  "background": "",
+                                  "border": ""
+                                }
+                              },
+                              "group": "",
+                              "shape": []
+                            },
+                            "Edges": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "AT/ActionTrackerEdges"
+                              },
+                              "from": "from",
+                              "to": "to"
+                            }
+                          },
+                          "Layout": {
+                            "randomSeed": 1111,
+                            "hierarchical": {
+                              "enabled": true,
+                              "levelSeparation": 50,
+                              "nodeSpacing": 200,
+                              "direction": "UD"
+                            }
+                          },
+                          "Interaction": {
+                            "dragNodes": true,
+                            "dragView": true,
+                            "selectConnectedEdges": true
+                          },
+                          "Nodes": {
+                            "borderWidth": 1,
+                            "borderWidthSelected": 2,
+                            "color": {
+                              "border": "#999",
+                              "background": "#97c2fc",
+                              "highlight": {
+                                "border": "#1795D3",
+                                "background": "#FFFF7A"
+                              },
+                              "hover": {
+                                "border": "#2B7CE9",
+                                "background": "#D2E5FF"
+                              }
+                            }
+                          },
+                          "Edges": {
+                            "width": 1,
+                            "selectionWidth": 2,
+                            "arrows": {
+                              "to": {
+                                "enabled": true,
+                                "scaleFactor": 1
+                              },
+                              "from": {
+                                "enabled": false,
+                                "scaleFactor": 1
+                              }
+                            },
+                            "color": {
+                              "color": "#999",
+                              "highlight": "#97c2fc",
+                              "opacity": 1
+                            }
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Tooltips": {
+                            "tooltips": false,
+                            "tooltipsTemplate": ""
+                          },
+                          "Actions": [],
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "11110",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "f2313b50-73ac-98f7-7b03-e26a96a76a7b",
+                      "layout": {
+                        "row": 0,
+                        "column": 6,
+                        "rowSpan": 4,
+                        "colSpan": 6
+                      },
+                      "component": {
+                        "id": "component_4977",
+                        "key": "Graph",
+                        "options": {
+                          "version": "4.4.0S2",
+                          "Hidden": {
+                            "NodeColumns": [
+                              "",
+                              "index",
+                              "point",
+                              "level",
+                              "statistic"
+                            ],
+                            "EdgeColumns": [
+                              "",
+                              "from",
+                              "to"
+                            ]
+                          },
+                          "Basic": {
+                            "Selected": [
+                              "2",
+                              "5"
+                            ],
+                            "Theme": "Dark"
+                          },
+                          "Data": {
+                            "Nodes": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "AT/ActionTrackerNodes2"
+                              },
+                              "label": "point",
+                              "id": "index",
+                              "level": "level",
+                              "color": {
+                                "background": "",
+                                "border": "",
+                                "hover": {
+                                  "background": "",
+                                  "border": ""
+                                },
+                                "highlight": {
+                                  "background": "",
+                                  "border": ""
+                                }
+                              },
+                              "group": "",
+                              "shape": []
+                            },
+                            "Edges": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "AT/ActionTrackerEdges2"
+                              },
+                              "from": "from",
+                              "to": "to"
+                            }
+                          },
+                          "Layout": {
+                            "randomSeed": 1111,
+                            "hierarchical": {
+                              "enabled": true,
+                              "levelSeparation": 150,
+                              "nodeSpacing": 100,
+                              "direction": "UD"
+                            }
+                          },
+                          "Interaction": {
+                            "dragNodes": true,
+                            "dragView": true,
+                            "selectConnectedEdges": true
+                          },
+                          "Nodes": {
+                            "borderWidth": 1,
+                            "borderWidthSelected": 2,
+                            "color": {
+                              "border": "#999",
+                              "background": "#97c2fc",
+                              "highlight": {
+                                "border": "#1795D3",
+                                "background": "#FFFF7A"
+                              },
+                              "hover": {
+                                "border": "#2B7CE9",
+                                "background": "#D2E5FF"
+                              }
+                            }
+                          },
+                          "Edges": {
+                            "width": 1,
+                            "selectionWidth": 2,
+                            "arrows": {
+                              "to": {
+                                "enabled": true,
+                                "scaleFactor": 1
+                              },
+                              "from": {
+                                "enabled": false,
+                                "scaleFactor": 1
+                              }
+                            },
+                            "color": {
+                              "color": "#999",
+                              "highlight": "#97c2fc",
+                              "opacity": 1
+                            }
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Tooltips": {
+                            "tooltips": false,
+                            "tooltipsTemplate": ""
+                          },
+                          "Actions": [],
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "11110",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 4
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 31,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    },
+    {
+      "id": "263e383a-b9c8-d841-c4a8-f3c77ebc5b7",
+      "name": "Organization",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "889722f-ae58-94d9-ef8b-aa2d5ee8e4b8",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 30,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_3823",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "c675d1f0-3353-485e-ab2b-ba974f134d7e",
+                "layout": {
+                  "row": 38,
+                  "column": 0,
+                  "rowSpan": 3,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "component_3949",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51",
+                      "layout": {
+                        "row": 0,
+                        "column": 7,
+                        "rowSpan": 2,
+                        "colSpan": 5
+                      },
+                      "component": {
+                        "id": "component_3925",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "MenuVS"
+                            },
+                            "Template": "<!--[START] Generated HTML from Menu Layout Templating--><ul id=\"bWVudUxheW91dF8w\"> {{#each this}} <li><a title=\"{{title}}\" href=\"{{url}}\"><i class=\"fa {{icon}}\" style=\"color:{{color}}\"></i><span style=\"color:{{color}}\">{{title}}</span></a></li>{{/each}}</ul><!--[END]-->",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Center",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"b8eb5e77-9ac0-27a0-b4e8-b2a3de333c51\"] ul li a span {\n  display: block;\n  margin: 3px 9px 0 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "f11c9476-9198-2b95-dc10-65ccc7cf4df0",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_3940",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "2331825-1ffc-4a58-831-6401648f736b",
+                "layout": {
+                  "row": 38,
+                  "column": 0,
+                  "rowSpan": 32,
+                  "colSpan": 7
+                },
+                "component": {
+                  "id": "component_4149",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 1
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "a445526e-2301-f98a-626a-9017e24e13c4",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 1,
+                        "colSpan": 12
+                      },
+                      "component": {
+                        "id": "component_4140",
+                        "key": "Graph",
+                        "options": {
+                          "version": "4.4.0S2",
+                          "Hidden": {
+                            "NodeColumns": [
+                              "",
+                              "id",
+                              "rank1",
+                              "name",
+                              "position",
+                              "department"
+                            ],
+                            "EdgeColumns": [
+                              "",
+                              "to",
+                              "from"
+                            ]
+                          },
+                          "Basic": {
+                            "Selected": {
+                              "_dashboardsType": "viewstate",
+                              "value": "selected"
+                            },
+                            "Theme": "Dark"
+                          },
+                          "Data": {
+                            "Nodes": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "OrgGraph/Nodes"
+                              },
+                              "label": "position",
+                              "id": "id",
+                              "level": "",
+                              "color": {
+                                "background": "",
+                                "border": "",
+                                "hover": {
+                                  "background": "",
+                                  "border": ""
+                                },
+                                "highlight": {
+                                  "background": "",
+                                  "border": ""
+                                }
+                              },
+                              "group": "",
+                              "shape": []
+                            },
+                            "Edges": {
+                              "Source": {
+                                "_dashboardsType": "data",
+                                "value": "OrgGraph/Edges"
+                              },
+                              "from": "from",
+                              "to": "to"
+                            }
+                          },
+                          "Layout": {
+                            "randomSeed": 1111,
+                            "hierarchical": {
+                              "enabled": true,
+                              "levelSeparation": 150,
+                              "nodeSpacing": 200,
+                              "direction": "UD"
+                            },
+                            "clusterScale": 0
+                          },
+                          "Interaction": {
+                            "dragNodes": true,
+                            "dragView": true,
+                            "selectConnectedEdges": true
+                          },
+                          "Nodes": {
+                            "borderWidth": 1,
+                            "borderWidthSelected": 2,
+                            "color": {
+                              "border": "#999",
+                              "background": "#97c2fc",
+                              "highlight": {
+                                "border": "#1795D3",
+                                "background": "#FFFF7A"
+                              },
+                              "hover": {
+                                "border": "#2B7CE9",
+                                "background": "#D2E5FF"
+                              }
+                            }
+                          },
+                          "Edges": {
+                            "width": 1,
+                            "selectionWidth": 2,
+                            "arrows": {
+                              "to": {
+                                "enabled": true,
+                                "scaleFactor": 1
+                              },
+                              "from": {
+                                "enabled": false,
+                                "scaleFactor": 1
+                              }
+                            },
+                            "color": {
+                              "color": "#999",
+                              "highlight": "#97c2fc",
+                              "opacity": 1
+                            }
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "Tooltips": {
+                            "tooltips": false,
+                            "tooltipsTemplate": ""
+                          },
+                          "Actions": [],
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "11110",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 1
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 30,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 36,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_type": "list",
+      "value": "",
+      "_default": "",
+      "_listtype": "symbol"
+    },
+    ".settings": {
+      "component_4195": {
+        "version": 35,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "Quick Search",
+          "value": ""
+        }
+      },
+      "component_3272": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "Quick Search",
+          "value": ""
+        }
+      }
+    },
+    "OrgGraphSelected": {
+      "_viewType": true,
+      "_default": "",
+      "value": "",
+      "_type": "symbol",
+      "_rolling": false
+    }
+  },
+  "data": {
+    "OrgGraph": {
+      "Nodes": {
+        "_pagingType": "NONE",
+        "_autoExec": true,
+        "_columns": [
+          "id",
+          "rank1",
+          "name",
+          "position",
+          "department"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_pageSize": 2000,
+        "_serverPaging": false,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([] \n\tid:(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18);\n\trank1:(1 2 2 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 );\n\tname: \"S\"$(\"Alexandra Pollie\";\"Raquel Brion\";\"Allyn Maurine\";\"Gideon Liddy\";\"Raveena Cameron\";\"Ishan Hendricks\";\"Roma Dean\";\"Tyson Morley\";\"Khadeeja Vargas\";\"Andrea Ortiz\";\"Gregory Zuniga\";\"Megan Stacey\";\"Jaya Justice\";\"Sid Moyer\";\"Fahim Cisneros\";\"Kobi Vickers\";\"Dan Gaines\";\"Branden Lyons\"\n\t);\n\tposition:\"S\"$(\"Marketing Director\";\"Head of Marketing Communications\";\"Head of Business Development\";\"Marketing Communications Manager\";\"Digital Marketing Communicati\";\"European Business Development\";\"Asia-Pacific Business Development M\";\"Senior Marketing Officer\";\"Senior Marketing Officer\";\"Senior Marketing Officer\";\"Senior Marketing Officer\";\"Junior Marketing Officer\";\"Junior Marketing Officer\";\"Business Development Officer\";\"Business Development Officer\";\"Business Development Officer\";\"Business Development Officer\";\"Business Development Officer\"\n\t);\n\tdepartment:\"S\"$(\"Marketing\";\"Marketing\";\"Business\";\"Marketing\";\"Marketing\";\"Business\";\"Business\";\"Marketing\";\"Marketing\";\"Marketing\";\"Marketing\";\"Marketing\";\"Marketing\";\"Business\";\"Business\";\"Business\";\"Business\";\"Business\"\n\t)\n\t)\n",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_aggregateCols": [],
+        "_breakdownCols": [],
+        "_aggregateFns": [],
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query"
+      },
+      "Edges": {
+        "_pagingType": "NONE",
+        "_autoExec": true,
+        "_columns": [
+          "to",
+          "from"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_pageSize": 2000,
+        "_serverPaging": false,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n\tto:(1 1 2 2 4 4 4 5 3 3 7 7 7 6 5 5 6);\n\tfrom:(2 3 4 5 9 12 13 10 6 7 14 16 17 18 8 11 15)\n )\n",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_aggregateCols": [],
+        "_breakdownCols": [],
+        "_aggregateFns": [],
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query"
+      }
+    },
+    "Menu": {
+      "_autoExec": true,
+      "_columns": [
+        "index",
+        "title",
+        "icon",
+        "url",
+        "color"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "index",
+        "mappings": {},
+        "value": "title"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "([]\r\n  index :til 4;\r\n  title :\"S\"$(\"Network\";\"Process Graph\";\"Organizational Graph\";\"Action Tracker\");\r\n  icon :\"S\"$(\"fa-sitemap\";\"fa-share-alt\";\"fa-user\";\"fa-flag\");\r\n  url :\"S\"$(\"#b58fe5e3-d02f-3130-2e53-5bddc0bbac3d/2514c5e-83f3-babf-d736-5431fced05\";\"#b58fe5e3-d02f-3130-2e53-5bddc0bbac3d/f44a3f22-2063-5d59-58f5-568c55f0cdad\";\"#b58fe5e3-d02f-3130-2e53-5bddc0bbac3d/263e383a-b9c8-d841-c4a8-f3c77ebc5b7\";\"#b58fe5e3-d02f-3130-2e53-5bddc0bbac3d/a256cabe-e64-3faa-b967-45af94a4c02b\");\r\n  color :\"S\"$(\"#DBDBDB\";\"#DBDBDB\";\"#DBDBDB\";\"#DBDBDB\")\r\n )",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Process": {
+      "Nodes": {
+        "_autoExec": true,
+        "_columns": [
+          "index",
+          "point",
+          "level",
+          "statistic"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_mappings": {
+          "key": "index",
+          "mappings": {},
+          "value": "point"
+        },
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n    index :\"S\"$(\"1\";\"2\";\"3\";\"4\";\"5\";\"6\";\"7\";\"8\";\"9\";\"10\";\"11\";\"12\";\"13\";\"14\";\"15\";\"16\");\n    point :\"S\"$(\"Process 1\";\"Process 2\";\"Process 3\";\"Process 4\";\"Process 5\";\"Process 6\";\"Process 7\";\"Process 8\";\"Process 9\";\"Process 10\";\"Process 11\";\"Process 12\";\"Process 13\";\"Process 14\";\"Process 15\";\"Process 16\");\n\tlevel :(1 1 2 3 2 2 3 3 4 4 4 4 5 5 5 5);\n\tstatistic :(23 54 34 44 34 54 65 34 35 65 34 65 34 45 67 32)\n )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      },
+      "Edges": {
+        "_autoExec": true,
+        "_columns": [
+          "from",
+          "to"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_mappings": {
+          "key": "from",
+          "mappings": {},
+          "value": "to"
+        },
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n    from :\"S\"$(\"1\";\"1\";\"2\";\"2\";\"3\";\"4\";\"5\";\"6\";\"7\";\"7\";\"7\";\"8\";\"9\";\"10\";\"11\";\"12\";\"1\";\"4\";\"10\";\"11\");\n    to :\"S\"$(\"3\";\"4\";\"5\";\"6\";\"7\";\"8\";\"7\";\"8\";\"9\";\"10\";\"11\";\"12\";\"13\";\"14\";\"15\";\"16\";\"5\";\"7\";\"16\";\"14\")\n )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      }
+    },
+    "AT": {
+      "ActionTrackerEdges": {
+        "_autoExec": true,
+        "_columns": [
+          "from",
+          "to"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": false,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n    from :(1 2 2 4 4 4 7);\n    to :(2 3 4 5 6 7 8)\n )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      },
+      "ActionTrackerNodes": {
+        "_autoExec": true,
+        "_columns": [
+          "index",
+          "point",
+          "level",
+          "statistic"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_mappings": {
+          "key": "index",
+          "mappings": {},
+          "value": "point"
+        },
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n  index :(1 2 3 4 5 6 7 8);\n  point :\"S\"$(\"Open Credit Alert\";\"Acknowledged\";\"ClientPositionClosed\";\"AwaitingClientResponse\";\"ClientAcknowledged\";\"FalseCreditAlert\";\"RaisedCreditAlert\";\"ManagerApproval\");\n\tlevel :(1 2 3 3 4 4 4 5);\n\tstatistic :(23 54 34 44 34 54 65 34)\n )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      },
+      "ActionTrackerEdges2": {
+        "_autoExec": true,
+        "_columns": [
+          "from",
+          "to"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_mappings": {
+          "key": "from",
+          "mappings": {},
+          "value": "to"
+        },
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n    from :(1 2 2 2 2);\n\tto :(2 3 4 5 6)\n )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      },
+      "ActionTrackerNodes2": {
+        "_autoExec": true,
+        "_columns": [
+          "index",
+          "point",
+          "level",
+          "statistic"
+        ],
+        "_dataType": "query",
+        "_dataSource": "kdb",
+        "_connection": "html5evalcongroup",
+        "_mappings": {
+          "key": "index",
+          "mappings": {},
+          "value": "point"
+        },
+        "_maxRows": 2000,
+        "_subscriptionType": "static",
+        "_subscriptionInterval": 3,
+        "_layout": [
+          {
+            "isExpanded": true,
+            "weight": 2
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": false,
+            "weight": 1
+          },
+          {
+            "isExpanded": true,
+            "weight": 0
+          },
+          {
+            "isExpanded": true,
+            "weight": 2
+          }
+        ],
+        "_queryString": "([]\n  index :(1 2 3 4 5 6);\n  point :\"S\"$(\"Open\";\"Investigating\";\"CauseIdentified\";\"ClientCancel\";\"FalseAlert\";\"LateLP\");\n\tlevel :(1 2 3 3 3 3);\n\tstatistic :(23 54 34 44 34 54)\n  )",
+        "_queryParams": [],
+        "_subscriptionKey": "",
+        "_hasUpdateQuery": false,
+        "_updateQueryString": "",
+        "_updateType": "query",
+        "_pageSize": 2000,
+        "_serverPaging": false
+      }
+    },
+    "MenuVS": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "index",
+        "title",
+        "icon",
+        "url",
+        "color"
+      ],
+      "_dataType": "virtual",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_subscriptionKey": "",
+      "_virtualParams": [
+        {
+          "type": "datasource",
+          "name": "source",
+          "value": "Menu",
+          "index": 0
+        }
+      ],
+      "_virtualQueryString": "function (source, callback) {\n\n    var hash = window.location.hash;\n    _.each(source.rows, function(r,i){\n        if(r.url === hash){\n            r.color = '#FFFFFF';\n        }\t\t\n    });   \n    \n    callback(source);\n\n}"
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "version": "4.4.0p7",
+  "action": "replace"
+}

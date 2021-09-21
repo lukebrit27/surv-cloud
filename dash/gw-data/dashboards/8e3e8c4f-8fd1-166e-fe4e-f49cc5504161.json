@@ -1,0 +1,3444 @@
+{
+  "id": "8e3e8c4f-8fd1-166e-fe4e-f49cc5504161",
+  "name": "Demo Stream",
+  "creationDate": "Thu, 29 Nov 2018 11:33:08 GMT",
+  "lastUpdateDate": "Thu, 19 Nov 2020 14:24:48 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "b6eef518-4c3a-8e57-f3b8-937c368225"
+    }
+  ],
+  "screens": [
+    {
+      "id": "b6eef518-4c3a-8e57-f3b8-937c368225",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "2528e4ea-1bdd-7e9e-6f9c-462fadfd74c2",
+          "layout": {
+            "row": 0,
+            "column": 6,
+            "rowSpan": 16,
+            "colSpan": 6
+          },
+          "component": {
+            "id": "component_2962",
+            "key": "ChartIQ",
+            "options": {
+              "Layers": [
+                {
+                  "_Type": "OHLC",
+                  "_LayerId": "layer_768",
+                  "_PossibleColumns": [
+                    "Date",
+                    "Open",
+                    "High",
+                    "Low",
+                    "Close",
+                    "Volume",
+                    "sym",
+                    "Time"
+                  ],
+                  "Name": {
+                    "_dashboardsType": "viewstate",
+                    "value": "selected"
+                  },
+                  "Data": {
+                    "_dashboardsType": "data",
+                    "value": "fxStream"
+                  },
+                  "XAxisData": "",
+                  "YAxisData": "",
+                  "YAxis": "Axis",
+                  "Color": "#ff0000",
+                  "Opacity": 80,
+                  "SelectedObjectRouting": []
+                }
+              ],
+              "Axes": {
+                "X": {
+                  "DisplayGridLines": true,
+                  "RangeMin": "2020-11-19T11:44:00.000Z",
+                  "RangeMax": "2020-11-19T14:26:00.000Z",
+                  "DataStart": {},
+                  "DataEnd": {}
+                },
+                "Y": [
+                  {
+                    "DisplayGridLines": true,
+                    "DecimalPlaces": 6,
+                    "LabelStyle": "roundRectArrow",
+                    "Min": 0,
+                    "Max": 100,
+                    "Name": "Axis",
+                    "Position": "Right"
+                  }
+                ]
+              },
+              "Options": {
+                "DisplayMenu": true,
+                "Layout": "{\"interval\":\"minute\",\"periodicity\":1,\"timeUnit\":null,\"candleWidth\":6.450819672131147,\"volumeUnderlay\":false,\"adj\":true,\"crosshair\":true,\"chartType\":\"candle\",\"extended\":false,\"marketSessions\":{},\"aggregationType\":\"ohlc\",\"chartScale\":\"linear\",\"panels\":{\"chart\":{\"percent\":0.8,\"display\":\"USD/EUR\",\"chartName\":\"chart\",\"index\":0,\"yAxis\":{\"position\":\"right\"}},\"‌macd‌ (12,26,9)\":{\"percent\":0.19999999999999998,\"display\":\"‌macd‌ (12,26,9)\",\"chartName\":\"chart\",\"index\":1}},\"setSpan\":{},\"symbols\":[{\"symbol\":\"USD/EUR\",\"symbolObject\":{\"layer\":\"layer_768\",\"source\":\"fxStream\",\"symbol\":\"USD/EUR\",\"type\":\"OHLC\",\"xAxisData\":\"\",\"yAxisData\":\"\"},\"periodicity\":1,\"interval\":\"minute\",\"timeUnit\":null,\"setSpan\":{}}],\"studies\":{\"‌macd‌ (12,26,9)\":{\"type\":\"macd\",\"inputs\":{\"Fast MA Period\":12,\"Slow MA Period\":26,\"Signal Period\":9,\"id\":\"‌macd‌ (12,26,9)\",\"display\":\"‌macd‌ (12,26,9)\"},\"outputs\":{\"MACD\":\"auto\",\"Signal\":\"#FF0000\",\"Increasing Bar\":\"#00DD00\",\"Decreasing Bar\":\"#FF0000\"},\"panel\":\"‌macd‌ (12,26,9)\",\"parameters\":{\"chartName\":\"chart\"}}}}"
+              },
+              "Style": {
+                "advanced": "[data-widgetid=\"2528e4ea-1bdd-7e9e-6f9c-462fadfd74c2\"] div > div.ciq-chart-area > div.ciq-chart > div.chart-container > div.stx_chart_controls.chartControls  {\n    display: none !important;\n}",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleFontBold": false,
+                "titleShadow": true,
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "_PossibleAxes": [
+                "Axis"
+              ],
+              "version": "4.0.0d2"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "prevVersion": 596,
+            "optionsVersion": 604,
+            "definitionId": "79",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "85514d99-8ab5-a248-c431-de0c60a76a1e",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 16,
+            "colSpan": 6
+          },
+          "component": {
+            "id": "component_3165",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.5.0a",
+              "datagridPossibleColumns": [
+                "sym",
+                "USD",
+                "EUR",
+                "JPY",
+                "GBP",
+                "AUD",
+                "CAD",
+                "CHF",
+                "NZD"
+              ],
+              "selectedColumnPossibleValues": [
+                "sym",
+                "USD",
+                "EUR",
+                "JPY",
+                "GBP",
+                "AUD",
+                "CAD",
+                "CHF",
+                "NZD"
+              ],
+              "highlightTargetPossibleValues": [
+                "sym",
+                "USD",
+                "EUR",
+                "JPY",
+                "GBP",
+                "AUD",
+                "CAD",
+                "CHF",
+                "NZD",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "sym",
+                "USD",
+                "EUR",
+                "JPY",
+                "GBP",
+                "AUD",
+                "CAD",
+                "CHF",
+                "NZD"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "majors"
+                },
+                "Filtering": "disabled",
+                "ShowPagingControl": false,
+                "EnableGrouping": false
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "sym",
+                  "DisplayName": "sym",
+                  "WidthWeight": 0,
+                  "MinWidthAbsolute": 60,
+                  "TextAlign": "left",
+                  "Template": "{{#eq sym \"USD\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNEM1RjkxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNEM1RkExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGNzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzVGODE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph2+0tgAAAB2SURBVHjaYmRQzWKgBjh45yBVzGFiGGSABUJtnZUJJL3TppPBhgC7f1eoHEL//zOQzaYiYBxNQ8SlIcpTEvXT0CBJSaNpaLQcGk1Do+XQaDk02NMQ438aZd/hk8sOMemMhtBoGhpNQ6NpaDQNjaahoRxCAAEGAP70icMUcRQsAAAAAElFTkSuQmCC\">\n\n  {{uppercase sym}}\n{{else}}\n    {{#eq sym \"EUR\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNUE3QzgxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNUE3QzkxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGRjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzYwMDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Piu567YAAACbSURBVHjaYmQIXs4wmAATwyADow4addDgcFBD4BogoopRLFRxTX3AWih7fcgAhBAx4UF2mLFQHh7wUEEwKAgzFuqkIYpjioIQwggP8tTgAoyjdRlVHURq3iEjr7HQrrwhL68NuihjoW7+ojyvjeaykViXUbf+H/rtIWLqdkrqMnJqe6JKRXLrf2q0GCkIj9FyaNRBow6iPwAIMAAVg1yiNILTvgAAAABJRU5ErkJggg==\">\n\n  {{uppercase sym}}\n{{else}}\n{{#eq sym \"JPY\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFRkRBRDIxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFRkRBRDMxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUVGREFEMDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUVGREFEMTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmcFUs8AAAE4SURBVHjaYvz//z/DYAJMDIMMjDpo1EGUAhaydf7//ef1hn2vN+z/dObqr2evgCJsUmJ8JtqiAY6iAU6MrGSazEhetn+9ft+d0t5vdx9jleVSllXpLhYNdKKLg/79v1Mx4WH3fIIK5UsTVToKGJgYaRtlRLoGCCDKVLoKaRhCwJi6FFRAkgV66yaQFHckOAiYik9o+uNKN7gAMD1ZXN9IfBonIdsD8xSprgECoBagRpqUQ8AcTl5OJkkjCQ4CljfkOYgkjSQ4CFL6kQFI0jiU6zJgzUCeHSRpJMFBwHqKPAeRpJEEBwFrTfIcRJJGkhzkBCzlSHUNUAtQI00cBCxtgXU4qQ4CaiGpKUJaLgPWSsA6nHj1QMWkNkJIzvbAFgWRboI2P0ZeA21wNmFHu0GjDhp1ENEAIMAAK/ON8nHL3ZUAAAAASUVORK5CYII=\">\n\n  {{uppercase sym}}\n  {{else}}\n{{#eq sym \"GBP\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNEM1RkQxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNEM1RkUxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGQjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzVGQzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Puk9wOAAAAO8SURBVHjaYrxvJMsABlwu3jzl7VxCAp+//Cxt3zVz2VkGQuD//QYgeYlPFS6i9+k2kGRUbMCjS0qMd3F/oJOV0v///98umftlShvDnz8gXZxc3BWdTEB3QNR927P1TajDm907eXnYZ7T67l4cKy/Nz0Bt4O2oemFbBtA1X9+8e5kb+2VCE8Q1bJq6gsv2iPj4M4l1TufpmMUkIAQU/ffh3ZeK1Fflmd/efXCxUb68Iys9yphaTmFnY55Q67FlXrSoMPfbY8feRrr8OH4IIsUdnS42fyOfnMyFa8+ZgBEk4uohsvoAl7MX7YJKXUn4xPqU/CSLP7//vJ7Q/jk34t+7N0BxJiER3snLRYuqWVhZJs47YRE4h0nXY9reo/eASUesawaeoEqLJD+oEkMMzm5ON9CS/PToyavEgK+Lp0PEOSzshJfvEbayfvPuq0/S0oLmHT9//WV6+PSjS8yizOot+INqZhs5QcXHw758UvC87gBuLrY3Wze9j3b9df0SSIKFhTuvRnzKYm4RoX3H7ul5TN+6/zZECxOEmrHsDNWDytxAGph+I3x1f379/rq24Etdzv9vX0GOkZHnn7dFND7t799/VV17XGMWP3/9Ba6LCc6iYlAxMTJWZNgcWZ2kKCv4/uq111FuX7etgxYunoGiy3YKamvdf/zeNnR++/Qj//7/R9bLyKBQj2Yc0LI5HX7A8ACy3+ze8a2jAhhOWMsqYJLHWg4BQ9rZGnsxA8zYQPaKzZczqrd8/PwT0zNYHAQBwAzfXekGDBJgZH3pqPi2dxvU9wJCXBUdwCCEq8R0EBAAi5nPDXnwjM2mqcfTNgOYsb9++5XXsH3e6vO4Qheng4gMKqwOenvs6Nf6XEjGhhQzgrnlwIwNLGYictfcvPcWT3TjcxBYmiENOag6K4HpCR5UcnsvYHXQA2M5qBohEe7GycCMDWQDi5nyzt3AjI0/KzD+R01TZACsUUY2YGIYZIDxIq/KoHLQoAuhUQcRTEOjuYwAYMHf/kWvQ7AVjJjgkbMBruqPYFMdXwgBqw5gxQ6sQYGuAVb1wAof7hqgNcDmAC6NlLQ/iatcUQOGmMqVYEsBV1AxkREwQNcADc2o3ozLl0Apspvq6CFETMDsOXI3pWITsEGHp19GfKMKLaiYyAgY19jFQNfgT5tABUBlZAQVNIRIChiSeq6kBhUTasDsoDBgiAoq9L7yDuSgYvz0+QepAUNe357IoGKiUcCQHVSML8sySA0YCkc/8AcVE60DBmtQueEOKoAAAwDNT0QM2rc1OQAAAABJRU5ErkJggg==\">\n\n  {{uppercase sym}}\n {{else}}\n{{#eq sym \"AUD\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFOTk2N0ExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFOTk2N0IxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU5OTY3ODE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU5OTY3OTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsdjiJMAAANrSURBVHjaYrzIr8bw7x+zuYnIvElrD9wvad31/ecfBhj4f7/hEp8qkKH36TajYgNcnJOdpafaLdhB8U1S3t+TZxiYmPQFIxmoAZh4d29gkZMGGvraws2B49O5TWn6muL49QAVAJUBFQO1ADUCtQMNYaASYJq846Hkwc2M4SH/Pn/5k5z5u7t//+KYwiQLRmyqgYJAKaACoDKgYqAWoEagdqAh1HIQI4NCPdDHKyYE/7t46V9BKdAOoI8550+/8501rnjD89Ml8CiTNO1Z1Bugwvn7e2Lmn0dPmXh5mCZ0M+nrRRSsvXj9JdVCCIiBxhn5zTr4k1/sxC5gYgJa9tk1QOL4gYtb05CVArlAQaAUUAFQGVAxUAtQIzGuEeLnNNGVAiIgg3AIwTm+zmpz2nxezFvJ0NEDSenau5fDQ+iqayQk/TJUlEgkhadUbdm89xaR/gZGwplNIO+ZEPIA4/////GbBXcQAZ8h5UFMEOGjM7nRE8jIrd++YssVfOZc5FWhStzrC0fjVxDsoQkk1+64jl8ZCwO9AEGn0DXKiAcsyAYBE/Xcdl9gov7f3g1P1HBZeKJmrCwVTwwjKVFjzXdKcoJAxr1H7999/I6S7SFVwdQmr9n1rq+i0v63doKEqsrEls1CNgLErSoD1Setna+j04GKgVqAGslzkKwU3/F1yUAEZKCXQ1irgpdWjnpeM5GVArlAQWKqGmJKHU1l0Q+ffgARkIHiIFxVgXv8khdvviArBXKBgriqGmJ8jwyAmT+jegsQoZUCLLke8s/tff8jVQWOsUtwlV3A9N8/78S+4/dXTCj85+YMqmpWrnl+/Hju/OlAcTTfQxh4ikGs+Y4R3vwQBTY/Dj4obtlJZPOjt8Y92F7hNY7mB5GlDoGqgz4gJdwISM5ZeW6AC0Y4+Pz15+AKIcLNjyHmICNtSSAaeAcxMTK62ykDc1NqpBEQARlALlCQ1g7Cmaj//f/vbqeybkY4MxPTf4b/cUH6M5ed3XnoLnVrLtKibOHaC1ycbOzsLBzsrEAGkEu2v4kpuwk4KMxb+9DKRGQRIBcoSJ6DcNVcpGV7KTFeYLszyEMLyF634xqw9fns1WeyA4kKLUag9b9+/y3v2A1kG2hJUOIa4qsRAiV1x/QjkNqRYHeWmh3F0ZJ61EGUAIAAAwDdRtG8RNAFmgAAAABJRU5ErkJggg==\">\n\n  {{uppercase sym}}\n{{else}}\n{{#eq sym \"CAD\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFOTk2N0UxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFOTk2N0YxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU5OTY3QzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU5OTY3RDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkltZ3IAAADrSURBVHja7JXNCYQwEIVHg4h9eNEWLEBQsCs7sBDxYgXevYkVWII/l+wLCOsuK2SNS/YwjyCZmYd+OPlxJGlLfuF9l+PoGhmIgRiIgRjoJ0Bdp55JYg5EUn+cqe9llsk8V5MzaX/lDqA03Q2YGAO515fFNNGyUF1TFO2ZOFYhkihd1vU/VFVSCBkEsih2AyYIkUTJQsua5tSJkoWWrSt53oc8kihZaBnUtqpHRw9CJG3usrJ88SA022XGB+MwqAahhOG65PvPTWfzpB5HEoLC0PykNljUR80zbdstb+LbnoEYiIEY6N+BHgIMAF9ZLz9RDHviAAAAAElFTkSuQmCC\">\n\n  {{uppercase sym}}\n{{else}}\n{{#eq sym \"CHF\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNUE3RDAxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNUE3RDExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU1QTdDRTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU1QTdDRjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr9nvPQAAABdSURBVHjaYryuwc8wmAATwyADow4addCog2gNWCg3QuP6Bzj7hqbAaJSNOmjUQRTmMuQ8RYwsqfluNMqGfxrCTBOjJfWog0YdROv2EOU5azTKRh006qAR7SCAAAMAWZgOZ7rMhNgAAAAASUVORK5CYII=\">\n\n  {{uppercase sym}}\n{{else}}\n{{#eq sym \"NZD\"}}\n  <img style=\"margin-bottom: -2px\" height=\"14\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFQkQxQ0MxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFQkQxQ0QxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUVCRDFDQTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUVCRDFDQjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlYcMKIAAAKiSURBVHjaYrzIr8bw7x+zuYnIvElrD9wvad31/ecfBhj4f7/hEp8qkKH36TajYgNcnJOdpafaLdhB8U1S3t+TZxiYmPQFIxmoAZh4d29gkZMGGvraws2B49O5TWn6muL49QAVAJUBFQO1ADUCtQMNYaASYJq846Hkwc2M4SH/Pn/5k5z5u7t//+KYwiQLRmyqgYJAKaACoDKgYqAWoEagdqAh1HIQI4NCPdDHKyYE/7t46V9BKdAOoI8550+/8501rnjD89Ml8CiTNO1Z1Bugwvn7e2Lmn0dPmXh5mCZ0M+nrRRSsvXj9JdVCCIiBxhn5zTr4k1/sxC5gYgJa9tk1QOL4gYtb05CVArlAQaAUUAFQGVAxUAtQI5GuMfnzEoiICiE4x9dZbU6bz4t5Kxk6eiApXXv3cngIXXWNhKRfhooSiaTwlKotm/feItLfET9upX6/AmTM5tRZwaGGz0H////HbxbcQQR8hpQHMQHX/z/H3q0EMqyEwr8xsuAz5yKvClXiXl84Go8s379fmn/fARnXmYU+MbHhUcnCQBcAdMRJJgmichl9oox4wIJsEDBRz233BSbq/+3d8EQNl4UnasbKUvHEMJISNa58ByTPsIhjyWWYVQEwK0kmR4iK8sJD6PXrz8/nroBnQKxVDfEAV75jwlUVvLRy1POaiWwEkAsUJLKqIVjqbGJXEv73HYiADJSCEVdV4B6/5MWbL8hKgVygIK6qBs33nZ+PAhGQgTOt/P+XzucMREAGSpTdO3UNT1WAtbbHWtUoha0ko9TBUnWQURVgrWqI8T2xlSvDYAJMDIMMjDpo1EFDx0FEthiZGQQc6OAaYJFd/vWs66/HvxiZr7AID3wI4aq5BqyBBim7IQwGxtGSetRBow4aSAAQYABm461N55wFKgAAAABJRU5ErkJggg==\">\n\n  {{uppercase sym}}\n{{/eq}}{{/eq}}{{/eq}}{{/eq}}{{/eq}}{{/eq}}{{/eq}}{{/eq}}"
+                },
+                {
+                  "Field": "USD",
+                  "DisplayName": "USD",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "EUR",
+                  "DisplayName": "EUR",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "JPY",
+                  "DisplayName": "JPY",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "GBP",
+                  "DisplayName": "GBP",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "AUD",
+                  "DisplayName": "AUD",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "CAD",
+                  "DisplayName": "CAD",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "CHF",
+                  "DisplayName": "CHF",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                },
+                {
+                  "Field": "NZD",
+                  "DisplayName": "NZD",
+                  "Format": "Formatted Number",
+                  "Precision": 5,
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 300,
+                  "ShowArrowsOnChange": true,
+                  "WidthWeight": 140
+                }
+              ],
+              "Selection": {
+                "Mode": "Cell",
+                "RowSelectionColumn": "sym",
+                "SelectedValue": {
+                  "_dashboardsType": "viewstate",
+                  "value": "row"
+                },
+                "SelectedField": {
+                  "_dashboardsType": "viewstate",
+                  "value": "col"
+                }
+              },
+              "FileExport": {
+                "ShowExportCsvButton": false,
+                "ShowExportExcelButton": false
+              },
+              "Tooltip": {
+                "Template": "<div style=\"margin:0 2px; padding:10px; background: #f0f0f0; color: #101010; font-size:11px; border:1px solid #c0c0c0; border-radius: 2px;\">\r\n  {{#each this}}<b>{{@key}}</b> : {{this}}<br>{{/each}}\r\n</div>"
+              },
+              "SummaryRow_Groupings": [
+                {
+                  "Function": "",
+                  "Column": "",
+                  "Label": "",
+                  "Color": ""
+                }
+              ],
+              "HighlightRules": [
+                {
+                  "Name": "",
+                  "Enabled": true,
+                  "Target": {
+                    "_dashboardsType": "viewstate",
+                    "value": "col"
+                  },
+                  "ConditionSource": "sym",
+                  "ConditionOperator": "==",
+                  "ConditionValue": {
+                    "_dashboardsType": "viewstate",
+                    "value": "row"
+                  },
+                  "Color": "",
+                  "BackgroundColor": "",
+                  "BorderColor": "#ffb700",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                }
+              ],
+              "Style": {
+                "RowHeight": 24,
+                "HeaderRowHeight": 24,
+                "HeaderTextTransformation": "uppercase",
+                "advanced": "[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.usd.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNEM1RjkxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNEM1RkExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGNzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzVGODE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph2+0tgAAAB2SURBVHjaYmRQzWKgBjh45yBVzGFiGGSABUJtnZUJJL3TppPBhgC7f1eoHEL//zOQzaYiYBxNQ8SlIcpTEvXT0CBJSaNpaLQcGk1Do+XQaDk02NMQ438aZd/hk8sOMemMhtBoGhpNQ6NpaDQNjaahoRxCAAEGAP70icMUcRQsAAAAAElFTkSuQmCC') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.eur.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNUE3QzgxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNUE3QzkxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGRjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzYwMDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Piu567YAAACbSURBVHjaYmQIXs4wmAATwyADow4addDgcFBD4BogoopRLFRxTX3AWih7fcgAhBAx4UF2mLFQHh7wUEEwKAgzFuqkIYpjioIQwggP8tTgAoyjdRlVHURq3iEjr7HQrrwhL68NuihjoW7+ojyvjeaykViXUbf+H/rtIWLqdkrqMnJqe6JKRXLrf2q0GCkIj9FyaNRBow6iPwAIMAAVg1yiNILTvgAAAABJRU5ErkJggg==') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.jpy.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFRkRBRDIxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFRkRBRDMxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUVGREFEMDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUVGREFEMTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmcFUs8AAAE4SURBVHjaYvz//z/DYAJMDIMMjDpo1EGUAhaydf7//ef1hn2vN+z/dObqr2evgCJsUmJ8JtqiAY6iAU6MrGSazEhetn+9ft+d0t5vdx9jleVSllXpLhYNdKKLg/79v1Mx4WH3fIIK5UsTVToKGJgYaRtlRLoGCCDKVLoKaRhCwJi6FFRAkgV66yaQFHckOAiYik9o+uNKN7gAMD1ZXN9IfBonIdsD8xSprgECoBagRpqUQ8AcTl5OJkkjCQ4CljfkOYgkjSQ4CFL6kQFI0jiU6zJgzUCeHSRpJMFBwHqKPAeRpJEEBwFrTfIcRJJGkhzkBCzlSHUNUAtQI00cBCxtgXU4qQ4CaiGpKUJaLgPWSsA6nHj1QMWkNkJIzvbAFgWRboI2P0ZeA21wNmFHu0GjDhp1ENEAIMAAK/ON8nHL3ZUAAAAASUVORK5CYII=') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.gbp.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNEM1RkQxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNEM1RkUxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU0QzVGQjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU0QzVGQzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Puk9wOAAAAO8SURBVHjaYrxvJMsABlwu3jzl7VxCAp+//Cxt3zVz2VkGQuD//QYgeYlPFS6i9+k2kGRUbMCjS0qMd3F/oJOV0v///98umftlShvDnz8gXZxc3BWdTEB3QNR927P1TajDm907eXnYZ7T67l4cKy/Nz0Bt4O2oemFbBtA1X9+8e5kb+2VCE8Q1bJq6gsv2iPj4M4l1TufpmMUkIAQU/ffh3ZeK1Fflmd/efXCxUb68Iys9yphaTmFnY55Q67FlXrSoMPfbY8feRrr8OH4IIsUdnS42fyOfnMyFa8+ZgBEk4uohsvoAl7MX7YJKXUn4xPqU/CSLP7//vJ7Q/jk34t+7N0BxJiER3snLRYuqWVhZJs47YRE4h0nXY9reo/eASUesawaeoEqLJD+oEkMMzm5ON9CS/PToyavEgK+Lp0PEOSzshJfvEbayfvPuq0/S0oLmHT9//WV6+PSjS8yizOot+INqZhs5QcXHw758UvC87gBuLrY3Wze9j3b9df0SSIKFhTuvRnzKYm4RoX3H7ul5TN+6/zZECxOEmrHsDNWDytxAGph+I3x1f379/rq24Etdzv9vX0GOkZHnn7dFND7t799/VV17XGMWP3/9Ba6LCc6iYlAxMTJWZNgcWZ2kKCv4/uq111FuX7etgxYunoGiy3YKamvdf/zeNnR++/Qj//7/R9bLyKBQj2Yc0LI5HX7A8ACy3+ze8a2jAhhOWMsqYJLHWg4BQ9rZGnsxA8zYQPaKzZczqrd8/PwT0zNYHAQBwAzfXekGDBJgZH3pqPi2dxvU9wJCXBUdwCCEq8R0EBAAi5nPDXnwjM2mqcfTNgOYsb9++5XXsH3e6vO4Qheng4gMKqwOenvs6Nf6XEjGhhQzgrnlwIwNLGYictfcvPcWT3TjcxBYmiENOag6K4HpCR5UcnsvYHXQA2M5qBohEe7GycCMDWQDi5nyzt3AjI0/KzD+R01TZACsUUY2YGIYZIDxIq/KoHLQoAuhUQcRTEOjuYwAYMHf/kWvQ7AVjJjgkbMBruqPYFMdXwgBqw5gxQ6sQYGuAVb1wAof7hqgNcDmAC6NlLQ/iatcUQOGmMqVYEsBV1AxkREwQNcADc2o3ozLl0Apspvq6CFETMDsOXI3pWITsEGHp19GfKMKLaiYyAgY19jFQNfgT5tABUBlZAQVNIRIChiSeq6kBhUTasDsoDBgiAoq9L7yDuSgYvz0+QepAUNe357IoGKiUcCQHVSML8sySA0YCkc/8AcVE60DBmtQueEOKoAAAwDNT0QM2rc1OQAAAABJRU5ErkJggg==') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.aud.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFOTk2N0ExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFOTk2N0IxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU5OTY3ODE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU5OTY3OTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsdjiJMAAANrSURBVHjaYrzIr8bw7x+zuYnIvElrD9wvad31/ecfBhj4f7/hEp8qkKH36TajYgNcnJOdpafaLdhB8U1S3t+TZxiYmPQFIxmoAZh4d29gkZMGGvraws2B49O5TWn6muL49QAVAJUBFQO1ADUCtQMNYaASYJq846Hkwc2M4SH/Pn/5k5z5u7t//+KYwiQLRmyqgYJAKaACoDKgYqAWoEagdqAh1HIQI4NCPdDHKyYE/7t46V9BKdAOoI8550+/8501rnjD89Ml8CiTNO1Z1Bugwvn7e2Lmn0dPmXh5mCZ0M+nrRRSsvXj9JdVCCIiBxhn5zTr4k1/sxC5gYgJa9tk1QOL4gYtb05CVArlAQaAUUAFQGVAxUAtQIzGuEeLnNNGVAiIgg3AIwTm+zmpz2nxezFvJ0NEDSenau5fDQ+iqayQk/TJUlEgkhadUbdm89xaR/gZGwplNIO+ZEPIA4/////GbBXcQAZ8h5UFMEOGjM7nRE8jIrd++YssVfOZc5FWhStzrC0fjVxDsoQkk1+64jl8ZCwO9AEGn0DXKiAcsyAYBE/Xcdl9gov7f3g1P1HBZeKJmrCwVTwwjKVFjzXdKcoJAxr1H7999/I6S7SFVwdQmr9n1rq+i0v63doKEqsrEls1CNgLErSoD1Setna+j04GKgVqAGslzkKwU3/F1yUAEZKCXQ1irgpdWjnpeM5GVArlAQWKqGmJKHU1l0Q+ffgARkIHiIFxVgXv8khdvviArBXKBgriqGmJ8jwyAmT+jegsQoZUCLLke8s/tff8jVQWOsUtwlV3A9N8/78S+4/dXTCj85+YMqmpWrnl+/Hju/OlAcTTfQxh4ikGs+Y4R3vwQBTY/Dj4obtlJZPOjt8Y92F7hNY7mB5GlDoGqgz4gJdwISM5ZeW6AC0Y4+Pz15+AKIcLNjyHmICNtSSAaeAcxMTK62ykDc1NqpBEQARlALlCQ1g7Cmaj//f/vbqeybkY4MxPTf4b/cUH6M5ed3XnoLnVrLtKibOHaC1ycbOzsLBzsrEAGkEu2v4kpuwk4KMxb+9DKRGQRIBcoSJ6DcNVcpGV7KTFeYLszyEMLyF634xqw9fns1WeyA4kKLUag9b9+/y3v2A1kG2hJUOIa4qsRAiV1x/QjkNqRYHeWmh3F0ZJ61EGUAIAAAwDdRtG8RNAFmgAAAABJRU5ErkJggg==') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.cad.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFOTk2N0UxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFOTk2N0YxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU5OTY3QzE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU5OTY3RDE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PkltZ3IAAADrSURBVHja7JXNCYQwEIVHg4h9eNEWLEBQsCs7sBDxYgXevYkVWII/l+wLCOsuK2SNS/YwjyCZmYd+OPlxJGlLfuF9l+PoGhmIgRiIgRjoJ0Bdp55JYg5EUn+cqe9llsk8V5MzaX/lDqA03Q2YGAO515fFNNGyUF1TFO2ZOFYhkihd1vU/VFVSCBkEsih2AyYIkUTJQsua5tSJkoWWrSt53oc8kihZaBnUtqpHRw9CJG3usrJ88SA022XGB+MwqAahhOG65PvPTWfzpB5HEoLC0PykNljUR80zbdstb+LbnoEYiIEY6N+BHgIMAF9ZLz9RDHviAAAAAElFTkSuQmCC') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.chf.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFNUE3RDAxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFNUE3RDExNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUU1QTdDRTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUU1QTdDRjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr9nvPQAAABdSURBVHjaYryuwc8wmAATwyADow4addCog2gNWCg3QuP6Bzj7hqbAaJSNOmjUQRTmMuQ8RYwsqfluNMqGfxrCTBOjJfWog0YdROv2EOU5azTKRh006qAR7SCAAAMAWZgOZ7rMhNgAAAAASUVORK5CYII=') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.nzd.center.slick-header-sortable > span.slick-column-name {\n\tbackground: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUFFQkQxQ0MxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUFFQkQxQ0QxNTUyMTFFNkExOTVDQkU1MjcyNDQ4NzciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQUVCRDFDQTE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQUVCRDFDQjE1NTIxMUU2QTE5NUNCRTUyNzI0NDg3NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlYcMKIAAAKiSURBVHjaYrzIr8bw7x+zuYnIvElrD9wvad31/ecfBhj4f7/hEp8qkKH36TajYgNcnJOdpafaLdhB8U1S3t+TZxiYmPQFIxmoAZh4d29gkZMGGvraws2B49O5TWn6muL49QAVAJUBFQO1ADUCtQMNYaASYJq846Hkwc2M4SH/Pn/5k5z5u7t//+KYwiQLRmyqgYJAKaACoDKgYqAWoEagdqAh1HIQI4NCPdDHKyYE/7t46V9BKdAOoI8550+/8501rnjD89Ml8CiTNO1Z1Bugwvn7e2Lmn0dPmXh5mCZ0M+nrRRSsvXj9JdVCCIiBxhn5zTr4k1/sxC5gYgJa9tk1QOL4gYtb05CVArlAQaAUUAFQGVAxUAtQI5GuMfnzEoiICiE4x9dZbU6bz4t5Kxk6eiApXXv3cngIXXWNhKRfhooSiaTwlKotm/feItLfET9upX6/AmTM5tRZwaGGz0H////HbxbcQQR8hpQHMQHX/z/H3q0EMqyEwr8xsuAz5yKvClXiXl84Go8s379fmn/fARnXmYU+MbHhUcnCQBcAdMRJJgmichl9oox4wIJsEDBRz233BSbq/+3d8EQNl4UnasbKUvHEMJISNa58ByTPsIhjyWWYVQEwK0kmR4iK8sJD6PXrz8/nroBnQKxVDfEAV75jwlUVvLRy1POaiWwEkAsUJLKqIVjqbGJXEv73HYiADJSCEVdV4B6/5MWbL8hKgVygIK6qBs33nZ+PAhGQgTOt/P+XzucMREAGSpTdO3UNT1WAtbbHWtUoha0ko9TBUnWQURVgrWqI8T2xlSvDYAJMDIMMjDpo1EFDx0FEthiZGQQc6OAaYJFd/vWs66/HvxiZr7AID3wI4aq5BqyBBim7IQwGxtGSetRBow4aSAAQYABm461N55wFKgAAAABJRU5ErkJggg==') no-repeat 0px center;\n\n\tbackground-size: 22px;\n\tpadding-left: 26px;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid.header-uppercase > div.slick-header > div.slick-header-columns > div.slick-header-column.sym.left.slick-header-sortable > span.slick-column-name {\n\tdisplay: none;\n}\n\n.worksheet {\n\toverflow-y: hidden !important;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] div.Datagrid > div.datagridFrame > div.pnlGrid > div.slick-header > div.slick-header-columns > div.slick-header-column.slick-header-sortable {\n    pointer-events: none !important;\n}\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] .slick-cell {\n\t pointer-events: none;\n }\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] .build-off .slick-cell div:not(:empty) {\n    pointer-events: auto;\n }\n\n[data-widgetid=\"85514d99-8ab5-a248-c431-de0c60a76a1e\"] .slick-cell.l0.r0 div {\n\tpointer-events: none !important;\n}",
+                "DashboardTheme": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "widgetTitle": "",
+                "titleColor": "",
+                "titleBottomBorderWidth": 0,
+                "titleFontBold": false,
+                "titleShadow": true,
+                "titleBackgroundColor": "",
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "sym",
+                "USD",
+                "EUR",
+                "JPY",
+                "GBP",
+                "AUD",
+                "CAD",
+                "CHF",
+                "NZD"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "prevVersion": 154,
+            "optionsVersion": 154,
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "eff7e3c0-dfdb-683-3f03-1df17fbd8ae1",
+          "layout": {
+            "row": 33,
+            "column": 3,
+            "rowSpan": 20,
+            "colSpan": 5
+          },
+          "component": {
+            "id": "component_8124",
+            "key": "ChartIQ",
+            "options": {
+              "Layers": [
+                {
+                  "_Type": "OHLC",
+                  "_LayerId": "layer_768",
+                  "_PossibleColumns": [
+                    "Date",
+                    "Open",
+                    "High",
+                    "Low",
+                    "Close",
+                    "Volume",
+                    "sym",
+                    "Time"
+                  ],
+                  "Name": {
+                    "_dashboardsType": "viewstate",
+                    "value": "symbol"
+                  },
+                  "Data": {
+                    "_dashboardsType": "data",
+                    "value": "stockStream"
+                  },
+                  "XAxisData": "",
+                  "YAxisData": "",
+                  "YAxis": "Axis",
+                  "Color": "#ff0000",
+                  "Opacity": 80,
+                  "SelectedObjectRouting": []
+                }
+              ],
+              "Axes": {
+                "X": {
+                  "DisplayGridLines": true,
+                  "RangeMin": "2020-11-19T12:13:00.000Z",
+                  "RangeMax": "2020-11-19T14:26:00.000Z",
+                  "DataStart": "2020-11-19T09:55:00.000Z",
+                  "DataEnd": "2020-11-19T14:23:00.000Z"
+                },
+                "Y": [
+                  {
+                    "DisplayGridLines": true,
+                    "DecimalPlaces": 5,
+                    "LabelStyle": "roundRectArrow",
+                    "Min": 0,
+                    "Max": 100,
+                    "Name": "Axis",
+                    "Position": "Right"
+                  }
+                ]
+              },
+              "Options": {
+                "DisplayMenu": true,
+                "Layout": "{\"interval\":\"minute\",\"periodicity\":1,\"timeUnit\":null,\"candleWidth\":6.450819672131147,\"volumeUnderlay\":false,\"adj\":true,\"crosshair\":true,\"chartType\":\"candle\",\"extended\":false,\"marketSessions\":{},\"aggregationType\":\"ohlc\",\"chartScale\":\"linear\",\"panels\":{\"chart\":{\"percent\":1,\"display\":\"FB\",\"chartName\":\"chart\",\"index\":0,\"yAxis\":{\"position\":\"right\"}}},\"setSpan\":{},\"symbols\":[{\"symbol\":\"FB\",\"symbolObject\":{\"layer\":\"layer_768\",\"source\":\"stockStream\",\"symbol\":\"FB\",\"type\":\"OHLC\",\"xAxisData\":\"\",\"yAxisData\":\"\"},\"periodicity\":1,\"interval\":\"minute\",\"timeUnit\":null,\"setSpan\":{}}],\"studies\":{\"‌Ichimoku Clouds‌ (9,26,52,26)\":{\"type\":\"Ichimoku Clouds\",\"inputs\":{\"Conversion Line Period\":9,\"Base Line Period\":26,\"Leading Span B Period\":52,\"Lagging Span Period\":26,\"id\":\"‌Ichimoku Clouds‌ (9,26,52,26)\",\"display\":\"‌Ichimoku Clouds‌ (9,26,52,26)\"},\"outputs\":{\"Conversion Line\":\"#0000FF\",\"Base Line\":\"#FF0000\",\"Leading Span A\":\"#00FF00\",\"Leading Span B\":\"#FF0000\",\"Lagging Span\":\"#808000\"},\"panel\":\"chart\",\"parameters\":{\"chartName\":\"chart\"}}}}"
+              },
+              "Style": {
+                "advanced": "[data-widgetid=\"eff7e3c0-dfdb-683-3f03-1df17fbd8ae1\"] div > div.ciq-chart-area > div.ciq-chart > div.chart-container > div.stx_chart_controls.chartControls {\n    display: none !important;\n}\n",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleFontBold": false,
+                "titleShadow": true,
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "_PossibleAxes": [
+                "Axis"
+              ],
+              "version": "4.0.0d2"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "prevVersion": 1868,
+            "optionsVersion": 1874,
+            "definitionId": "79",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "bd916650-a91f-98b5-471e-498a943fdb82",
+          "layout": {
+            "row": 16,
+            "column": 3,
+            "rowSpan": 17,
+            "colSpan": 9
+          },
+          "component": {
+            "id": "component_11418",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.5.0a",
+              "datagridPossibleColumns": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "selectedColumnPossibleValues": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "highlightTargetPossibleValues": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "StockListing"
+                },
+                "Filtering": "disabled",
+                "ShowPagingControl": false,
+                "EnableGrouping": false,
+                "SortColumn": "MarketCap",
+                "SortOrder": "descending"
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "Name",
+                  "DisplayName": "Name",
+                  "Tooltip": "Company Name",
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 200,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "sym",
+                  "DisplayName": "Symbol",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "left"
+                },
+                {
+                  "UserDefined": true,
+                  "Field": "Last",
+                  "DisplayName": "Last",
+                  "Format": "Number",
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 319,
+                  "ShowArrowsOnChange": true,
+                  "MinWidthAbsolute": 80
+                },
+                {
+                  "Field": "Change",
+                  "DisplayName": "Change",
+                  "Format": "Number",
+                  "HighlightChanges": true,
+                  "HighlightChangeDuration": 369,
+                  "MinWidthAbsolute": 80
+                },
+                {
+                  "Field": "PriceTarget_1Yr",
+                  "DisplayName": "Price Target",
+                  "Tooltip": "1-Yr Price Target",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 80
+                },
+                {
+                  "Field": "MarketCap",
+                  "DisplayName": "Market Cap",
+                  "Format": "Smart Number",
+                  "RangeHighlightColor": "#34941c",
+                  "MinWidthAbsolute": 75
+                },
+                {
+                  "Field": "DividendYield_TTM",
+                  "DisplayName": "Yield",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Profile",
+                  "DisplayName": "Profile",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "left",
+                  "Hidden": true
+                },
+                {
+                  "Field": "EnterpriseValue",
+                  "DisplayName": "EnterpriseValue",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "PE_Ratio_TTM",
+                  "DisplayName": "PE Ratio",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "right",
+                  "Template": "<font color=\"grey\">{{PE_Ratio_TTM}}</font>"
+                },
+                {
+                  "Field": "ForwardPE",
+                  "DisplayName": "Forward PE",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left",
+                  "Template": "<font color=\"grey\">{{ForwardPE}}</font>"
+                },
+                {
+                  "Field": "PEG_Ratio",
+                  "DisplayName": "PEG_Ratio",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "PriceSales_TTM",
+                  "DisplayName": "Price/Sales",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "right",
+                  "Template": "<font color=\"grey\">{{PriceSales_TTM}}</font>"
+                },
+                {
+                  "Field": "PriceBook_MRQ",
+                  "DisplayName": "Price/Book",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left",
+                  "Template": "<font color=\"grey\">{{PriceBook_MRQ}}</font>"
+                },
+                {
+                  "Field": "Revenue_TTM",
+                  "DisplayName": "Revenue_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "RevenuePerShare_TTM",
+                  "DisplayName": "RevenuePerShare_TTM",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "GrossProfit_TTM",
+                  "DisplayName": "GrossProfit_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "EBITDA_TTM",
+                  "DisplayName": "EBITDA_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "NetIncome_TTM",
+                  "DisplayName": "NetIncome_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "DilutedEPS_TTM",
+                  "DisplayName": "DilutedEPS_TTM",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "QuarterlyEarningsGrowth_YOY",
+                  "DisplayName": "QuarterlyEarningsGrowth_YOY",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "TotalCash",
+                  "DisplayName": "Total Cash",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 75,
+                  "TextAlign": "right",
+                  "Template": "<font color=\"grey\">{{TotalCash}}</font>"
+                },
+                {
+                  "Field": "TotalCashPerShare_MRQ",
+                  "DisplayName": "TotalCashPerShare_MRQ",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "TotalDebt_MRQ",
+                  "DisplayName": "Total Debt",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 75,
+                  "TextAlign": "left",
+                  "Template": "<font color=\"grey\">{{TotalDebt_MRQ}}</font>"
+                },
+                {
+                  "Field": "CurrentRatio_MRQ",
+                  "DisplayName": "CurrentRatio_MRQ",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "BookValuePerShare_MRQ",
+                  "DisplayName": "BookValuePerShare_MRQ",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "OperatingCashFlow_TTM",
+                  "DisplayName": "OperatingCashFlow_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "LeveredCashFlow_TTM",
+                  "DisplayName": "LeveredCashFlow_TTM",
+                  "Format": "Smart Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "NoOfAnalysts_currQ",
+                  "DisplayName": "Analysts",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "MinWidthAbsolute": 50
+                },
+                {
+                  "Field": "AvgEstimateEPS_currQ",
+                  "DisplayName": "EPS Est.",
+                  "Tooltip": "EPS Estimate current Quarter",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 60
+                },
+                {
+                  "Field": "LowEstimateEPS_currQ",
+                  "DisplayName": "Low Est.",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 60
+                },
+                {
+                  "Field": "HighEstimateEPS_currQ",
+                  "DisplayName": "High Est.",
+                  "Tooltip": "High Estimate Current Quarter",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 60
+                },
+                {
+                  "Field": "YearAgoEPS_currQ",
+                  "DisplayName": "YearAgoEPS_currQ",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "UpEPSRev_last30days",
+                  "DisplayName": "EPS Upgrade",
+                  "Tooltip": "EPS Ugrade last 30 days",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "right",
+                  "Template": "<font color=\"grey\">{{UpEPSRev_last30days}}</font>"
+                },
+                {
+                  "Field": "LowerEPSRev_last30days",
+                  "DisplayName": "EPS Downgrade",
+                  "Tooltip": "EPS Downgrade last 30 days",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left",
+                  "Template": "<font color=\"grey\">{{LowerEPSRev_last30days}}</font>"
+                },
+                {
+                  "Field": "AnalystConsensus",
+                  "DisplayName": "Consensus",
+                  "Tooltip": "Analyst Consensus",
+                  "MinWidthAbsolute": 50
+                },
+                {
+                  "Field": "AnalystScore_1_sBUY_to_5_sSELL",
+                  "DisplayName": "Analyst Score",
+                  "Tooltip": "Analyst Score from 1: Strong Buy to 5: Strong Sell",
+                  "Format": "Formatted Number",
+                  "MinWidthAbsolute": 50
+                },
+                {
+                  "Field": "CEO",
+                  "DisplayName": "CEO",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "left",
+                  "Hidden": true
+                },
+                {
+                  "Field": "Sector",
+                  "DisplayName": "Sector",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "left",
+                  "Hidden": true
+                },
+                {
+                  "Field": "Industry",
+                  "DisplayName": "Industry",
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "left",
+                  "Hidden": true
+                },
+                {
+                  "Field": "Employees",
+                  "DisplayName": "Employees",
+                  "Format": "Number",
+                  "Precision": 0,
+                  "MinWidthAbsolute": 50,
+                  "TextAlign": "right",
+                  "Hidden": true
+                },
+                {
+                  "Field": "Description",
+                  "DisplayName": "Description",
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "LastTime",
+                  "DisplayName": "LastTime",
+                  "Format": "DateTime",
+                  "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 200,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "ChangePerc",
+                  "DisplayName": "ChangePerc",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "DayLow",
+                  "DisplayName": "DayLow",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "DayHigh",
+                  "DisplayName": "DayHigh",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "TotalDebtEquity_MRQ",
+                  "DisplayName": "TotalDebtEquity_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 3,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                }
+              ],
+              "Selection": {
+                "Mode": "Single Row",
+                "RowSelectionColumn": "sym",
+                "SelectedValue": {
+                  "_dashboardsType": "viewstate",
+                  "value": "symbol"
+                },
+                "DefaultFallbackOnDeselect": false,
+                "Actions": {
+                  "0": {
+                    "Current": "AnalystConsensus",
+                    "Target": {
+                      "_dashboardsType": "viewstate",
+                      "value": "Consensus"
+                    },
+                    "_Type": "map",
+                    "TriggerColumn": "*",
+                    "Trigger": "Click"
+                  }
+                }
+              },
+              "FileExport": {
+                "ShowExportCsvButton": false,
+                "ShowExportExcelButton": false
+              },
+              "Tooltip": {
+                "Template": "<div style=\"margin:0 2px; padding:10px; background: #f0f0f0; color: #101010; font-size:11px; border:1px solid #c0c0c0; border-radius: 2px;\">\r\n  {{#each this}}<b>{{@key}}</b> : {{this}}<br>{{/each}}\r\n</div>"
+              },
+              "SummaryRow_Groupings": [
+                {}
+              ],
+              "HighlightRules": [
+                {
+                  "Name": "Dividend Yield",
+                  "Enabled": true,
+                  "Target": "DividendYield_TTM",
+                  "ConditionSource": "PercYield",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "#33ff00",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Dark Green"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PE_Ratio TTM",
+                  "Enabled": true,
+                  "Target": "PE_Ratio_TTM",
+                  "ConditionSource": "PercPE",
+                  "ConditionOperator": "Fill Right-to-Left",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Blue"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "ForwardPE",
+                  "Enabled": true,
+                  "Target": "ForwardPE",
+                  "ConditionSource": "ForwardPE",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Dark Blue"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Price/Sales",
+                  "Enabled": true,
+                  "Target": "PriceSales_TTM",
+                  "ConditionSource": "PercPS",
+                  "ConditionOperator": "Fill Right-to-Left",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Blue"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Price/Book",
+                  "Enabled": true,
+                  "Target": "PriceBook_MRQ",
+                  "ConditionSource": "PercPB",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Dark Blue"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PercCash",
+                  "Enabled": true,
+                  "Target": "TotalCash",
+                  "ConditionSource": "PercCash",
+                  "ConditionOperator": "Fill Right-to-Left",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Green"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PercDebt",
+                  "Enabled": true,
+                  "Target": "TotalDebt_MRQ",
+                  "ConditionSource": "PercDebt",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Red"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Analysts",
+                  "Enabled": true,
+                  "Target": "NoOfAnalysts_currQ",
+                  "ConditionSource": "NoOfAnalysts_currQ",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Blue"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Consensus Strong Buy",
+                  "Enabled": true,
+                  "Target": "AnalystConsensus",
+                  "ConditionSource": "AnalystConsensus",
+                  "ConditionOperator": "==",
+                  "ConditionValue": "Strong Buy",
+                  "Color": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Dark Green"
+                  },
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Consensus Buy",
+                  "Enabled": true,
+                  "Target": "AnalystConsensus",
+                  "ConditionSource": "AnalystConsensus",
+                  "ConditionOperator": "==",
+                  "ConditionValue": "Buy",
+                  "Color": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Green"
+                  },
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Analyst Score Strong Buy",
+                  "Enabled": true,
+                  "Target": "AnalystScore_1_sBUY_to_5_sSELL",
+                  "ConditionSource": "AnalystConsensus",
+                  "ConditionOperator": "==",
+                  "ConditionValue": "Strong Buy",
+                  "Color": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Dark Green"
+                  },
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Analyst Score Buy",
+                  "Enabled": true,
+                  "Target": "AnalystScore_1_sBUY_to_5_sSELL",
+                  "ConditionSource": "AnalystConsensus",
+                  "ConditionOperator": "==",
+                  "ConditionValue": "Buy",
+                  "Color": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Green"
+                  },
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "EPS Upgrade",
+                  "Enabled": true,
+                  "Target": "UpEPSRev_last30days",
+                  "ConditionSource": "PercUpEst",
+                  "ConditionOperator": "Fill Right-to-Left",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Light Green"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "EPS Downgrade",
+                  "Enabled": true,
+                  "Target": "LowerEPSRev_last30days",
+                  "ConditionSource": "PercDownEst",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": {
+                    "_dashboardsType": "viewstate",
+                    "value": "Colors/Red"
+                  },
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                }
+              ],
+              "Style": {
+                "RowHeight": 24,
+                "HeaderRowHeight": 24,
+                "advanced": ".worksheet {\n\toverflow-y: hidden !important;\n}\n\n[data-widgetid=\"bd916650-a91f-98b5-471e-498a943fdb82\"] div.Datagrid.Dark > div.datagridFrame > div.pnlGrid > div.slick-viewport > div.grid-canvas > div.slick-row > div.slick-cell.l4.r4.center > div {\n    color: green\n}",
+                "DashboardTheme": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "widgetTitle": "",
+                "titleColor": "",
+                "titleBottomBorderWidth": 0,
+                "titleFontBold": false,
+                "titleShadow": true,
+                "titleBackgroundColor": "",
+                "titleTransparentBackground": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "prevVersion": 830,
+            "optionsVersion": 846,
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "20c8648d-cdac-ecdd-7ea5-6e8b20a8963f",
+          "layout": {
+            "row": 33,
+            "column": 8,
+            "rowSpan": 20,
+            "colSpan": 4
+          },
+          "component": {
+            "id": "component_7076",
+            "key": "FlexPanel",
+            "options": {
+              "version": 0,
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 170,
+                "minSize": 170
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "e1de644a-65cf-9ca0-e122-677c748f335c",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_7052",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 10
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "1e01f9e5-47de-8bbe-7379-e471ecd38ca5",
+                      "layout": {
+                        "row": 0,
+                        "column": 6,
+                        "rowSpan": 10,
+                        "colSpan": 6
+                      },
+                      "component": {
+                        "id": "component_7028",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "tearsheet"
+                            },
+                            "Template": "{{#each this}}\n<div class=\"tearsheet\">\n\n\t<div class=\"section\">\n\t<div class=\"grid\">\n\t\t<div class=\"section\">\n\t\t\t<div class=\"title\">Fundamentals </div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>Dividend Yield\n\t\t\t\t</div>\n\t\t\t\t<div>{{DividendYield_TTM }}\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>Market Cap\n\t\t\t\t</div>\n\t\t\t\t<div>{{MarketCap }}\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>PE Ratio</div>\n\t\t\t\t<div>{{PE_Ratio_TTM}}</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"section\">\n\t\t\t<div class=\"title\">Key Information </div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>CEO</div>\n\t\t\t\t<div>{{CEO}}</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>Sector</div>\n\t\t\t\t<div>{{Sector}}</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>Industry</div>\n\t\t\t\t<div>{{Industry}}</div>\n\t\t\t</div>\n\t\t\t<div class=\"row\">\n\t\t\t\t<div>Employees</div>\n\t\t\t\t<div>{{Employees}}</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n{{/each}}</div>",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "@import url(\"https://fonts.googleapis.com/css?family=Roboto\");\n[data-widgetid=\"1e01f9e5-47de-8bbe-7379-e471ecd38ca5\"] body {\n  font-family: \"Roboto\", sans-serif;\n  background: #282828;\n  color: #f8f8f8;\n}\n\n.muted {\n  opacity: 0.5;\n  padding-left: 2px;\n}\n\n.tearsheet .header {\n  text-transform: uppercase;\n  padding-bottom: 5px;\n}\n.tearsheet .header .text {\n  border-bottom: 1px solid white;\n}\n.tearsheet .infosheet {\n  display: flex;\n  align-items: center;\n}\n.tearsheet .infosheet .price {\n  font-size: 1.3em;\n  padding-right: 5px;\n}\n.tearsheet .infosheet .currency {\n  font-size: 0.7em;\n  opacity: 0.5;\n}\n.tearsheet .infosheet .changeText {\n  font-size: 0.9em;\n  color: green;\n}\n.tearsheet .grid {\n  display: flex;\n  flex-wrap: wrap;\n}\n.tearsheet .grid .section {\n  flex-basis: 250px;\n  flex-grow: 1;\n  font-size: 0.9em;\n  opacity: 0.9;\n  padding-right: 1em;\n}\n.tearsheet .section .title {\n  text-transform: uppercase;\n  padding-top: 5px;\n  padding-bottom: 2px;\n  opacity: 0.5;\n  font-size: 0.8em;\n}\n.tearsheet .section .more {\n  color: #00acfd;\n}\n.tearsheet .grid .section .row {\n  display: flex;\n  justify-content: space-between;\n}\n.tearsheet .grid .section .row :nth-child(1) {\n  opacity: 0.5;\n}\n\n\n[data-widgetid=\"1e01f9e5-47de-8bbe-7379-e471ecd38ca5\"] div.Dark > div > div.text-align > div.htmlContent > div.tearsheet > div.section > div.grid > div.section > div.title {\n    \n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 10,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleShadow": true,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "bc3b5b52-c614-f95-7de0-26f86ae2f71",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 10,
+                        "colSpan": 6
+                      },
+                      "component": {
+                        "id": "component_7043",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "insert text here",
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "tearsheet"
+                            },
+                            "Template": "{{#each this}}\n<div class=\"tearsheet\">\n\t<div class=\"header\">\n\t\t<span class=\"text\">\n      {{Symbol}}\n      <span class=\"muted\">\n        {{Name}}\n      </span>\n\t\t</span>\n\t</div>\n\t<div class=\"infosheet\">\n\t\t<div class=\"price\">\n\t\t\t21.42\n\t\t</div>\n\t\t<div class=\"change\">\n\t\t\t<div class=\"currency\">\n\t\t\t\tUSD\n\t\t\t</div>\n\t\t\t<div class=\"changeText\">\n\t\t\t\t0.03 0.14%\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"section\">\n\t\t<div class=\"title\">Overview </div>\n\t\t{{Profile}} <span class=\"more\"> more...</span>\n\t</div>\n</div>\n{{/each}}",
+                            "Theme": "Dark",
+                            "FontSize": 12,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "@import url(\"https://fonts.googleapis.com/css?family=Roboto\");\n[data-widgetid=\"bc3b5b52-c614-f95-7de0-26f86ae2f71\"] body {\n\tfont-family: \"Roboto\", sans-serif;\n\tbackground: #282828;\n\tcolor: #f8f8f8;\n}\n\n.muted {\n\topacity: 0.5;\n\tpadding-left: 2px;\n}\n\n.tearsheet .header {\n\ttext-transform: uppercase;\n\tpadding-bottom: 5px;\n}\n\n.tearsheet .header .text {\n\tborder-bottom: 1px solid white;\n}\n\n.tearsheet .infosheet {\n\tdisplay: flex;\n\talign-items: center;\n}\n.worksheet {\n\toverflow-y: hidden !important;\n}\n\n.tearsheet .infosheet .price {\n\tfont-size: 1.3em;\n\tpadding-right: 5px;\n}\n\n.tearsheet .infosheet .currency {\n\tfont-size: 0.7em;\n\topacity: 0.5;\n}\n\n.tearsheet .infosheet .changeText {\n\tfont-size: 0.9em;\n\tcolor: green;\n}\n\n.tearsheet .grid {\n\tdisplay: flex;\n\tflex-wrap: wrap;\n}\n\n.tearsheet .grid .section {\n\tflex-basis: 250px;\n\tflex-grow: 1;\n\tfont-size: 0.9em;\n\topacity: 0.9;\n\tpadding-right: 1em;\n}\n\n.tearsheet .section .title {\n\ttext-transform: uppercase;\n\tpadding-top: 5px;\n\tpadding-bottom: 2px;\n\topacity: 0.5;\n\tfont-size: 0.8em;\n}\n\n.tearsheet .section .more {\n\tcolor: #00acfd;\n}\n\n.tearsheet .grid .section .row {\n\tdisplay: flex;\n\tjustify-content: space-between;\n}\n\n.tearsheet .grid .section .row:nth-child(1) {\n\topacity: 0.5;\n}\n\n[data-widgetid=\"bc3b5b52-c614-f95-7de0-26f86ae2f71\"] div.Dark > div > div.text-align > div.htmlContent > div.tearsheet > div.header {\n    \n}",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 10,
+                            "paddingRight": 10,
+                            "paddingTop": 10,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": "16",
+                            "titleHorizontal": "Center",
+                            "titleFontBold": false,
+                            "titleShadow": true,
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 10
+                }
+              },
+              {
+                "id": "6d0ae16f-1870-74c3-f22f-ef183bb94def",
+                "layout": {
+                  "row": 45,
+                  "column": 0,
+                  "rowSpan": 6,
+                  "colSpan": 1
+                },
+                "component": {
+                  "id": "component_7067",
+                  "key": "ChartJS",
+                  "options": {
+                    "version": "4.6.0",
+                    "Zoom": {
+                      "YAdjust": "none"
+                    },
+                    "Legend": {
+                      "Display": false
+                    },
+                    "Layers": [
+                      {
+                        "_Hidden": {
+                          "_Type": "Line",
+                          "_Index": 0,
+                          "_LayerId": "layer_743",
+                          "_PossibleColumns": [
+                            "Date",
+                            "Close"
+                          ],
+                          "_PossibleRadius": [
+                            "Fixed Size",
+                            "Date",
+                            "Close"
+                          ],
+                          "_PossibleXAxes": [
+                            "XAxis 1"
+                          ],
+                          "_PossibleYAxes": [
+                            "YAxis 1"
+                          ],
+                          "_PossibleLayers": [
+                            "nofill",
+                            "origin"
+                          ],
+                          "_PossibleColumnsWithItself": [
+                            "<this>",
+                            "Date",
+                            "Close"
+                          ],
+                          "_PossibleColumnsWithXYKey": [
+                            "<thisX>",
+                            "<thisY>",
+                            "<thisName>",
+                            "Date",
+                            "Close"
+                          ]
+                        },
+                        "Basics": {
+                          "Name": "Close",
+                          "BackgroundColor": "#3eacd4",
+                          "BorderColor": "#3eacd4",
+                          "BorderOpacity": 45,
+                          "Data": {
+                            "_dashboardsType": "data",
+                            "value": "stock"
+                          }
+                        },
+                        "Axes": {
+                          "XAxisData": "Date",
+                          "YAxisData": "Close",
+                          "XAxisID": "XAxis 1",
+                          "YAxisID": "YAxis 1"
+                        },
+                        "Labels": {
+                          "Font": {
+                            "Bold": false,
+                            "Size": 12
+                          }
+                        },
+                        "Interpolation": {
+                          "SteppedLine": "before"
+                        },
+                        "Line": {
+                          "FadeToTransparent": true,
+                          "Fill": "origin"
+                        }
+                      }
+                    ],
+                    "XAxes": [
+                      {
+                        "_Hidden": {
+                          "_Type": "time",
+                          "_Index": 0,
+                          "_Label": "XAxis 1",
+                          "_AxisId": "axis_732"
+                        },
+                        "Title": {
+                          "FontColor": "#F8F8F8"
+                        },
+                        "Labels": {
+                          "FontColor": "#F8F8F8",
+                          "MaxWidth": 0,
+                          "_ReverseCache": false,
+                          "TimeFormats": {
+                            "Distribution": "linear",
+                            "TriggerBreak": 86400000,
+                            "Break": 86400000,
+                            "Unit": "",
+                            "Year": "YYYY",
+                            "Quarter": "[Q]Q - YYYY",
+                            "Month": "MMM YYYY",
+                            "Week": "ll",
+                            "Day": "MMM D",
+                            "Hour": "hA",
+                            "Minute": "h:mm a",
+                            "Second": "h:mm:ss a",
+                            "Millisecond": "h:mm:ss.SSS a",
+                            "TooltipFormat": "",
+                            "IsoWeekday": false,
+                            "Round": false
+                          }
+                        },
+                        "Range": {
+                          "SoftRange": false,
+                          "UseDataRange": false
+                        }
+                      }
+                    ],
+                    "YAxes": [
+                      {
+                        "_Hidden": {
+                          "_Type": "linear",
+                          "_Index": 0,
+                          "_Label": "YAxis 1",
+                          "_AxisId": "axis_735"
+                        },
+                        "Title": {
+                          "FontColor": "#F8F8F8"
+                        },
+                        "Labels": {
+                          "FontColor": "#F8F8F8",
+                          "BeginAtZero": false,
+                          "MaxWidth": 0,
+                          "_ReverseCache": false,
+                          "DateFormat": "YYYY-MM-DD"
+                        },
+                        "Range": {
+                          "SoftRange": false,
+                          "UseDataRange": false
+                        }
+                      }
+                    ],
+                    "Overlay": {
+                      "useCustomTooltip": true,
+                      "customTooltip": "<table><thead><tr style=\"padding-right: 10px;\"> <th>{{ xLabel }} </th><th> </th> </tr></thead> {{#each points }}<tr><td>{{ layerName }}: </td><td style=\"padding-right: 10px; text-align: left;\">{{layerData}}</td> </tr>{{/each}}</table>"
+                    },
+                    "Basics": {
+                      "Selected": "2016-06-09T00:00:00.000Z",
+                      "Focus": "2016-06-09T00:00:00.000Z"
+                    },
+                    "format": {
+                      "titleFontBold": false,
+                      "titleTransparentBackground": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "1007",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "87b51547-d939-1730-cd0f-58175b4491e5",
+          "layout": {
+            "row": 16,
+            "column": 0,
+            "rowSpan": 37,
+            "colSpan": 3
+          },
+          "component": {
+            "id": "7ecf76bb-5c13-d548-0dbe-10aaed47bfba",
+            "key": "Panel",
+            "options": {
+              "version": "4.4.0",
+              "Basics": {
+                "ComponentName": "panel",
+                "RelativeHeight": true,
+                "Advanced": false,
+                "UserLayout": false,
+                "ColCount": 12,
+                "Floatable": false,
+                "RowCount": 21
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": "d05bcf6f-c82f-5611-f614-3bb269653ea1",
+            "components": [],
+            "widgets": [
+              {
+                "id": "b3927ef5-7bf3-781c-9ccd-92c48df69b0c",
+                "layout": {
+                  "row": 0,
+                  "column": 0,
+                  "rowSpan": 9,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "b8f25f3f-65dd-ef9c-e3f2-d6902e1ca8ae",
+                  "key": "Radar",
+                  "options": {
+                    "version": "4.4.0S2",
+                    "Basics": {
+                      "ChartType": "radar",
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "radar"
+                      },
+                      "Focus": "",
+                      "Selected": "",
+                      "SelectedAttr": "Property",
+                      "SelectedObjectRouting": []
+                    },
+                    "DataSet": {
+                      "Radar": "Property",
+                      "RadarColor": "#FFFFFF",
+                      "RadarColorAngle": "#FFFFFF",
+                      "GridLineOpacity": 32,
+                      "AngleLineOpacity": 35,
+                      "Layers": [
+                        {
+                          "Data": "Value",
+                          "Color": "#c2bf25",
+                          "BorderColor": "#c2bf25",
+                          "UseColor": false,
+                          "ColorOpacity": 19,
+                          "Display": "",
+                          "PointStyle": "circle",
+                          "PointRadius": 4
+                        }
+                      ]
+                    },
+                    "Legend": {
+                      "Show": false,
+                      "LabelColor": "#FFFFFF",
+                      "Position": "top"
+                    },
+                    "Padding": {
+                      "Top": 2,
+                      "Bottom": 2,
+                      "Left": 2,
+                      "Right": 2
+                    },
+                    "Animations": {
+                      "Enabled": false
+                    },
+                    "ticks": {
+                      "display": true,
+                      "fontColor": "#d1d1d1",
+                      "fontSize": 10,
+                      "showLabelBackdrop": false,
+                      "backdropColor": "#c7c7c7",
+                      "backdropPaddingX": 2,
+                      "backdropPaddingY": 2,
+                      "beginAtZero": true,
+                      "maxTicksLimit": 11,
+                      "Format": "General",
+                      "Precision": 0,
+                      "HideTrailingZeroes": false,
+                      "DateFormat": "YYYY-MM-DD",
+                      "Prefix": "",
+                      "Suffix": "",
+                      "pointLabels": 10
+                    },
+                    "Tooltip": {
+                      "handlebarhelper": [],
+                      "isStacked": false,
+                      "advancedTooltip": "<div>{{#each dataSet}}<table><tr><td><svg style=\"width:15px;height:15px\"> <circle fill=\"{{color}}\" width=\"2\" stroke=\"white\" r=\"6\" cy=\"8\" cx=\"8\"></circle></svg></td><td> {{legend}}</td><td>{{layerValue}}</td></tr></table></div>{{/each}}"
+                    },
+                    "ColorPallette": {
+                      "chartBarColors": [
+                        {
+                          "type": "#4f6aa6"
+                        },
+                        {
+                          "type": "#7995b8"
+                        },
+                        {
+                          "type": "#808387"
+                        },
+                        {
+                          "type": "#a69775"
+                        },
+                        {
+                          "type": "#749450"
+                        },
+                        {
+                          "type": "#51966a"
+                        },
+                        {
+                          "type": "#e2c7c0"
+                        },
+                        {
+                          "type": "#9aCAD6"
+                        },
+                        {
+                          "type": "#1995a3"
+                        },
+                        {
+                          "type": "#484d6e"
+                        }
+                      ],
+                      "scheme": "default"
+                    },
+                    "FileExport": {
+                      "ShowScreenshot": false,
+                      "ShowExportCsvButton": false,
+                      "ShowExportExcelButton": false,
+                      "FileName": []
+                    },
+                    "possibleColumns": [
+                      "Property",
+                      "Value"
+                    ],
+                    "possibleLabels": [
+                      "Property",
+                      "Value"
+                    ],
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleFontBold": false,
+                      "titleShadow": true,
+                      "titleTransparentBackground": false,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    },
+                    "possibleRules": [
+                      "Property",
+                      "Value"
+                    ],
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "1008",
+                  "hasOnSettingsChange": true
+                }
+              },
+              {
+                "id": "b7e19470-baa9-9a9b-947b-6002e68aa671",
+                "layout": {
+                  "row": 9,
+                  "column": 0,
+                  "rowSpan": 12,
+                  "colSpan": 12
+                },
+                "component": {
+                  "id": "6e877d6a-b2ff-184e-33a2-dfeee48ebe8a",
+                  "key": "ChartJS",
+                  "options": {
+                    "Basics": {
+                      "Transpose": true
+                    },
+                    "Overlay": {
+                      "customTooltip": "<table style='{{fontSize}}'><thead><tr style='padding-right: 10px;'> <th>{{ xLabel }} </th><th> </th > </tr></thead > {{#each points }}<tr><td>{{{svg}}} {{ layerName }}: </td><td style='padding-right: 10px; text-align: left;'>{{layerData}}</td > </tr>{{/each}}</table>"
+                    },
+                    "Legend": {
+                      "Display": false
+                    },
+                    "Layers": [
+                      {
+                        "_Hidden": {
+                          "_Type": "Bar",
+                          "_Index": 0,
+                          "_LayerId": "layer_32160",
+                          "_PossibleColumns": [
+                            "Property",
+                            "Value"
+                          ],
+                          "_PossibleRadius": [
+                            "Fixed Size",
+                            "Property",
+                            "Value"
+                          ],
+                          "_PossibleXAxes": [
+                            "XAxis 1"
+                          ],
+                          "_PossibleYAxes": [
+                            "YAxis 1"
+                          ],
+                          "_PossibleColumnsWithItself": [
+                            "<this>",
+                            "Property",
+                            "Value"
+                          ],
+                          "_PossibleColumnsWithXYKey": [
+                            "<thisX>",
+                            "<thisY>",
+                            "<thisName>",
+                            "Property",
+                            "Value"
+                          ]
+                        },
+                        "Basics": {
+                          "BackgroundColor": "#c8d119",
+                          "BackgroundOpacity": 42,
+                          "BorderColor": "#c8d119",
+                          "Data": {
+                            "_dashboardsType": "data",
+                            "value": "chart"
+                          }
+                        },
+                        "Axes": {
+                          "XAxisData": "Property",
+                          "YAxisData": "Value",
+                          "XAxisID": "XAxis 1",
+                          "YAxisID": "YAxis 1"
+                        },
+                        "Bars": {
+                          "HoverBackgroundColor": "#a3c229"
+                        }
+                      }
+                    ],
+                    "XAxes": [
+                      {
+                        "_Hidden": {
+                          "_Type": "category",
+                          "_Index": 0,
+                          "_Label": "XAxis 1",
+                          "_AxisId": "axis_31920"
+                        },
+                        "Title": {
+                          "FontColor": "#F8F8F8"
+                        },
+                        "Labels": {
+                          "FontColor": "#F8F8F8",
+                          "MaxWidth": 0,
+                          "_ReverseCache": false,
+                          "BeginAtZero": true,
+                          "DateFormat": "YYYY-MM-DD"
+                        }
+                      }
+                    ],
+                    "YAxes": [
+                      {
+                        "_Hidden": {
+                          "_Type": "linear",
+                          "_Index": 0,
+                          "_Label": "YAxis 1",
+                          "_AxisId": "axis_31923"
+                        },
+                        "Title": {
+                          "FontColor": "#F8F8F8"
+                        },
+                        "Labels": {
+                          "FontColor": "#F8F8F8",
+                          "Format": "Smart Number",
+                          "MaxWidth": 0,
+                          "_ReverseCache": false,
+                          "DateFormat": "YYYY-MM-DD"
+                        }
+                      }
+                    ],
+                    "version": "4.6.0"
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [],
+                  "definitionId": "1007",
+                  "hasOnSettingsChange": true
+                }
+              }
+            ],
+            "definitionId": "50",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 54,
+      "rowHeight": 25,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 54,
+  "rowHeight": 25,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "USD/EUR",
+      "_type": "symbol"
+    },
+    ".settings": {
+      "component_3165": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "disabled",
+          "value": null
+        }
+      },
+      "component_11418": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "Grid.Basics.Filtering": {
+          "version": 1,
+          "type": "disabled",
+          "value": null
+        }
+      }
+    },
+    "row": {
+      "_viewType": true,
+      "_default": "USD",
+      "_type": "symbol",
+      "_rolling": false
+    },
+    "col": {
+      "_viewType": true,
+      "_default": "EUR",
+      "_type": "symbol",
+      "_rolling": false
+    },
+    "selectedName": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    },
+    "symbol": {
+      "_viewType": true,
+      "_default": "FB",
+      "_type": "symbol"
+    },
+    "Colors": {
+      "Dark Green": {
+        "_viewType": true,
+        "_default": "#34941c",
+        "_type": "symbol",
+        "_rolling": false
+      },
+      "Light Blue": {
+        "_viewType": true,
+        "_default": "#3eacd4",
+        "_type": "symbol",
+        "_rolling": false
+      },
+      "Dark Blue": {
+        "_viewType": true,
+        "_default": "#36417d",
+        "_type": "symbol",
+        "_rolling": false
+      },
+      "Light Green": {
+        "_viewType": true,
+        "_default": "#008000",
+        "_type": "symbol",
+        "_rolling": false
+      },
+      "Red": {
+        "_viewType": true,
+        "_default": "#ff0000",
+        "_type": "symbol",
+        "_rolling": false
+      }
+    },
+    "Consensus": {
+      "_viewType": true,
+      "_default": "Buy",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "fxStream": {
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_forceReset": false,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "stream",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%selected%>",
+          "isViewState": true
+        }
+      ],
+      "_analyticParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "fxStream/_analyticParameters"
+      },
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%selected%>",
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "Date",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "symSelection": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "prop",
+        "val"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "prop",
+        "mappings": {
+          "Selected": {
+            "_dashboardsType": "viewstate",
+            "value": "selected"
+          },
+          "FX1": "",
+          "FX2": ""
+        },
+        "value": "val"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[fx1;fx2]\n\t\t\n\t([]\n\t\tprop:(`Selected;`FX1; `FX2);\n\t\tval:(upper(\"/\" sv string(fx1 ;fx2)); fx1;fx2)\t\n\t\t)\n\t}",
+      "_queryParams": [
+        {
+          "name": "fx1",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%row%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        },
+        {
+          "name": "fx2",
+          "index": 1,
+          "type": "symbol",
+          "value": "<%col%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "stockStream": {
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Time",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_forceReset": false,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "stream",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%symbol%>",
+          "isViewState": true
+        }
+      ],
+      "_analyticParameters": {
+        "_dashboardsType": "viewstate",
+        "value": "stockStream/_analyticParameters"
+      },
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "<%symbol%>",
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "Date",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "tearsheet": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "Name",
+        "DividendYield_TTM",
+        "Profile",
+        "MarketCap",
+        "EnterpriseValue",
+        "PE_Ratio_TTM",
+        "ForwardPE",
+        "PEG_Ratio",
+        "PriceSales_TTM",
+        "PriceBook_MRQ",
+        "Revenue_TTM",
+        "RevenuePerShare_TTM",
+        "GrossProfit_TTM",
+        "EBITDA_TTM",
+        "NetIncome_TTM",
+        "DilutedEPS_TTM",
+        "QuarterlyEarningsGrowth_YOY",
+        "TotalCash",
+        "TotalCashPerShare_MRQ",
+        "TotalDebt_MRQ",
+        "TotalDebtEquity_MRQ",
+        "CurrentRatio_MRQ",
+        "BookValuePerShare_MRQ",
+        "OperatingCashFlow_TTM",
+        "LeveredCashFlow_TTM",
+        "PriceTarget_1Yr",
+        "NoOfAnalysts_currQ",
+        "AvgEstimateEPS_currQ",
+        "LowEstimateEPS_currQ",
+        "HighEstimateEPS_currQ",
+        "YearAgoEPS_currQ",
+        "UpEPSRev_last30days",
+        "LowerEPSRev_last30days",
+        "AnalystConsensus",
+        "AnalystScore_1_sBUY_to_5_sSELL",
+        "CEO",
+        "Sector",
+        "Industry",
+        "Employees"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "Name"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s] select from .stocks.fundamentals where sym=s }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%symbol%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "radar": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Property",
+        "Value"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Property",
+        "mappings": {},
+        "value": "Value"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s] s: flip select PE_Ratio_TTM, Forward_PE: ForwardPE, PEG_Ratio, Price_Sales_TTM: PriceSales_TTM, Price_Book_MRQ: PriceBook_MRQ from .stocks.fundamentals where s = sym \r\n\r\n    }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%symbol%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "chart": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Property",
+        "Value"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Property",
+        "mappings": {},
+        "value": "Value"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s] flip select Market_Cap: MarketCap,Enterprise_Value: EnterpriseValue, Revenue_TTM,Gross_Profit_TTM :GrossProfit_TTM, EBITDA_TTM, Net_Income_TTM: NetIncome_TTM, Total_Cash :TotalCash, Total_Debt_MRQ: TotalDebt_MRQ, Operating_Cash_Flow_TTM :OperatingCashFlow_TTM, Levered_Cash_Flow_TTM :LeveredCashFlow_TTM  from .stocks.fundamentals where s = sym \r\n\r\n    }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%symbol%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "pie": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Property",
+        "Value"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "Name"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 0,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": true
+        }
+      ],
+      "_queryString": "{[s] flip select score: AnalystScore_1_sBUY_to_5_sSELL, total: 5  from .stocks.fundamentals where s = Symbol \r\n\r\n    }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%symbol%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "_rowIndex",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Consenus": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Property",
+        "Value"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": 2000,
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[c]\r\n  (`prop;`val)!(c;c)\r\n  }",
+      "_queryParams": [
+        {
+          "name": "c",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%Consensus%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "_rowIndex",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "News": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "datetime",
+        "headline",
+        "source",
+        "summary",
+        "related",
+        "url"
+      ],
+      "_dataType": "virtual",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "Name"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_subscriptionKey": "",
+      "_virtualParams": [
+        {
+          "name": "sym",
+          "index": 0,
+          "type": "viewstate",
+          "value": "symbol",
+          "isVirtual": true
+        }
+      ],
+      "_virtualQueryString": "function (sym, callback) {\n    var API_URL = \"https://api.iextrading.com/1.0/stock/\" + sym + \"/news/last/50\";\n    var xhttp = new XMLHttpRequest();\n    xhttp.onreadystatechange = function () {\n        if (this.readyState == 4 && this.status == 200) {\n            var meta = {\n                datetime: \"11\",\n                headline: \"11\",\n                headline: \"11\",\n                source: \"11\",\n                summary: \"11\",\n                related: \"11\",\n                url: \"11\",\n            }\n\n            callback({\n                meta: meta,\n                rows: JSON.parse(this.responseText),\n                columns: Object.keys(meta),\n            });\n        }\n    };\n    xhttp.open(\"GET\", API_URL, true)\n    xhttp.send();\n}"
+    },
+    "StockListing": {
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "Description",
+        "LastTime",
+        "Last",
+        "Change",
+        "ChangePerc",
+        "DayLow",
+        "DayHigh",
+        "Name",
+        "DividendYield_TTM",
+        "Profile",
+        "MarketCap",
+        "EnterpriseValue",
+        "PE_Ratio_TTM",
+        "ForwardPE",
+        "PEG_Ratio",
+        "PriceSales_TTM",
+        "PriceBook_MRQ",
+        "Revenue_TTM",
+        "RevenuePerShare_TTM",
+        "GrossProfit_TTM",
+        "EBITDA_TTM",
+        "NetIncome_TTM",
+        "DilutedEPS_TTM",
+        "QuarterlyEarningsGrowth_YOY",
+        "TotalCash",
+        "TotalCashPerShare_MRQ",
+        "TotalDebt_MRQ",
+        "TotalDebtEquity_MRQ",
+        "CurrentRatio_MRQ",
+        "BookValuePerShare_MRQ",
+        "OperatingCashFlow_TTM",
+        "LeveredCashFlow_TTM",
+        "PriceTarget_1Yr",
+        "NoOfAnalysts_currQ",
+        "AvgEstimateEPS_currQ",
+        "LowEstimateEPS_currQ",
+        "HighEstimateEPS_currQ",
+        "YearAgoEPS_currQ",
+        "UpEPSRev_last30days",
+        "LowerEPSRev_last30days",
+        "AnalystConsensus",
+        "AnalystScore_1_sBUY_to_5_sSELL",
+        "CEO",
+        "Sector",
+        "Industry",
+        "Employees"
+      ],
+      "_dataType": "builder",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "Description"
+      },
+      "_maxRows": 2000,
+      "_forceReset": false,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "0100000033010000630b00020000006e6f64657300656467657300000002000000630b00030000006a6f696e3000646174613000646174613100000003000000630b000200000074797065006461746100000002000000f56a6f696e00630b0004000000666e0073776170006c65667400726967687400000004000000f56c6a00ff00000000000000000001000000f573796d00630b000200000074797065006461746100000002000000f573747265616d00000002000000f56c69737400f500630b000200000074797065006461746100000002000000f564617461000a00140000002e73746f636b732e66756e64616d656e74616c73630b00020000006a6f696e3000726573756c7400000002000000000002000000f5646174613000f5646174613100000001000000f56a6f696e3000",
+      "_analyticParams": [],
+      "_builderParams": [],
+      "_subscriptionKey": "sym",
+      "_isStreamingSubscription": false,
+      "_graphJSON": "{\"nodes\":{\"result\":{\"id\":\"result\",\"group\":\"result\"},\"join0\":{\"id\":\"join0\",\"group\":\"join\",\"data\":{\"fn\":\"lj\",\"swap\":false,\"left\":[],\"right\":[\"sym\"]},\"meta\":{\"cols\":[\"sym\",\"Description\",\"LastTime\",\"Last\",\"Change\",\"ChangePerc\",\"DayLow\",\"DayHigh\",\"Name\",\"DividendYield_TTM\",\"Profile\",\"MarketCap\",\"EnterpriseValue\",\"PE_Ratio_TTM\",\"ForwardPE\",\"PEG_Ratio\",\"PriceSales_TTM\",\"PriceBook_MRQ\",\"Revenue_TTM\",\"RevenuePerShare_TTM\",\"GrossProfit_TTM\",\"EBITDA_TTM\",\"NetIncome_TTM\",\"DilutedEPS_TTM\",\"QuarterlyEarningsGrowth_YOY\",\"TotalCash\",\"TotalCashPerShare_MRQ\",\"TotalDebt_MRQ\",\"TotalDebtEquity_MRQ\",\"CurrentRatio_MRQ\",\"BookValuePerShare_MRQ\",\"OperatingCashFlow_TTM\",\"LeveredCashFlow_TTM\",\"PriceTarget_1Yr\",\"NoOfAnalysts_currQ\",\"AvgEstimateEPS_currQ\",\"LowEstimateEPS_currQ\",\"HighEstimateEPS_currQ\",\"YearAgoEPS_currQ\",\"UpEPSRev_last30days\",\"LowerEPSRev_last30days\",\"AnalystConsensus\",\"AnalystScore_1_sBUY_to_5_sSELL\",\"CEO\",\"Sector\",\"Industry\",\"Employees\"],\"key\":\"sym\"}},\"data0\":{\"id\":\"data0\",\"group\":\"stream\",\"data\":{\"name\":\"list\",\"params\":[{\"name\":\"x\",\"type\":\"symbol\",\"value\":\"\",\"isViewState\":false}]}},\"data1\":{\"id\":\"data1\",\"group\":\"data\",\"data\":\".stocks.fundamentals\"}},\"edges\":{\"data0\":[\"join0\"],\"join0\":[\"result\"],\"data1\":[\"join0\"]}}",
+      "_selectedNode": "join0"
+    },
+    "majors": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "USD",
+        "EUR",
+        "JPY",
+        "GBP",
+        "AUD",
+        "CAD",
+        "CHF",
+        "NZD"
+      ],
+      "_dataType": "analytic",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "USD"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "majors",
+      "_analyticParams": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_streamingParameters": [
+        {
+          "id": "x",
+          "name": "x",
+          "type": "symbol",
+          "description": "",
+          "required": false,
+          "value": "",
+          "isViewState": false
+        }
+      ],
+      "_subscriptionKey": "sym",
+      "_isStreamingSubscription": false,
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    },
+    "stock": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Close"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Date",
+        "mappings": {},
+        "value": "Close"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[s] select Date,Close from .stocks[s] }",
+      "_queryParams": [
+        {
+          "name": "s",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%symbol%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 0,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": true,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "action": "replace",
+  "version": "4.6.0"
+}

@@ -1,0 +1,1003 @@
+{
+  "id": "3fcc2766-f904-d2ba-4470-8e91d9e949de",
+  "name": "Demo Notifications",
+  "creationDate": "Mon, 16 Nov 2018 11:50:30 GMT",
+  "lastUpdateDate": "Thu, 26 Mar 2020 15:33:20 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "9dc2fc00-fea5-f792-71f8-6641eeaf6fd9"
+    }
+  ],
+  "screens": [
+    {
+      "id": "9dc2fc00-fea5-f792-71f8-6641eeaf6fd9",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "47c17c04-c33d-9945-bc07-1a44be73e0c7",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 14,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_92034",
+            "key": "FlexPanel",
+            "options": {
+              "version": "4.3.0",
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "acdc3a95-ce0f-f444-d317-2e61bad3829",
+                "layout": {
+                  "row": 37,
+                  "column": 0,
+                  "rowSpan": 2,
+                  "colSpan": 7
+                },
+                "component": {
+                  "id": "component_92248",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "a21df230-ffd7-1682-601a-14747e9cf704",
+                      "layout": {
+                        "row": 0,
+                        "column": 10,
+                        "rowSpan": 2,
+                        "colSpan": 2
+                      },
+                      "component": {
+                        "id": "component_92224",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "Notifications",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 23,
+                            "horizontal": "Right",
+                            "vertical": "Middle",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "/* [START] Generated CSS from Menu Layout Templating */\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] {\n  height: 50px;\n  left: 0px;\n  min-height: auto !important;\n  position: absolute !important;\n  right: 400px;\n  top: 0;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul {\n  display: flex;\n  font-size: 12px;\n  margin: 0;\n  padding: 0;\n  text-align: left;\n  width: 100%;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul li {\n  box-sizing: border-box;\n  display: block;\n  flex-grow: 1;\n  float: left;\n  height: 100%;\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul li a {\n  display: block;\n  color: white;\n  height: 50px;\n  text-align: center;\n  text-decoration: none;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul li a:hover {\n  color: #00aeff;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul li a i {\n  font-size: 26px;\n  margin: 3px 2px 0px 2px;\n}\n\n[data-widgetid=\"a21df230-ffd7-1682-601a-14747e9cf704\"] ul li a span {\n  display: block;\n  margin: 3px 9px 15px 9px;\n  text-decoration: none;\n}\n/* [END] */",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 10,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#0071cd",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "71696e2-ca6-d873-7580-bfd2ea2e1087",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 3
+                      },
+                      "component": {
+                        "id": "component_92239",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#003a6c",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "9de69112-9239-75e0-ad00-9efde898db29",
+                "layout": {
+                  "row": null,
+                  "column": null,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_92301",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 19
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "titleFontSize": "16",
+                      "titleHorizontal": "Center",
+                      "titleShadow": true,
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#000000",
+                      "tileTransparentBackground": true,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "502aa316-6347-dc51-baf5-670b742e660",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 19,
+                        "colSpan": 4
+                      },
+                      "component": {
+                        "id": "component_92381",
+                        "key": "Datagrid",
+                        "options": {
+                          "version": "4.5.0",
+                          "datagridPossibleColumns": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "selectedColumnPossibleValues": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "highlightTargetPossibleValues": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2",
+                            "*"
+                          ],
+                          "sortingPossibleValues": [
+                            "",
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "New Trade Alert"
+                            },
+                            "Filtering": "disabled",
+                            "IsFilterVisible": false,
+                            "ShowPagingControl": false,
+                            "EnableGrouping": false
+                          },
+                          "ColumnsConfiguration": [
+                            {
+                              "Field": "time",
+                              "DisplayName": "Time",
+                              "Format": "DateTime",
+                              "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                              "WidthWeight": 200,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "right"
+                            },
+                            {
+                              "Field": "sym",
+                              "DisplayName": "FX",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 140,
+                              "TextAlign": "left",
+                              "Template": "<img style=\"margin-bottom: -2px\" height=\"14\" src=\"https://github.com/transferwise/currency-flags/raw/master/src/flags/{{lowercase fx1}}.png\">\n<img style=\"margin-bottom: -2px\" height=\"14\" src=\"https://github.com/transferwise/currency-flags/raw/master/src/flags/{{lowercase fx2}}.png\"> &nbsp; {{sym}}"
+                            },
+                            {
+                              "Field": "price",
+                              "DisplayName": "Price",
+                              "Format": "Formatted Number",
+                              "Precision": 4,
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 80,
+                              "TextAlign": "right"
+                            },
+                            {
+                              "Field": "fx1",
+                              "DisplayName": "fx1",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left",
+                              "Hidden": true
+                            },
+                            {
+                              "Field": "fx2",
+                              "DisplayName": "fx2",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left",
+                              "Hidden": true
+                            }
+                          ],
+                          "Selection": {
+                            "SelectedCellValue": 200000
+                          },
+                          "FileExport": {
+                            "ShowExportCsvButton": false,
+                            "ShowExportExcelButton": false
+                          },
+                          "Style": {
+                            "EvenRowBackgroundColorOverride": "#f0f0f0",
+                            "OddRowBackgroundColorOverride": "#e0e0e0",
+                            "advanced": "[data-widgetid=\"502aa316-6347-dc51-baf5-670b742e660\"] > div.grid-stack-item-content > div > div.border-div > div.title-div:before {\n     font-family: \"FontAwesome\";\n   content: \"\\f024\";\n   display: inline-block;\n   padding-right: 3px;\n   vertical-align: middle;\n   font-weight: 900;\n}",
+                            "DashboardTheme": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0
+                          },
+                          "format": {
+                            "widgetTitle": "Trade History",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "datagridPossibleColumnsWithItself": [
+                            "<this>",
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ]
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "21",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "bc03a191-176b-6916-8ce-6ac3f77a1164",
+                      "layout": {
+                        "row": 0,
+                        "column": 4,
+                        "rowSpan": 19,
+                        "colSpan": 4
+                      },
+                      "component": {
+                        "id": "component_92555",
+                        "key": "Datagrid",
+                        "options": {
+                          "version": "4.5.0",
+                          "datagridPossibleColumns": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "selectedColumnPossibleValues": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "highlightTargetPossibleValues": [
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2",
+                            "*"
+                          ],
+                          "sortingPossibleValues": [
+                            "",
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "High Volume Alert"
+                            },
+                            "Filtering": "disabled",
+                            "IsFilterVisible": false,
+                            "ShowPagingControl": false,
+                            "EnableGrouping": false
+                          },
+                          "ColumnsConfiguration": [
+                            {
+                              "Field": "time",
+                              "DisplayName": "Time",
+                              "Format": "DateTime",
+                              "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                              "WidthWeight": 200,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "right"
+                            },
+                            {
+                              "Field": "sym",
+                              "DisplayName": "FX",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 140,
+                              "TextAlign": "left",
+                              "Template": "<img style=\"margin-bottom: -2px\" height=\"14\" src=\"https://github.com/transferwise/currency-flags/raw/master/src/flags/{{lowercase fx1}}.png\">\n<img style=\"margin-bottom: -2px\" height=\"14\" src=\"https://github.com/transferwise/currency-flags/raw/master/src/flags/{{lowercase fx2}}.png\"> &nbsp; {{sym}}"
+                            },
+                            {
+                              "Field": "price",
+                              "DisplayName": "Price",
+                              "Format": "Formatted Number",
+                              "Precision": 4,
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 80,
+                              "TextAlign": "right"
+                            },
+                            {
+                              "Field": "fx1",
+                              "DisplayName": "fx1",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left",
+                              "Hidden": true
+                            },
+                            {
+                              "Field": "fx2",
+                              "DisplayName": "fx2",
+                              "WidthWeight": 100,
+                              "MinWidthAbsolute": 100,
+                              "TextAlign": "left",
+                              "Hidden": true
+                            }
+                          ],
+                          "FileExport": {
+                            "ShowExportCsvButton": false,
+                            "ShowExportExcelButton": false
+                          },
+                          "Style": {
+                            "EvenRowBackgroundColorOverride": "#f0f0f0",
+                            "OddRowBackgroundColorOverride": "#e0e0e0",
+                            "advanced": "[data-widgetid=\"bc03a191-176b-6916-8ce-6ac3f77a1164\"] > div.grid-stack-item-content > div > div.border-div > div.title-div:before {\n    font-family: \"FontAwesome\";\n   content: \"\\f0f3\";\n   display: inline-block;\n   padding-right: 3px;\n   vertical-align: middle;\n   font-weight: 900; \n}",
+                            "DashboardTheme": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0
+                          },
+                          "format": {
+                            "widgetTitle": "High Volume Alerts",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "datagridPossibleColumnsWithItself": [
+                            "<this>",
+                            "time",
+                            "sym",
+                            "price",
+                            "fx1",
+                            "fx2"
+                          ]
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "21",
+                        "hasOnSettingsChange": true
+                      }
+                    },
+                    {
+                      "id": "3cc63bab-6dc5-2996-768b-c29f7f9da4cb",
+                      "layout": {
+                        "row": 0,
+                        "column": 8,
+                        "rowSpan": 19,
+                        "colSpan": 4
+                      },
+                      "component": {
+                        "id": "component_92650",
+                        "key": "Datagrid",
+                        "options": {
+                          "version": "4.5.0",
+                          "datagridPossibleColumns": [
+                            "minute",
+                            "TradeCount"
+                          ],
+                          "selectedColumnPossibleValues": [
+                            "minute",
+                            "TradeCount"
+                          ],
+                          "highlightTargetPossibleValues": [
+                            "minute",
+                            "TradeCount",
+                            "*"
+                          ],
+                          "sortingPossibleValues": [
+                            "",
+                            "minute",
+                            "TradeCount"
+                          ],
+                          "Basics": {
+                            "Data": {
+                              "_dashboardsType": "data",
+                              "value": "Trades Per Minute"
+                            },
+                            "Filtering": "disabled",
+                            "IsFilterVisible": false,
+                            "ShowPagingControl": false,
+                            "EnableGrouping": false
+                          },
+                          "ColumnsConfiguration": [
+                            {
+                              "Field": "minute",
+                              "DisplayName": "Minute",
+                              "WidthWeight": 110
+                            },
+                            {
+                              "Field": "TradeCount",
+                              "DisplayName": "Trade Count",
+                              "WidthWeight": 110
+                            }
+                          ],
+                          "Selection": {
+                            "RowSelectionColumn": "minute"
+                          },
+                          "FileExport": {
+                            "ShowExportCsvButton": false,
+                            "ShowExportExcelButton": false
+                          },
+                          "Style": {
+                            "EvenRowBackgroundColorOverride": "#f0f0f0",
+                            "OddRowBackgroundColorOverride": "#e0e0e0",
+                            "advanced": "[data-widgetid=\"3cc63bab-6dc5-2996-768b-c29f7f9da4cb\"] > div.grid-stack-item-content > div > div.border-div > div.title-div:before {\n    font-family: \"FontAwesome\";\n   content: \"\\f017\";\n   display: inline-block;\n   padding-right: 3px;\n   vertical-align: middle;\n   font-weight: 900;\n}",
+                            "DashboardTheme": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0
+                          },
+                          "format": {
+                            "widgetTitle": "Trades Per Minute",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": false,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          },
+                          "datagridPossibleColumnsWithItself": [
+                            "<this>",
+                            "minute",
+                            "TradeCount"
+                          ]
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "21",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 19
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 14,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Light",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 14,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "FB",
+      "value": "FB",
+      "_type": "symbol"
+    },
+    ".settings": {
+      "component_92381": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "UsersColumnsConfiguration": null
+      },
+      "component_92555": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "UsersColumnsConfiguration": null
+      },
+      "component_92650": {
+        "version": 0,
+        "GroupingConfiguration": [],
+        "UsersColumnsConfiguration": null
+      }
+    }
+  },
+  "data": {
+    "New Trade Alert": {
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "price",
+        "fx1",
+        "fx2"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": "2500",
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 5,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "now: .z.n;\r\nselect   time, sym, price ,fx1:`$-4_'string sym, fx2:  `$4_'string sym  from dfxTrade  where (time > now - 00:00:05) , (time <= now)\r\n\r\n\r\n",
+      "_queryParams": [],
+      "_subscriptionKey": "time",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "High Volume Alert": {
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "price",
+        "fx1",
+        "fx2"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": "2500",
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 5,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "now: .z.n;\r\nselect   time, sym, price,fx1:`$-4_'string sym, fx2:  `$4_'string sym  from dfxTrade  where (time > now - 00:00:05) , (time <= now)",
+      "_queryParams": [],
+      "_subscriptionKey": "time",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Trades Per Minute": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "minute",
+        "TradeCount"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_maxRows": "1000",
+      "_pageSize": 2000,
+      "_serverPaging": false,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 60,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "\r\n`minute xdesc select TradeCount: count(time) by  minute:`$string 1 xbar time.minute  from dfxTrade  where (time < .z.t)",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_aggregateCols": [],
+      "_breakdownCols": [],
+      "_aggregateFns": [],
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query"
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 0,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": [
+        {
+          "source": {
+            "_dashboardsType": "data",
+            "value": "New Trade Alert"
+          },
+          "template": "{{#each this}}\n{{pascalcase @key}}: {{this}}\n{{/each}}\n\n",
+          "sound": "echo",
+          "icon": "fa-flag"
+        },
+        {
+          "source": {
+            "_dashboardsType": "data",
+            "value": "High Volume Alert"
+          },
+          "template": "{{#each this}}{{@key}}: {{this}}\n{{/each}}",
+          "sound": "beep",
+          "icon": "fa-bell"
+        },
+        {
+          "source": {
+            "_dashboardsType": "data",
+            "value": "Trades Per Minute"
+          },
+          "template": "{{#each this}}{{@key}}: {{this}}\n{{/each}}",
+          "sound": "beep",
+          "icon": "fa-clock-o"
+        }
+      ]
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "wasChanged": false,
+  "version": "4.4.0p7",
+  "action": "replace"
+}

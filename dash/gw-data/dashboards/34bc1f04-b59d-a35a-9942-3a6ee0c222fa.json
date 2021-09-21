@@ -1,0 +1,1403 @@
+{
+  "id": "34bc1f04-b59d-a35a-9942-3a6ee0c222fa",
+  "name": "Demo Liquidity",
+  "creationDate": "Thu, 09 Jan 2020 11:47:54 GMT",
+  "lastUpdateDate": "Thu, 12 Nov 2020 16:51:09 GMT",
+  "thumb": "data:image/png;base64,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",
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "e59fd0c0-0217-81e6-87f0-2d805039fd69"
+    }
+  ],
+  "screens": [
+    {
+      "id": "e59fd0c0-0217-81e6-87f0-2d805039fd69",
+      "name": "Screen 1",
+      "thumb": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACTCAYAAADLEVaqAAAPxElEQVR4Xu2dC5SO1RrH/y+SSy4RhmS5DJLbMERWMyh0MSUzMTIoS7msyqUYl+Ekt7DIZYqVNTrJadVoihaamprKJUwYWsNpYY2McpxKSMj9Pet5zowz3xl9837vvI3x7f9ey8LM3vt7n9+z/9/77nfv/TwWWEiABP6UgEU2JEACf06AAuHoIAE/BCgQDg8SoEA4BkjAHQHeQdxxYytDCFAghjiaZrojQIG448ZWhhCgQAxxNM10R4ACcceNrQwhQIEY4mia6Y4ABeKOG1sZQoACMcTRNNMdAQrEHTe2MoQABWKIo2mmOwJWWFjYqPxNW7RogaSkJBw6dAj9+vXDe++9h7p166Js2bIoXbo0wsPD3X0SW3lG4Msvv0T58uVx00030R+eUb12RyIQO/+v0tPTMWzYMMTExGDOnDkYN24ctm/fjt27d+PChQs4e/bsX3xJ7L4wAjt27MDjjz+O5ORkdOjQobDq/H0RCBQQSBH6YlMSCDoCFEjQuZQGeUmAAvGSJvsKOgLXFEj16tUxcOBALFy4EKNHj9Y5SFZWFs6cOYPLly8HHYQbxaAePXogLS1NX558/PHH9EcxOI53kGKA7OVHyKQ8IyPDyy7Zlx8CFAiHBwlQIBwDJOCOQIE7yNChQ3HlyhWcPHkSKSkp+r69UqVKKFOmDCzLwrJly9x9Elt5RmDw4MH0h2c0/XdUQCCVK1dGSEgIoqOjMXv2bMTHx+skfdeuXVwoLCanFPYxXbt2pT8Kg+TR7zkH8QgkuwlOAhRIcPqVVnlEgALxCGRxdvPKK69A/pw6dao4P9bIzyogkDZt2iAnJ0cXChctWqQLhd988w327NmD06dP6wSehQRMIcA7iCmepp2uCFAgrrCxkSkEKJAb0NOffvopbNtGqVKlIPuzWP46AgUEInMOKSdOnMCKFSswaNAgVKlSRU+vyULh/Pnz/7qrYc+OCERFRWHv3r0qkOzsbEdtWMkdgWveQe6880707t1b35TIQqGcYMvMzMTFixd1BykLCZhCgI9YpniadroiQIG4wsZGphCgQG5AT69cuRLPPvssFwqLwXcFBPL6668jISFBJ+eLFy/GqFGjdLMiFwqLwRv8iBJHgHeQEucSXlBJIkCBlCRv8FpKHAEKpMS5pPALkoANsgbChcLCWRW1RgGBTJ06VSOXHDt2DEuXLsWIESNw6623Xl0olN+zXF8C1apVU5+IQA4cOHB9LybIP72AQCQur4T76dWrF2bOnImJEyfqQuHOnTtx6dIlvjkJ8gFB83wJ8BGLI4IE/BCgQDg8SMCfQJoNmeIT3Z20bhwCtUNq4+i/j944F3wDXumf3kGef/55JCYm6kKhnCjs2bMnKlasiLvuuksnh927dy+yuZKLRBYgZcIpqRaGDx9e5BOLkZGR2Lhxo+bPeP/99/HMM8/g6NGiDaLQ0FCEhYVhzZo1Og+bMGGCRnwJtEibLl26IDU1FXfffbfylP8Xd2nQoAEkvOzhw4fVlhdeeCGgS5C56RdffKGcGzVqhFatWmHVqlWO+ujYsaO+WJDTqRIlUlJqbNu2zVFbqSRhp+rUqYMnnnhC58hiR1xcnOP2rVu3xpEjR9C5c2c89NBDePrpp/225SOWY7SsaCIBCsREr9NmxwQoEMeoWNFEAhSIiV6nzY4JUCCOUbGiiQQoEBO9TpsdE2CedMeoWNFEAhSIO6/XBjAewEwA/QGcBtAGwE8AJPSk/FxKPIDdANIAyC7PcgDO5f57EYAjAPYAOAhgJICVAJoBkMXbRgAmA0gCIC/rpa+5uX83BFAj9+d/BzARgCz2jAFQCcBqAGEALgGoB6ACgEQA5wH84M5kM1tRIO79XipXDOMAzAMwC0DLXJEMAZCcKwwZkKMATALwTwDpACIBLAcwA4AkfZQB/CSA9QCaAPgXgDkAWucOfhHGEgDDci93LIAWuWL5B4BBACTcjPx8Qa5wRIivARAfizikDymH3ZtsXkvOQczzOS0OgAAFEgAsVjWPAAVSQn0uwTNkP5zsk5o3T57gWK4HAQrkelAv4mdKKNj69evjlltuQd++fXVD6fr16/UUqGwg3Ldvn24wbdiwodaLiYnBu+++qxsMWQIj4CMQOTUoOyTHjpW5HtCpUyf9W04VShhSFhIwjYCPQCR5jmwllhi8mzdvhsTolS3ZcuT2jz/+MI0N7Q1yAnJXlW3zmzZtwoABA/R4ROnSpREeHn7Vcj5iBfkgoHn+CUhQkgcffBCS3XncuHGYMWOG/j+vUCAcQSTghwAFwuFBAhQIxwAJuCPAO4g7bmxlCAEfgUh6tfHjx2sQheeeew7dunXTt1eSjzsjI0MDK7CQQLARkOWMsmXL6ttaeZMrb7U4SQ82L9Me1wTGjBmjr3slveDIkSORlZVFgbimyYZGEeAcxCh309hACVAggRJjfaMIUCBGuZvGBkrARyAVKlTQPCCyH+upp57Cvffei99//x2//vortm7ditdekwNqLCRgDgEfgcguXtu2NT7uyZMnNabtd999p7FMJSYtCwkEE4G8+NOy/2ratGmQWNHTp0/XONR8zRtMnqYtrglER0dDXvNKsHO5OZw/f16fnCgQ10jZ0CQCnKSb5G3aGjABCiRgZGxgEgEfgaSnp6Nq1ar6LCYJTiTBytdff43du3dj//79OHHihElsaCsJwEcgGzZs0NTPkoWnWbNmumnxxx9/RE5ODrZs2YJ169YRGQkYRYCPWEa5m8bmJyDxFmSDokSAkaenmjVrYvLkyT4p+ygQjhkS8EOAAuHwIAEKhGOABNwR4B3EHTe2MoSAI4FIbFjZmyV7VlhIwCQCjgRiEhDaag6BsLAwXeNbu3YtDh48qLGOQ0ND0blz56sQKBBzxgMtvQaBiIgIjB49Wl/3Nm7cWBfHY2NjKRCOFhJwQoB3ECeUWMdYAhSIsa6n4U4IFBCIHB6R04MSLE4SsWzbtg01atRApUqVULt2bQ0g5+Xpwj59+iA7OxuZmZl49NFHUa9ePc+O9pYqVQq9evXC6tWr0aNHD7Rs2RISHM/LIoHGZIInmzsvX5Z8nN6Utm3b6mRxwYIFmq9FmC9cuNCbzvP1Isl44uLisGSJ5Aj1psh4kT4TExOVSd26dXVPnxdFtodERUUhOTlZY1jJEXG3Ph0+fDiOHz+OWrVqaeA42aQrKRB++OF/iYB9BCKvcWUgff/99zpRkT0qUgYNGoQ33nhDHZaWloapU6fq5kUvimyQlIuS8+5y1LFp06Z49dVXveha+xB75JqTkpKQkJCAn36STM3elc8++0yjT/7yyy+6qVOObnpRJLJlXgyAF198UbND7dq1y4uutQ/pT748JCPVpEmTkJqa6lnf8naof//+iI+Px9y5c3H77berYLwo8qZJ0hOkpKTouOnXr1/AX0xyTRJnIS9SqGTokusTsck4kfR3eYWPWF54jX0ELQEKJGhdS8O8IECBeEGRfQQtAQokaF1Lw7wgQIF4QZF9BC0BCiRoXUvDvCBgedEJ+4C8Q99kWVaEExa2bbezLGuHv7q2bW+wLEt3zdm2vd2yrPZO+mYdbwlQIB7xtG37QwDysr82gAjLslbYtp1sWVasbdspAJ4EMA9AbwDy81G2bYtIRAQTAfxNlicAnAVQMfeymgPYBkAEFWLb9gjLspbmiia/gJYD6ANAFpDkc2RVbpFlWfK5LEUgQIEUAZ6TprZtH7csq5qTuv9fx7btbMuyGl2rrW3bGZZldXDTL9s4J8A5iHNWrGkgAQrEQKfTZOcEKBDnrIq15kcffYQLFy7g22+/RZMmTXQ/3LVK9+7dIfvBpNx22204duyY/vuRRx7Bww8/jBEjRuj/77//fnz11VcB71sqVqNL4IdRICXQKU4vacWKFdi5c6fugJYNphIJUzbide3aVXenyk7pzz//XDdsyq5sEZBsNGVxToACcc6KNQ0kQIEY6HSa/F8C9evXx6FDh/Dmm2/qeSf5I4+1ci4pr1AgHC0k4IcABcLhYSwBuWNIktrNmzdDEti+9NJLkMNpXbp04R3E2FFBw30IiDDkDaGc1pQTtevXr/c52sw7CAcMCfARi2OABNwR4B3EHTe2MoQABWKIo2mmOwIUiDtubGUIAQrEEEfTzIIEJA7WxYsXNf6bbNWRfWwS9K5v3758zcsBQwJOCPAO4oQS6xhLgAIx1vU03AkBCsQJJdYxlgAFYqzrabgTAhSIE0qsE5QE8iL/r1q1CoMHD76aJiO/sRRIULqeRjklIK96b775Zq1+9uxZ3dUruV7yCgXilCTrGUmAAjHS7TTaKQEKxCkp1jOSAAVipNtptFMCFIhTUqwXdAQaN26MAwcOID09XfdhSWgkCdggYZM4SQ86d9MgNwTCw8MhCVMlqadkt73vvvs0uSkF4oYm2xhHgI9YxrmcBgdCgAIJhBbrGkeAAjHO5TQ4EAIUSCC0WDcoCbz99tuoVq0arly5gt9++w0DBw7kJD0oPU2jXBGQI7bt27fH9OnTNRJ+Ssr/MtfxDuIKKRuZQsCRQKKjo/Hhh5KjkoUEzCLgVyDbt2+XFMQa8eGTTz7RBZVTp05pHFMJ8Nu2bVtHtN555x3UqlVLY59eunQJAwYM0IDBsjgzfvx4n2DB/jpcs2YNqlSpgtmzZ+t1bdy4ET179sTBgwcxZcoUiJCdlJo1a+pikPRXvXp1nDlzBtOmTUPDhg01ykW3bt2cdIMWLVrgsccew/LlyzV5jWyTjo+P13MFctseNmyYo346dOigTObPn4+33noLY8eORVxcnN7qhVn+lV1/HUpWqd69e2PWrFka0l/skgQ7nTp1wpIlS3weHZxcWFRUlNohz+XCTLaCC//IyEgnzbVOxYoV0a5dO/XPBx98gAceeEADRkuCn9jYWMf9NGjQACEhIZoASPy8bt06TVVw/vx5n3QF/jrMzMzEzz//jMqVK2Pt2rUQ7jL/kIDV5cqVQ0ZGBlJTU/V3ecWvQOS5LCIiQgdRWFgY5ANkoG/duhX33HMPhg4d6thASSMmcMVAmQzJoBIBSj/5n/kK61BWPsVREyZM0HRiS5cuVcPEWDEukFKmTBm9M4ooRGSSKyI0NBRjxowJpBuFK4dujh8/jpycHGzZsgUdO3bEyy+/HFA/VatWxR133IGZM2cqG0mZJmKVqOOBFMkkJQNKtlEMGTIEzZs3R1JSkl5XIKVp06bYt2+fClfOTEgmq6ysLCQkJATSjbZbvHixfpksW7YM586d02xX/fv3D6ifOnXqqND37t2rX2bly5fXLyX5cnFSZKxIWB/54hDRi3j379+PVq1a6diUcSljISYmxplAnHwo65BAMBNwNAcJZgC0jQT8EaBAOD5IwA8BCoTDgwQoEI4BEnBH4D+YP4IqA1hZyAAAAABJRU5ErkJggg==",
+      "widgets": [
+        {
+          "id": "9e87c3b6-ebe9-f646-ec5-b640ea43e483",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 38,
+            "colSpan": 12
+          },
+          "component": {
+            "id": "component_3714",
+            "key": "FlexPanel",
+            "options": {
+              "version": 0,
+              "Basics": {
+                "layout": "horizontaltop",
+                "maxSize": 56,
+                "minSize": 56
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titleShadow": true,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [
+              {
+                "id": "13857f12-79e3-bfb3-89a9-8d762e3d70ac",
+                "layout": {
+                  "row": 50,
+                  "column": 0,
+                  "rowSpan": 12,
+                  "colSpan": 6
+                },
+                "component": {
+                  "id": "component_3932",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": false,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowHeight": 25
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "#0071cd",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "97711f7-ddee-e860-3a88-e22b5af745f6",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 2,
+                        "colSpan": 6
+                      },
+                      "component": {
+                        "id": "component_3908",
+                        "key": "BasicComponents",
+                        "options": {
+                          "version": "4.5.0",
+                          "Basics": {
+                            "ComponentName": "label",
+                            "HtmlText": "<font color=\"#ffffff\" size=\"5\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAAA4CAMAAADwxVVEAAAAWlBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////9ZMre9AAAAHXRSTlMAREC77yB3zDIQoGfd+apViJkG1ecpX8aPGH87FKMQTrQAAAOfSURBVGje7ZrtcqsgEIbhgHxU4keapu1p3/u/zSMuq6hzMpPEzqTR90d1ATd5YBfWTsRq+iM2px15C9qRt6AdeQv6Pch/SG8bQgbpZUfekXfkHXlHfnTtyNtDftETnQpqrrmhejrkEjMpEeVDMk+ftyADcjQMwLeXxt8mCVyJ/HVg0hdmrmP7B1tS3I4spV8V2cthFHm/BfnzlAx7PL7yunaeHM9Ec1suG1MQyKrIjJc/UxhzFfLxHaTQhe8bY7ZCWJDej9cjL0HkTyHfkMscvvptktZffKcLsQaysQ+DfAbpkL57lexXPaT1GshSm0dBHhL2LEg+YKKWmm/bvuRwAFC2yUpDV06MKpXu+k0aXyvo1osUFkBVpw6GNeSQpo+9xxvutwhGeBO6C/mpK43Q+hFZMeBfwaJJYL0e70F2SgFWNcwHBBXylWljt6WJBRRsHO9TtMUOM0UuY5tSpYhi7yOy7YGM7R+t0rZple6zE6xlFWYw6vAm7kGehp7XMD1MNUwv4OJKALQKHYqjQSW06+eoyJH/E9gjsu/nyhY9RWcUfWL6Cu0cWU3WUmHQWayILAG+TGUScktG6P5aGPoqzTXIRZw/uvi+qyGfHfmIzGGd6/swVmFrIju6z4uJaJYVEnJNo8hwxK+uQeZhQ5dCnQw3Qz44kekMli7WRBYBunFiIhl5VaKU/Fzkpm7ou5BjJkdFg3enofASLC5HuAxZEdkpAKHheaQo1E0heWGH5+SAjPuQWSPyS7sI7aNFpmYdZFZhQgfpBjv0ucbIxQ8gy8W57E/zrfkDE8kVkYlCww4zQJhyFthutcDWWCKL8yy0JaY6fa6GrJRLp/N8D//B7atMhh+RxTvyiub7NC841WrImj6/hs6Q/fKQUotDqqaOq5H5kHIIIkN2hzy01bCHl0gydyKXY6kVCiG8zYpYHb3XmJYi5awUsVA+JsR4+pLI+0Vk1w/wFiZHFh9ZaA+cTUb/dQ9yAFQzlu9WTY6+pmuxKAHrBGD77lbMCk4DaBXQWZT+OhWc7P0CcvyAoDSsnyB7jmVDK86ldcFG8HcgO6p2idmojqvJ3ZkAVYuGDhFpOmgj5q8VorTQVZ1YysCBx94vIYtagXzmyOP7o3sd7ibvztXz/YdzCOHZafzOdvl0yFRvLd4Yx9A+uGdD5h1sAWiGSfC/H7kgfZN1LHJ9ZsNYx9+PvMHfiuzIO/KOvCPvyJvTjrwF7chb0I78uPoHWOmpOB7IVBkAAAAASUVORK5CYII=\"></font>",
+                            "Data": "",
+                            "Template": "",
+                            "Theme": "Dark",
+                            "FontSize": 13,
+                            "horizontal": "Left",
+                            "vertical": "Top",
+                            "tooltip": "",
+                            "AllowUnsafeContent": false,
+                            "version": "4.2.0s2"
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 15,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "widgetTitle": "",
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleColor": "",
+                            "titleBottomBorderWidth": 0,
+                            "titleFontBold": "",
+                            "titleShadow": true,
+                            "titleBackgroundColor": "",
+                            "titleTransparentBackground": "",
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "",
+                            "tileTransparentBackground": false,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [],
+                        "definitionId": "17",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 2
+                }
+              },
+              {
+                "id": "e63444ae-53bc-4930-e099-24fff88a2d",
+                "layout": {
+                  "row": 50,
+                  "column": 0,
+                  "rowSpan": 37,
+                  "colSpan": 9
+                },
+                "component": {
+                  "id": "component_4215",
+                  "key": "Panel",
+                  "options": {
+                    "version": "4.4.0",
+                    "Basics": {
+                      "ComponentName": "panel",
+                      "RelativeHeight": true,
+                      "Advanced": false,
+                      "UserLayout": false,
+                      "ColCount": 12,
+                      "Floatable": false,
+                      "RowCount": 32
+                    },
+                    "Style": {
+                      "advanced": "",
+                      "cssClasses": ""
+                    },
+                    "Alignment": {
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "innerPaddingLeft": 0,
+                      "innerPaddingRight": 0,
+                      "innerPaddingTop": 0,
+                      "innerPaddingBottom": 0,
+                      "titlePaddingLeft": 0,
+                      "titlePaddingRight": 0,
+                      "titlePaddingTop": 7,
+                      "titlePaddingBottom": 7
+                    },
+                    "format": {
+                      "widgetTitle": "",
+                      "titleFontSize": 16,
+                      "titleHorizontal": "Center",
+                      "titleColor": "",
+                      "titleBottomBorderWidth": 0,
+                      "titleFontBold": "",
+                      "titleShadow": true,
+                      "titleBackgroundColor": "",
+                      "titleTransparentBackground": "",
+                      "tileBorderWidth": 0,
+                      "tileBorderRounding": 0,
+                      "tileBorderColor": "#000000",
+                      "tileBackgroundColor": "",
+                      "tileTransparentBackground": false,
+                      "tileShadow": false
+                    }
+                  },
+                  "containerId": null,
+                  "components": [],
+                  "widgets": [
+                    {
+                      "id": "cc254565-3e22-afde-65c0-e8eb358fa9f4",
+                      "layout": {
+                        "row": 0,
+                        "column": 0,
+                        "rowSpan": 32,
+                        "colSpan": 12
+                      },
+                      "component": {
+                        "id": "component_78439",
+                        "key": "FlexPanel",
+                        "options": {
+                          "version": 0,
+                          "Basics": {
+                            "layout": "horizontaltop",
+                            "maxSize": 0,
+                            "minSize": 250
+                          },
+                          "Style": {
+                            "advanced": "",
+                            "cssClasses": ""
+                          },
+                          "Alignment": {
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "innerPaddingLeft": 0,
+                            "innerPaddingRight": 0,
+                            "innerPaddingTop": 0,
+                            "innerPaddingBottom": 0,
+                            "titlePaddingLeft": 0,
+                            "titlePaddingRight": 0,
+                            "titlePaddingTop": 7,
+                            "titlePaddingBottom": 7
+                          },
+                          "format": {
+                            "titleFontSize": 16,
+                            "titleHorizontal": "Center",
+                            "titleShadow": false,
+                            "tileBorderWidth": 0,
+                            "tileBorderRounding": 0,
+                            "tileBorderColor": "#000000",
+                            "tileBackgroundColor": "#000000",
+                            "tileTransparentBackground": true,
+                            "tileShadow": false
+                          }
+                        },
+                        "containerId": null,
+                        "components": [],
+                        "widgets": [
+                          {
+                            "id": "639299c1-b7c5-1203-0a75-51e0853b56bb",
+                            "layout": {
+                              "row": 0,
+                              "column": 0,
+                              "rowSpan": 8,
+                              "colSpan": 7
+                            },
+                            "component": {
+                              "id": "component_78627",
+                              "key": "Datagrid",
+                              "options": {
+                                "version": "4.5.0a",
+                                "datagridPossibleColumns": [
+                                  "sym",
+                                  "time",
+                                  "src",
+                                  "bidSize",
+                                  "bid",
+                                  "ask",
+                                  "askSize",
+                                  "mid",
+                                  "n",
+                                  "spread",
+                                  "oneM",
+                                  "fiveM",
+                                  "tenM",
+                                  "twentyM",
+                                  "qty"
+                                ],
+                                "selectedColumnPossibleValues": [
+                                  "sym",
+                                  "time",
+                                  "src",
+                                  "bidSize",
+                                  "bid",
+                                  "ask",
+                                  "askSize",
+                                  "mid",
+                                  "n",
+                                  "spread",
+                                  "oneM",
+                                  "fiveM",
+                                  "tenM",
+                                  "twentyM",
+                                  "qty"
+                                ],
+                                "highlightTargetPossibleValues": [
+                                  "sym",
+                                  "time",
+                                  "src",
+                                  "bidSize",
+                                  "bid",
+                                  "ask",
+                                  "askSize",
+                                  "mid",
+                                  "n",
+                                  "spread",
+                                  "oneM",
+                                  "fiveM",
+                                  "tenM",
+                                  "twentyM",
+                                  "qty",
+                                  "*"
+                                ],
+                                "sortingPossibleValues": [
+                                  "",
+                                  "sym",
+                                  "time",
+                                  "src",
+                                  "bidSize",
+                                  "bid",
+                                  "ask",
+                                  "askSize",
+                                  "mid",
+                                  "n",
+                                  "spread",
+                                  "oneM",
+                                  "fiveM",
+                                  "tenM",
+                                  "twentyM",
+                                  "qty"
+                                ],
+                                "Basics": {
+                                  "Data": {
+                                    "_dashboardsType": "data",
+                                    "value": "getQuote"
+                                  },
+                                  "Filtering": "disabled",
+                                  "ShowPagingControl": false,
+                                  "EnableGrouping": false
+                                },
+                                "ColumnsConfiguration": [
+                                  {
+                                    "Field": "sym",
+                                    "DisplayName": "sym",
+                                    "WidthWeight": 165,
+                                    "MinWidthAbsolute": 150,
+                                    "Template": "<div class=\"currency-flag currency-flag-{{lowercase (first (split sym '/'))}}\"></div> <span class=\"currency-pair\">{{uppercase sym}}</span> <div class=\"currency-flag currency-flag-{{lowercase (last (split sym '/'))}}\"></div>"
+                                  },
+                                  {
+                                    "Field": "time",
+                                    "DisplayName": "time",
+                                    "Format": "DateTime",
+                                    "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                                    "WidthWeight": 200,
+                                    "MinWidthAbsolute": 200,
+                                    "TextAlign": "right",
+                                    "Hidden": true
+                                  },
+                                  {
+                                    "Field": "bidSize",
+                                    "DisplayName": "bidSize",
+                                    "Format": "Formatted Number",
+                                    "Precision": 0,
+                                    "WidthWeight": 140,
+                                    "MinWidthAbsolute": 75
+                                  },
+                                  {
+                                    "Field": "bid",
+                                    "DisplayName": "bid",
+                                    "Format": "Formatted Number",
+                                    "Precision": 5,
+                                    "HighlightChanges": true,
+                                    "HighlightChangeDuration": 333,
+                                    "WidthWeight": 140,
+                                    "MinWidthAbsolute": 70,
+                                    "Template": "{{toFixed bid n}}"
+                                  },
+                                  {
+                                    "Field": "spread",
+                                    "DisplayName": "spread",
+                                    "Format": "Formatted Number",
+                                    "Precision": 1,
+                                    "ShowArrowsOnChange": true,
+                                    "WidthWeight": 70,
+                                    "MinWidthAbsolute": 60
+                                  },
+                                  {
+                                    "Field": "ask",
+                                    "DisplayName": "ask",
+                                    "Format": "Formatted Number",
+                                    "Precision": 5,
+                                    "HighlightChanges": true,
+                                    "HighlightChangeDuration": 333,
+                                    "WidthWeight": 140,
+                                    "MinWidthAbsolute": 70,
+                                    "Template": "{{toFixed ask n}}"
+                                  },
+                                  {
+                                    "Field": "askSize",
+                                    "DisplayName": "askSize",
+                                    "Format": "Formatted Number",
+                                    "Precision": 0,
+                                    "WidthWeight": 140,
+                                    "MinWidthAbsolute": 75
+                                  },
+                                  {
+                                    "Field": "mid",
+                                    "DisplayName": "mid",
+                                    "Format": "Sparkline",
+                                    "Precision": 4,
+                                    "WidthWeight": 165,
+                                    "MinWidthAbsolute": 150,
+                                    "SparklineOptions": "{\n    \"type\": \"line\",\n    \"lineColor\": \"#f57e07\",\n    \"fillColor\": \"\",\n    \"minSpotColor\": \"\",\n    \"maxSpotColor\": \"\"\n}"
+                                  },
+                                  {
+                                    "Field": "oneM",
+                                    "DisplayName": "1M VWAP spread",
+                                    "Format": "Number",
+                                    "WidthWeight": 150,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "fiveM",
+                                    "DisplayName": "5M VWAP spread",
+                                    "Format": "Number",
+                                    "WidthWeight": 150,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "tenM",
+                                    "DisplayName": "10M VWAP spread",
+                                    "Format": "Number",
+                                    "WidthWeight": 150,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "twentyM",
+                                    "DisplayName": "20M VWAP spread",
+                                    "Format": "Number",
+                                    "WidthWeight": 150,
+                                    "MinWidthAbsolute": 100
+                                  },
+                                  {
+                                    "Field": "qty",
+                                    "DisplayName": "qty",
+                                    "Format": "Sparkline",
+                                    "WidthWeight": 165,
+                                    "MinWidthAbsolute": 150,
+                                    "SparklineOptions": "{\n    \"type\": \"bar\",\n    \"barColor\": \"#7995b8 \"\n}"
+                                  }
+                                ],
+                                "Selection": {
+                                  "Mode": "Single Row",
+                                  "RowSelectionColumn": "sym",
+                                  "SelectedValue": {
+                                    "_dashboardsType": "viewstate",
+                                    "value": "symChoice"
+                                  },
+                                  "Actions": {
+                                    "0": {
+                                      "Current": "sym",
+                                      "Target": {
+                                        "_dashboardsType": "viewstate",
+                                        "value": "symChoice"
+                                      },
+                                      "_Type": "map",
+                                      "TriggerColumn": "*",
+                                      "Trigger": "Click"
+                                    }
+                                  }
+                                },
+                                "FileExport": {
+                                  "ShowExportCsvButton": false,
+                                  "ShowExportExcelButton": false
+                                },
+                                "Style": {
+                                  "RowHeight": 25,
+                                  "HeaderRowHeight": 25,
+                                  "HeaderFontWeight": "bold",
+                                  "advanced": ".currency-pair {\n  display: inline-block;\n  width: 70px;\n  text-align: center;\n}\n\n.currency-flag {\n  display: inline-block;\n  width: 18px;\n  height: 12px;\n  margin-bottom:-1px;\n  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);\n  background-size: cover;\n  background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAIAAADbtmxLAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4FpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxYTY4YzRkYy0xNzg2LTQ2Y2UtYmIzYS1hMGNhZDcxNzBjNzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTA3QzBCRkU1ODQwMTFFOEI5NzdERDE3RUQ5MUVEQUMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTA3QzBCRkQ1ODQwMTFFOEI5NzdERDE3RUQ5MUVEQUMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6N2U4OWM3NTYtOGI0Mi00YmMwLTlmMjItZjQyOWNhZjAwNGQ0IiBzdFJlZjpkb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6MmM4MzhmMGYtYjNiMy1jZjRkLTg2ZDEtOGM2YWJhYTRlMzRiIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+oR1RLAAAAdVJREFUeNrsl+mKwjAURm2t1lEUl/d/Q8VdW5fWM35QisKYxKsIY36UUO5NT77cJY3Ksmx80ogbHza+QI9GEux5Op12u12WZcfjsSiKKIr6/f5gMGDybiBQFosFNPWXcDSbzSdpQoD2+/1sNpMkP9eRpiko5XXULfM8xwyDFwKt1+v5fM6Ez4xGoyRJ6grd0GB5OBww4yhfAsQZiWY4HBIrfxsjW7fbBQgX9GNunGXEDSflSKOBGcZMcMTdGGi5XBIibNSRpmLCBUeSwBKI/W23W6KEgPBNAlxw5LgdRYodo4cneyUafIGqALopE08BUf2UWWGlRY5axAaIWsyz3W6HAclRi9gAUd8kfhiQHLWIZXN9z83JCSiOY/ct3o/z+VwtYgPUarV4UnbDgOSoRWyAOp2O2moYkBy1iA1QVUgkvu95VWXMDIiurg6g5uo1cFHPqV8NDLKMNqkOsFqt3GkwxgVHdVlLIPY3mUyY0CY3m40jjXoqjo7y+NUhZKdTkr0PCxJ9dDqdigZt3C9Dvxc933LHVZAErhcVXWcVv2Q4OcUxsSwvx+Nxr9fzWj96vv6ixH1goQrauJ+UwW9QJQ8HJIWQDfGoN+459RKFvr/S/xzoIsAAC8ECkbRnk8sAAAAASUVORK5CYII=');\n}\n\n.currency-flag.currency-flag-aud{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAllBMVEUAIH8BIH8CIYAJJ4MSL4gYNIsaNowvSZYyS5g0TZlHXqJNY6VTaKhWa6pXbKpYbKtkd7Fxgrd2h7qOnMaVosmWo8qXpMqmsdKnstKtt9W6wdvRDSTRDybRh5rSZHjSiJvTGjDURFjVKz/VqrvX2eneytbo4urp4urp6fHq6vLr7fTu7PLx8vf19vn3+Pr4+Pv7+/z///9M1mOaAAABEElEQVQ4y+WTWROCIBSFUSoz28u2m9Gepi38/z8X5BhIYPHUQ2eccRzuJ5d7DmgJm+MYIyYKQPkbj48bWCKTDltY7/aeALz9bg3bgxEYpCuAVTpwcsApvo1A8cdFnQP1hdjRKByeWM8k5kBM2JlOIZbXa75fU5AgjlgdBxgZxYHSwv0ub0iFGCAkKnrnc08CwCCppN1GdkBZn1vSKEiIODRRD/02qzwKUcKBJBJRMc2qwjjZgdesqqJRcqCYVVX4FAdyiSi84v2MisYBG/X7lkC3i36iZtOm2m3hyQS33O+J0eV2vYyqU1QOC8+o7i4rN65QJ+NA1nlf0frN1JhTOm/oVkx+z4bDqdVUvefzD3oALqcw5PUAVWwAAAAASUVORK5CYII=');}\n\n.currency-flag.currency-flag-cad{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAVFBMVEX/AAD/AwP/BQX/CQn/R0f/Skr/S0v/Tk7/cHD/cXH/hYX/lJT/q6v/r6//srL/t7f/xMT/zc3/zs7/z8//0ND/1dX/1tb/2Nj/29v/5ub/9/f////rrEQTAAAAbklEQVQ4y+3Ttw6AMAxF0QsJvRMI7f//kwExICFkjwje5uEMbnDJdhOe8oO3g7bVgSGKBxWwYOVgWasUsmpdhKAITAKJCQohqM+qFoIyPIqwlDbdGADTyKeUA+SKsXrXd86rNj3NytNw4/9AHwc7pig+ByeVQt0AAAAASUVORK5CYII=');}\n\n.currency-flag.currency-flag-chf{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgAQMAAABuGmlfAAAABlBMVEXXKA////8DMMfZAAAAGElEQVQI12NgIBswHyCW+v8fN0W8KWQBAHkbER3fLCbmAAAAAElFTkSuQmCC');}\n\n.currency-flag.currency-flag-eur{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgAgMAAAApuhOPAAAACVBMVEUAU6eApFP/9ABWIW2TAAAAQ0lEQVQY02NgoD5gdEDisE1AsEXYJojAOZmMDpkIDhjBlIERMbbAbQLZArcJhYOiDA9AsRTFOSgORfECiueIsoVkAACg9AqhFj835AAAAABJRU5ErkJggg==');}\n\n.currency-flag.currency-flag-gbp{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAyVBMVEUAIH8BIH8CIYAHJoIOLIYPLYYZNYsaNowfO44nQpI3UJo4UJtLYaRhdK9idbBmebJnerJoerN4iLt5ibuQncenstK7w9y8xN29xd3P1ebRDSTe4u7fMh3fNiHgOyfgPCjhQi/hRDHjTjzlW0rlW0vnalvna1vpdWfpdmjpe27qfG/qjYTqj4bqoJnq7PTropvrs7DrtLHrurfrurjr7fTsxcTsxcXu1NXx4ePy8/j06+309fn17e/49PX49Pb7+vv7+/z+/v7///8ZBiYZAAABQklEQVQ4y82U2U4CURBEW3ABRR2VdShkQFTcFUQYQIH6/4/ywbm5KwYeTKzHSarOTU9XC4D+nGkkhsg4jmNSfzmoc/XSAi5fpQ8gGZLVwi+G0jOnNwCuJhQOEg/iGPJl8qMD4GHBhqSc37oQ21BscPEIoDMiy3kp1KghpwHD8YyTHoDrKd9LIiJy5kEMw26FfGsDracV6/vZCzyINhw2+XUPoDvm8iKnx+JAlCF3vuS4C+Duk80jc/BSqBqQSBlqavhkZU8cRQoyIJXhZ/i9CWcn4suEZIaRGn5RQtqJUs77ABJl0MO39iak7EkBbW+It9R/NPz9lJztsH5cEiq8tRpDezX8LobizeULFd6P1+sdpesgZrxRIKcma+LtTocgTrxzNTxIiGrfJSfQi/cvn5W5yam0IOLFB6+3hshm514X/hucN8Af5X8PRgAAAABJRU5ErkJggg==');}\n\n.currency-flag.currency-flag-jpy{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgBAMAAACm+uYvAAAAIVBMVEW8AC3ADDfGI0rGJk3UWnjbdY7pqrnqrr3++vv//f7////GoaNjAAAAaUlEQVQoz2NYhQMwDA6JFSmGwm5dWCSKGIBAHVNiKgMYRGJIBEAkWNElljNAQRWaRBNMQgNNIgEmwYYm4QCTYEGTMIBJMKNJCMAkGImVwGkUTstxOhenB3EGCc5AxB3sOCMKd9QOppQIAHJMlppj7t83AAAAAElFTkSuQmCC');}\n\n.currency-flag.currency-flag-nzd{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgCAMAAABjCgsuAAAAZlBMVEUAIH8BIH8JJ4MKH3sOHnkYNIsvSZY0HGg3G2dNY6VYGFlxgreVosmWo8q6wdu9Dy3QDSTRDSTRDybRh5rSZHjSiJvTGjDURFjVKz/VqrvX2eneytbo4urp4urp6fHq6vLu7PL///+3zF/wAAAA0UlEQVQ4y+2T2Q6EIAxF3fet4jbu/v9PDozRIgrGZB49L4bYo9BetBzqPjI0ygKwsKcR9TXkmoyugerTOig47aeCppMK4VwAFHOor4K+raXC9sXEZoKd4B+lGPFA91yOTBhLeqYhNg4Frisq/khoHROoSUb/+DZI04BbLggVEKwws8zkBJCAFZbnWY8EgfstXeBPJR66FA996tUaBTIxYSIYFVmvVIPjJrD3ShUNfgJ7r1ThEyawglHY4/2LysUEXv7K+capEW7cPZfzVvHO+zlf+v4c+EeFGikAAAAASUVORK5CYII=');}\n\n.currency-flag.currency-flag-usd{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAgBAMAAACm+uYvAAAAD1BMVEUAJWq0vtO1v9PBASv////7AfyZAAAAOUlEQVQoz2NgQALGSIABt4QSHDK4IAEGBkU4RJMg3Q4kS9CMQlhCqR3DxB8uOABuCWMcALfEiLUDADkOhlU5rxL6AAAAAElFTkSuQmCC');}"
+                                },
+                                "Alignment": {
+                                  "paddingLeft": 0,
+                                  "paddingRight": 0,
+                                  "paddingTop": 2,
+                                  "paddingBottom": 0,
+                                  "innerPaddingLeft": 0,
+                                  "innerPaddingRight": 0,
+                                  "innerPaddingTop": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "titlePaddingRight": 0
+                                },
+                                "format": {
+                                  "titleFontBold": false,
+                                  "titleTransparentBackground": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#000000",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                },
+                                "datagridPossibleColumnsWithItself": [
+                                  "<this>",
+                                  "sym",
+                                  "time",
+                                  "src",
+                                  "bidSize",
+                                  "bid",
+                                  "ask",
+                                  "askSize",
+                                  "mid",
+                                  "n",
+                                  "spread",
+                                  "oneM",
+                                  "fiveM",
+                                  "tenM",
+                                  "twentyM",
+                                  "qty"
+                                ]
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [],
+                              "definitionId": "21",
+                              "hasOnSettingsChange": true
+                            }
+                          },
+                          {
+                            "id": "824f958e-8aaf-0733-835b-692bf0714b84",
+                            "layout": {
+                              "row": 8,
+                              "column": 0,
+                              "rowSpan": 24,
+                              "colSpan": 12
+                            },
+                            "component": {
+                              "id": "component_89133",
+                              "key": "Panel",
+                              "options": {
+                                "version": "4.4.0",
+                                "Basics": {
+                                  "ComponentName": "panel",
+                                  "RelativeHeight": true,
+                                  "Advanced": false,
+                                  "UserLayout": false,
+                                  "Floatable": false,
+                                  "ColCount": 36,
+                                  "RowCount": 24
+                                },
+                                "Style": {
+                                  "advanced": "",
+                                  "cssClasses": ""
+                                },
+                                "Alignment": {
+                                  "paddingLeft": 0,
+                                  "paddingRight": 0,
+                                  "paddingTop": 0,
+                                  "paddingBottom": 0,
+                                  "innerPaddingLeft": 0,
+                                  "innerPaddingRight": 0,
+                                  "innerPaddingTop": 0,
+                                  "innerPaddingBottom": 0,
+                                  "titlePaddingLeft": 0,
+                                  "titlePaddingRight": 0,
+                                  "titlePaddingTop": 7,
+                                  "titlePaddingBottom": 7
+                                },
+                                "format": {
+                                  "titleFontSize": 16,
+                                  "titleHorizontal": "Center",
+                                  "titleShadow": false,
+                                  "tileBorderWidth": 0,
+                                  "tileBorderRounding": 0,
+                                  "tileBorderColor": "#000000",
+                                  "tileBackgroundColor": "#000000",
+                                  "tileTransparentBackground": true,
+                                  "tileShadow": false
+                                }
+                              },
+                              "containerId": null,
+                              "components": [],
+                              "widgets": [
+                                {
+                                  "id": "8e9bc885-8b09-3809-d625-a76a1e01fa72",
+                                  "layout": {
+                                    "row": 0,
+                                    "column": 0,
+                                    "rowSpan": 18,
+                                    "colSpan": 35
+                                  },
+                                  "component": {
+                                    "id": "22d7d4e9-5e2c-8704-0399-ce74f8eaff1f",
+                                    "key": "ChartGL",
+                                    "options": {
+                                      "version": "4.5.1.1",
+                                      "Style": {
+                                        "advanced": "",
+                                        "cssClasses": ""
+                                      },
+                                      "Basics": {
+                                        "Hover": "",
+                                        "Selected": "",
+                                        "Duration": 400,
+                                        "Easing": "easeOutQuart"
+                                      },
+                                      "Layers": [
+                                        {
+                                          "_Id": "L0",
+                                          "_Type": "Bar",
+                                          "possibleRulesColumns": [],
+                                          "possibleXColumns": [
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleYColumns": [
+                                            "",
+                                            "*",
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleXAxes": [
+                                            "X-Axis 1"
+                                          ],
+                                          "possibleYAxes": [
+                                            "Y-Axis 1",
+                                            "Y-Axis 2"
+                                          ],
+                                          "Data": {
+                                            "_dashboardsType": "data",
+                                            "value": "AvgPriceSizeByMinute"
+                                          },
+                                          "XAxis": "minute",
+                                          "YAxis": "vol",
+                                          "XAxisId": "X-Axis 1",
+                                          "YAxisId": "Y-Axis 1",
+                                          "Color": "#7995b8",
+                                          "Opacity": 100,
+                                          "Name": "qty",
+                                          "Enabled": true,
+                                          "Legend": true,
+                                          "Actions": [],
+                                          "HighlightRules": [],
+                                          "BarWidth": 95,
+                                          "BarFixedWidth": 10,
+                                          "BarWidthType": "Percentage"
+                                        },
+                                        {
+                                          "_Id": "L1",
+                                          "_Type": "Line",
+                                          "possibleRulesColumns": [],
+                                          "possibleXColumns": [
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleYColumns": [
+                                            "",
+                                            "*",
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleXAxes": [
+                                            "X-Axis 1"
+                                          ],
+                                          "possibleYAxes": [
+                                            "Y-Axis 1",
+                                            "Y-Axis 2"
+                                          ],
+                                          "Data": {
+                                            "_dashboardsType": "data",
+                                            "value": "AvgPriceSizeByMinute"
+                                          },
+                                          "XAxis": "minute",
+                                          "YAxis": "price",
+                                          "XAxisId": "X-Axis 1",
+                                          "YAxisId": "Y-Axis 2",
+                                          "Color": "#f57e07",
+                                          "Opacity": 100,
+                                          "Name": "vwap",
+                                          "Enabled": true,
+                                          "Legend": true,
+                                          "Actions": [],
+                                          "HighlightRules": []
+                                        }
+                                      ],
+                                      "Xaxes": [
+                                        {
+                                          "Bounds": "",
+                                          "Type": "Linear",
+                                          "Position": "Bottom",
+                                          "Width": 0,
+                                          "Ticks": 10,
+                                          "Title": {
+                                            "Display": false,
+                                            "LabelString": "",
+                                            "FontSize": 16
+                                          },
+                                          "Range": {
+                                            "UseMinMax": false,
+                                            "Min": "",
+                                            "Max": "",
+                                            "SelectionMin": {
+                                              "_dashboardsType": "viewstate",
+                                              "value": "New node"
+                                            },
+                                            "SelectionMax": {
+                                              "_dashboardsType": "viewstate",
+                                              "value": "New node 2"
+                                            }
+                                          },
+                                          "Gridlines": {
+                                            "GridlinesOffset": false,
+                                            "GridlinesColor": "",
+                                            "GridlinesOpacity": 15
+                                          },
+                                          "Format": {
+                                            "Display": true,
+                                            "Format": "Number",
+                                            "Precision": 2,
+                                            "FontSize": 12,
+                                            "Prefix": "",
+                                            "Suffix": "",
+                                            "HideTrailingZeroes": false
+                                          }
+                                        }
+                                      ],
+                                      "Yaxes": [
+                                        {
+                                          "Bounds": "",
+                                          "Type": "Linear",
+                                          "Position": "Left",
+                                          "Width": 0,
+                                          "Ticks": 10,
+                                          "Title": {
+                                            "Display": false,
+                                            "LabelString": "",
+                                            "FontSize": 16
+                                          },
+                                          "Range": {
+                                            "UseMinMax": false,
+                                            "Min": "0",
+                                            "Max": "5000000",
+                                            "SelectionMin": "",
+                                            "SelectionMax": ""
+                                          },
+                                          "Gridlines": {
+                                            "GridlinesOffset": false,
+                                            "GridlinesColor": "",
+                                            "GridlinesOpacity": 15
+                                          },
+                                          "Format": {
+                                            "Display": false,
+                                            "Format": "Number",
+                                            "Precision": 2,
+                                            "FontSize": 12,
+                                            "Prefix": "",
+                                            "Suffix": "",
+                                            "HideTrailingZeroes": false
+                                          }
+                                        },
+                                        {
+                                          "Type": "Linear",
+                                          "Position": "Left",
+                                          "Width": 0,
+                                          "Ticks": 10,
+                                          "Title": {
+                                            "Display": false,
+                                            "LabelString": "",
+                                            "FontSize": 16
+                                          },
+                                          "Range": {
+                                            "UseMinMax": false,
+                                            "Min": "1.12",
+                                            "Max": "1.2",
+                                            "SelectionMin": "",
+                                            "SelectionMax": ""
+                                          },
+                                          "Gridlines": {
+                                            "GridlinesOffset": false,
+                                            "GridlinesColor": "",
+                                            "GridlinesOpacity": 15
+                                          },
+                                          "Format": {
+                                            "Display": true,
+                                            "Format": "Number",
+                                            "Precision": 2,
+                                            "FontSize": 12,
+                                            "Prefix": "",
+                                            "Suffix": "",
+                                            "HideTrailingZeroes": false
+                                          }
+                                        }
+                                      ],
+                                      "Overlay": {
+                                        "ShowCrosshairs": true,
+                                        "UseCustomTooltip": false,
+                                        "CustomTooltip": "<table><thead><tr><th>{{this.0.0.xAxis}}</th><th></th></tr></thead>{{#each this}}{{#each this}}<tr><td width=\"{{width}}\"><i class=\"{{icon}}\" style=\"color:{{color}}; {{image}};\"></i> {{name}}: </td><td>{{yAxis}}</td></tr>{{/each}}{{/each}}</table>",
+                                        "ShowAllPoints": false,
+                                        "GroupByLayer": false
+                                      },
+                                      "Palette": [
+                                        {
+                                          "type": "#4f6aa6"
+                                        },
+                                        {
+                                          "type": "#7995b8"
+                                        },
+                                        {
+                                          "type": "#808387"
+                                        },
+                                        {
+                                          "type": "#a69775"
+                                        },
+                                        {
+                                          "type": "#749450"
+                                        },
+                                        {
+                                          "type": "#51966a"
+                                        },
+                                        {
+                                          "type": "#e2c7c0"
+                                        },
+                                        {
+                                          "type": "#9acad6"
+                                        },
+                                        {
+                                          "type": "#1995a3"
+                                        },
+                                        {
+                                          "type": "#484d6e"
+                                        }
+                                      ],
+                                      "Alignment": {
+                                        "paddingLeft": 0,
+                                        "paddingRight": 0,
+                                        "paddingTop": 0,
+                                        "paddingBottom": 0,
+                                        "innerPaddingLeft": 0,
+                                        "innerPaddingRight": 0,
+                                        "innerPaddingTop": 0,
+                                        "innerPaddingBottom": 0,
+                                        "titlePaddingLeft": 0,
+                                        "titlePaddingRight": 0,
+                                        "titlePaddingTop": 7,
+                                        "titlePaddingBottom": 7
+                                      },
+                                      "format": {
+                                        "widgetTitle": {
+                                          "_dashboardsType": "viewstate",
+                                          "value": "symChoice"
+                                        },
+                                        "titleFontSize": 16,
+                                        "titleHorizontal": "Center",
+                                        "titleShadow": false,
+                                        "tileBorderWidth": 0,
+                                        "tileBorderRounding": 0,
+                                        "tileBorderColor": "#000000",
+                                        "tileBackgroundColor": "#000000",
+                                        "tileTransparentBackground": true,
+                                        "tileShadow": false
+                                      }
+                                    },
+                                    "containerId": null,
+                                    "components": [],
+                                    "widgets": [],
+                                    "definitionId": "669",
+                                    "hasOnSettingsChange": true
+                                  }
+                                },
+                                {
+                                  "id": "1f4d8005-88c1-62bd-5fa8-a6053b8a2ba2",
+                                  "layout": {
+                                    "row": 18,
+                                    "column": 0,
+                                    "rowSpan": 6,
+                                    "colSpan": 35
+                                  },
+                                  "component": {
+                                    "id": "5cc505ff-326f-25c4-2144-63cd13cdf31d",
+                                    "key": "ChartGL",
+                                    "options": {
+                                      "version": "4.5.1.1",
+                                      "Style": {
+                                        "advanced": "",
+                                        "cssClasses": ""
+                                      },
+                                      "Basics": {
+                                        "Hover": "",
+                                        "Selected": "",
+                                        "Duration": 400,
+                                        "Easing": "easeOutQuart"
+                                      },
+                                      "Layers": [
+                                        {
+                                          "_Id": "L0",
+                                          "_Type": "Bar",
+                                          "possibleRulesColumns": [],
+                                          "possibleXColumns": [
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleYColumns": [
+                                            "",
+                                            "*",
+                                            "minute",
+                                            "price",
+                                            "vol",
+                                            "cum"
+                                          ],
+                                          "possibleXAxes": [
+                                            "X-Axis 1"
+                                          ],
+                                          "possibleYAxes": [
+                                            "Y-Axis 1"
+                                          ],
+                                          "Data": {
+                                            "_dashboardsType": "data",
+                                            "value": "AvgPriceSizeByMinute"
+                                          },
+                                          "XAxis": "minute",
+                                          "YAxis": "cum",
+                                          "XAxisId": "X-Axis 1",
+                                          "YAxisId": "Y-Axis 1",
+                                          "Color": "#4f6aa6",
+                                          "Opacity": 100,
+                                          "Name": "Layer 1",
+                                          "Enabled": true,
+                                          "Legend": false,
+                                          "Actions": [],
+                                          "HighlightRules": [],
+                                          "BarWidth": 80,
+                                          "BarFixedWidth": 10,
+                                          "BarWidthType": "Percentage"
+                                        }
+                                      ],
+                                      "Xaxes": [
+                                        {
+                                          "Bounds": "",
+                                          "Type": "Linear",
+                                          "Position": "Bottom",
+                                          "Width": 0,
+                                          "Ticks": 10,
+                                          "Title": {
+                                            "Display": false,
+                                            "LabelString": "",
+                                            "FontSize": 16
+                                          },
+                                          "Range": {
+                                            "UseMinMax": false,
+                                            "Min": "",
+                                            "Max": "",
+                                            "SelectionMin": {
+                                              "_dashboardsType": "viewstate",
+                                              "value": "New node"
+                                            },
+                                            "SelectionMax": {
+                                              "_dashboardsType": "viewstate",
+                                              "value": "New node 2"
+                                            }
+                                          },
+                                          "Gridlines": {
+                                            "GridlinesOffset": false,
+                                            "GridlinesColor": "",
+                                            "GridlinesOpacity": 15
+                                          },
+                                          "Format": {
+                                            "Display": true,
+                                            "Format": "Number",
+                                            "Precision": 2,
+                                            "FontSize": 12,
+                                            "Prefix": "",
+                                            "Suffix": "",
+                                            "HideTrailingZeroes": false
+                                          }
+                                        }
+                                      ],
+                                      "Yaxes": [
+                                        {
+                                          "Bounds": "",
+                                          "Type": "Linear",
+                                          "Position": "Left",
+                                          "Width": 0,
+                                          "Ticks": 10,
+                                          "Title": {
+                                            "Display": false,
+                                            "LabelString": "",
+                                            "FontSize": 16
+                                          },
+                                          "Range": {
+                                            "UseMinMax": false,
+                                            "Min": "0",
+                                            "Max": "600000000",
+                                            "SelectionMin": "",
+                                            "SelectionMax": ""
+                                          },
+                                          "Gridlines": {
+                                            "GridlinesOffset": false,
+                                            "GridlinesColor": "",
+                                            "GridlinesOpacity": 15
+                                          },
+                                          "Format": {
+                                            "Display": true,
+                                            "Format": "Smart Number",
+                                            "Precision": 2,
+                                            "FontSize": 12,
+                                            "Prefix": "",
+                                            "Suffix": "",
+                                            "HideTrailingZeroes": false
+                                          }
+                                        }
+                                      ],
+                                      "Overlay": {
+                                        "ShowCrosshairs": true,
+                                        "UseCustomTooltip": false,
+                                        "CustomTooltip": "<table><thead><tr><th>{{this.0.0.xAxis}}</th><th></th></tr></thead>{{#each this}}{{#each this}}<tr><td width=\"{{width}}\"><i class=\"{{icon}}\" style=\"color:{{color}}; {{image}};\"></i> {{name}}: </td><td>{{yAxis}}</td></tr>{{/each}}{{/each}}</table>",
+                                        "ShowAllPoints": false,
+                                        "GroupByLayer": false
+                                      },
+                                      "Palette": [
+                                        {
+                                          "type": "#4f6aa6"
+                                        },
+                                        {
+                                          "type": "#7995b8"
+                                        },
+                                        {
+                                          "type": "#808387"
+                                        },
+                                        {
+                                          "type": "#a69775"
+                                        },
+                                        {
+                                          "type": "#749450"
+                                        },
+                                        {
+                                          "type": "#51966a"
+                                        },
+                                        {
+                                          "type": "#e2c7c0"
+                                        },
+                                        {
+                                          "type": "#9acad6"
+                                        },
+                                        {
+                                          "type": "#1995a3"
+                                        },
+                                        {
+                                          "type": "#484d6e"
+                                        }
+                                      ],
+                                      "Alignment": {
+                                        "paddingLeft": 0,
+                                        "paddingRight": 0,
+                                        "paddingTop": 0,
+                                        "paddingBottom": 0,
+                                        "innerPaddingLeft": 0,
+                                        "innerPaddingRight": 0,
+                                        "innerPaddingTop": 0,
+                                        "innerPaddingBottom": 0,
+                                        "titlePaddingLeft": 0,
+                                        "titlePaddingRight": 0,
+                                        "titlePaddingTop": 7,
+                                        "titlePaddingBottom": 7
+                                      },
+                                      "format": {
+                                        "titleFontSize": 16,
+                                        "titleHorizontal": "Center",
+                                        "titleShadow": false,
+                                        "tileBorderWidth": 0,
+                                        "tileBorderRounding": 0,
+                                        "tileBorderColor": "#000000",
+                                        "tileBackgroundColor": "#000000",
+                                        "tileTransparentBackground": true,
+                                        "tileShadow": false
+                                      }
+                                    },
+                                    "containerId": null,
+                                    "components": [],
+                                    "widgets": [],
+                                    "definitionId": "669",
+                                    "hasOnSettingsChange": true
+                                  }
+                                }
+                              ],
+                              "definitionId": "50",
+                              "hasOnSettingsChange": true
+                            }
+                          }
+                        ],
+                        "definitionId": "1011",
+                        "hasOnSettingsChange": true
+                      }
+                    }
+                  ],
+                  "definitionId": "50",
+                  "hasOnSettingsChange": true,
+                  "rowCount": 32
+                }
+              }
+            ],
+            "definitionId": "1011",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 38,
+      "rowHeight": 25,
+      "colCount": 12,
+      "floatable": false,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 38,
+  "rowHeight": 25,
+  "colCount": 12,
+  "floatable": false,
+  "viewState": {
+    "typeChoice": {
+      "_default": "bid",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "symChoice": {
+      "_default": "EUR/USD",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    "selected": {
+      "_default": "",
+      "_viewType": true,
+      "_type": "symbol"
+    },
+    ".settings": {
+      "component_78627": {
+        "version": 0,
+        "GroupingConfiguration": []
+      }
+    },
+    "New node": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    },
+    "New node 2": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "AvgPriceSizeByMinute": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "minute",
+        "price",
+        "vol",
+        "cum"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "minute",
+        "mappings": {},
+        "value": "price"
+      },
+      "_maxRows": "1440",
+      "_forceReset": true,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 10,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 0,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": false
+        }
+      ],
+      "_queryString": "{[symval]\r\n  {select from x where minute<=.z.p}fxrack lj update cum:sums vol from select size wavg price,vol:sum size by minute:0D00:01 xbar time from dfxTrade where sym=symval\r\n  }",
+      "_queryParams": [
+        {
+          "radio1Id": "radiobtn1172",
+          "radio2Id": "radiobtn1173",
+          "isViewState": true,
+          "name": "symval",
+          "IsKdbParam": true,
+          "index": 0,
+          "radioId": "radiogrp1171",
+          "i": 0,
+          "type": "symbol",
+          "value": "<%symChoice%>"
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "getQuote": {
+      "_pagingType": "NONE",
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "time",
+        "bidSize",
+        "bid",
+        "ask",
+        "askSize",
+        "mid",
+        "n",
+        "spread",
+        "oneM",
+        "fiveM",
+        "tenM",
+        "twentyM",
+        "last5minsVol",
+        "qty"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "time"
+      },
+      "_maxRows": 2000,
+      "_forceReset": true,
+      "_subscriptionType": "polling",
+      "_subscriptionInterval": 1,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 0,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": false
+        }
+      ],
+      "_queryString": "{x lj select qty:{value sum each y@group 0D01 xbar x}[time;size]by sym from dfxTrade where time<.z.p}\r\n  update spread%n,oneM:spread%n,fiveM:(.01*count[i]?100)+spread%n,tenM:(1+.01*count[i]?100)+spread%n,twentyM:(2+.01*count[i]?100)+spread%n,n:1+10 xlog 1%n from\r\n    update n:?[sym like\"*JPY\";0.01;0.0001],spread:ask-bid from(select by sym from dfxQuote where time<.z.p)lj\r\n      //60 point limit for sparklines 1D=0D00:24*60\r\n      select mid:x by sym from select last .5*bid+ask by sym,0D00:24 xbar time from dfxQuote where time<.z.p",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "enableShareDashboard": false,
+  "notifications": {
+    "Notifications": {
+      "_Version": "4.2.0s2",
+      "Enabled": true,
+      "InBrowserNotifications": false,
+      "Position": "Bottom Right",
+      "MaxVisibleCount": 3,
+      "FadeOut": 5,
+      "Icon": "fa-bell-o",
+      "Sound": "beep",
+      "SoundVolume": 100,
+      "Grouping": false,
+      "GroupingInterval": 1,
+      "triggers": []
+    }
+  },
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "viewStateBinding": false,
+  "widgets": [],
+  "wasChanged": true,
+  "version": "4.6.0",
+  "action": "replace"
+}
