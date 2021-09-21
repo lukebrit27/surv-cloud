@@ -13,7 +13,7 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
   - If you don't have login credentials comment out the services gui-dash, gui-gateway and gui-data in the docker-compose.yml file. You'll then be able to start the Surveillance app but you won't have a UI.
 
 ## Run
-1. `git clone git@github.com:lukebrit27/surv-cloud.git` - private key required.
+1. `git clone git@github.com:lukebrit27/surv-cloud.git`
 2.  Run `qp build`.
 3. copy the .env file in qpbuild out to the top directory: `cp qpbuild/.env .`
 4. `docker-compose up`
