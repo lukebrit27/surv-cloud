@@ -70,7 +70,7 @@ services:
     depends_on:
       - gui-gateway
   gui-gateway:   
-    image: "registry.dl.kx.com/kxi-gui-gateway:0.8.1"
+    image: "registry.dl.kx.com/kxi-gui-gateway:0.10.1"
     ports:
       - 10001:10001
     networks:
