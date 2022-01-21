@@ -21,6 +21,19 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 6. If running dashboard images, go to http://localhost:9090
 7. If not running dashboard images, use `docker attach image_name` to attach to a Surveillance process. E.g. `docker attach surv-cloud_feed_1` 
 
+## Run with Kubernetes
+### Additional Prerequisites
+- Install kubernetes with minikube: https://kubernetes.io/docs/tasks/tools/ 
+- Install minikube
+
+### Run
+1. `minikube start`
+2. `minikube ssh` and run `docker login registry.dl.kx.com -u username -p password`
+3. Once successfully logged in, run `exit`
+4. `./deployK8sCluster.sh`
+5. Run `kubectl get pods -n surv-cloud --output=wide`. Wait for all pods to be marked as ready.
+6. Run `minikube service gui-dash` to open the dashboards in your local browser
+
 ## Images
 The pre-built application images can be found in this docker repository https://hub.docker.com/repository/docker/luke275/surv-cloud/
 
