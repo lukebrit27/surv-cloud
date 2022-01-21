@@ -45,9 +45,10 @@ if[not system"t";system"t 1000";
  //if[not -16=type first first x;a:"n"$a;x:$[0>type first x;a,x;(enlist(count first x)#a),x]];
  f:key flip value t;pub[t;$[0>type first x;enlist f!x;flip f!x]];if[l;l enlist (`upd;t;x);i+:1];}];
 
+1"starting .u.tick \n";
 \d .
 .u.tick[src;.z.x 1];
-
+1".u.tick is finished now \n";
 \
  globals used
  .u.w - dictionary of tables->(handle;syms)

@@ -86,7 +86,7 @@ services:
     depends_on:
       - gui-data
   gui-data:
-    image: "registry.dl.kx.com/kxi-gui-data:0.8.0"
+    image: "registry.dl.kx.com/kxi-gui-data:0.10.1"
     ports:
       - 6812:6812
     restart: unless-stopped
