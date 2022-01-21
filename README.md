@@ -16,7 +16,7 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 1. `git clone https://github.com/lukebrit27/surv-cloud.git`
 2. `cd surv-cloud`
 3. `./buildImages.sh`
-4. Change permissions of all files in the repo to avoid any access issues: `chmod -R 777 *`
+4. Change permissions of all files in the repo to avoid any access issues: `chmod -R 777 *;chmod -R g+s tplogs`
 5. `docker-compose up`
 6. If running dashboard images, go to http://localhost:9090
 7. If not running dashboard images, use `docker attach image_name` to attach to a Surveillance process. E.g. `docker attach surv-cloud_feed_1` 
