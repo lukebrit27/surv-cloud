@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: tp
-        image: surv-cloud/tp:1.0.0
+        image: luke275/surv-cloud:tp
         env: 
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
@@ -77,7 +77,7 @@ spec:
     spec:
       containers:
       - name: rdb
-        image: surv-cloud/rdb:1.0.0
+        image: luke275/surv-cloud:rdb
         env: 
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
@@ -128,7 +128,7 @@ spec:
     spec:
       containers:
       - name: rte
-        image: surv-cloud/rte:1.0.0
+        image: luke275/surv-cloud:rte
         env: 
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
@@ -171,7 +171,7 @@ spec:
     spec:
       containers:
       - name: feed
-        image: surv-cloud/feed:1.0.0
+        image: luke275/surv-cloud:feed
         env: 
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
