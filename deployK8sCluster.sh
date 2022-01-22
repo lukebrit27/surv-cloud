@@ -8,7 +8,7 @@ echo ""
 #Pre helm attempt
 kubectl create -f kube/surv-cloud-namespace.yml
 kubectl create secret docker-registry kxregistry-secret --docker-server=registry.dl.kx.com --docker-username=$user --docker-password=$pass -n surv-cloud	
-kubectl create -f kube/newsurv-cloud.yml
+kubectl create -f kube/surv-cloud.yml
 
 #Deploy with helm
 

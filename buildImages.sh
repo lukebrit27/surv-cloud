@@ -8,7 +8,7 @@ then
 fi 
 
 cp qpbuild/.env .;
-qp tag surv-cloud/tp 1.0.0;
-qp tag surv-cloud/rte 1.0.0;
-qp tag surv-cloud/rdb 1.0.0;
-qp tag surv-cloud/feed 1.0.0;
+qp tag luke275/surv-cloud/tp 1.0.0;
+qp tag luke275/surv-cloud/rte 1.0.0;
+qp tag luke275/surv-cloud/rdb 1.0.0;
+qp tag luke275/surv-cloud/feed 1.0.0;
