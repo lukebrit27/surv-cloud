@@ -16,10 +16,12 @@ spec:
         app: tp
         version: 1.0.0
     spec:
+      securityContext:
+        fsGroup: 2000
       containers:
       - name: tp
         image: luke275/surv-cloud:tp
-        env: 
+        env:
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         args: ["sym /opt/surv-cloud/app/tplogs -p 5011"]
@@ -30,17 +32,8 @@ spec:
           name: tplogs
       volumes:
       - name: tplogs
-        hostPath: 
-          path: /home/docker/surv-cloud/tplogs
-          type: Directory
-  volumeClaimTemplates:
-  - metadata:
-      name: tp-data
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 1Gi
+        persistentVolumeClaim:
+          claimName: tp-data
 ---
 apiVersion: v1
 kind: Service
@@ -75,12 +68,14 @@ spec:
         app: rdb
         version: 1.0.0
     spec:
+      securityContext:
+        fsGroup: 2000
       containers:
       - name: rdb
         image: luke275/surv-cloud:rdb
-        env: 
+        env:
         - name: KDB_LICENSE_B64
-          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         args: ["tp:5011 hdb -p 5012"]
         ports:
         - containerPort: 5012
@@ -89,9 +84,8 @@ spec:
           name: tplogs
       volumes:
       - name: tplogs
-        hostPath: 
-          path: /home/docker/surv-cloud/tplogs
-          type: Directory
+        persistentVolumeClaim:
+          claimName: tp-data
 ---
 apiVersion: v1
 kind: Service
@@ -129,9 +123,9 @@ spec:
       containers:
       - name: rte
         image: luke275/surv-cloud:rte
-        env: 
+        env:
         - name: KDB_LICENSE_B64
-          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         args: ["tp:5011 -p 5013"]
         ports:
         - containerPort: 5013
@@ -172,7 +166,7 @@ spec:
       containers:
       - name: feed
         image: luke275/surv-cloud:feed
-        env: 
+        env:
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         args: ["rte:5013 -p 5014"]
@@ -215,9 +209,9 @@ spec:
       containers:
       - name: gui-dash
         image: registry.dl.kx.com/kxi-gui-dash:0.8.2
-        env: 
+        env:
         - name: KDB_LICENSE_B64
-          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         ports:
         - containerPort: 8080
       imagePullSecrets:
@@ -232,7 +226,7 @@ spec:
   type: NodePort
   #clusterIP: None
   ports:
-  - 
+  -
     nodePort: 30090
     port: 9090
     protocol: TCP
@@ -259,32 +253,27 @@ spec:
         app: gui-gateway
         version: 0.10.1
     spec:
+      initContainers:
+      - name: gw-data-download
+        image: alpine:3.7
+        command: ["/bin/sh","-c"]
+        args: ['apk add --no-cache git && git clone https://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:x-oauth-basic@github.com/lukebrit27/surv-cloud.git && mkdir -p /opt/kx/app/data && cp -r surv-cloud/dash/* /opt/kx/app/data/']
+        volumeMounts:
+        - mountPath: /opt/kx/app/data
+          name: gw-data
       containers:
       - name: gui-gateway
         image: registry.dl.kx.com/kxi-gui-gateway:0.10.1
-        env: 
+        env:
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         ports:
         - containerPort: 10001
-        volumeMounts:
-        - mountPath: /opt/kx/app/data
-          name: gw-data
       imagePullSecrets:
       - name: kxregistry-secret
       volumes:
       - name: gw-data
-        hostPath: 
-          path: /home/docker/surv-cloud/dash
-          type: Directory
-  volumeClaimTemplates:
-  - metadata:
-      name: gui-gateway-data
-    spec:
-      accessModes: [ "ReadWriteOnce" ]
-      resources:
-        requests:
-          storage: 1Gi
+        emptyDir: {}
 ---
 apiVersion: v1
 kind: Service
@@ -322,9 +311,9 @@ spec:
       containers:
       - name: gui-data
         image: registry.dl.kx.com/kxi-gui-data:0.10.1
-        env: 
+        env:
         - name: KDB_LICENSE_B64
-          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         ports:
         - containerPort: 6812
         volumeMounts:

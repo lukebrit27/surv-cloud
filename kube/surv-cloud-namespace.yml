@@ -2,3 +2,14 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: surv-cloud
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: tp-data
+  namespace: surv-cloud
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 1Gi

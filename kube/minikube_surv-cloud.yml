@@ -1,0 +1,353 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: tp
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: tp
+      version: 1.0.0
+  serviceName: "tp"
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: tp
+        version: 1.0.0
+    spec:
+      containers:
+      - name: tp
+        image: luke275/surv-cloud:tp
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
+        args: ["sym /opt/surv-cloud/app/tplogs -p 5011"]
+        ports:
+        - containerPort: 5011
+        volumeMounts:
+        - mountPath: /opt/surv-cloud/app/tplogs
+          name: tplogs
+      volumes:
+      - name: tplogs
+        hostPath: 
+          path: /home/docker/surv-cloud/tplogs
+          type: Directory
+  volumeClaimTemplates:
+  - metadata:
+      name: tp-data
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tp
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 5011
+    protocol: TCP
+    targetPort: 5011
+    name: tcp-tp
+  selector:
+    app: tp
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rdb
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: rdb
+      version: 1.0.0
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: rdb
+        version: 1.0.0
+    spec:
+      containers:
+      - name: rdb
+        image: luke275/surv-cloud:rdb
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+        args: ["tp:5011 hdb -p 5012"]
+        ports:
+        - containerPort: 5012
+        volumeMounts:
+        - mountPath: /opt/surv-cloud/app/tplogs
+          name: tplogs
+      volumes:
+      - name: tplogs
+        hostPath: 
+          path: /home/docker/surv-cloud/tplogs
+          type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rdb
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 5012
+    protocol: TCP
+    targetPort: 5012
+    name: tcp-rdb
+  selector:
+    app: rdb
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rte
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: rte
+      version: 1.0.0
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: rte
+        version: 1.0.0
+    spec:
+      containers:
+      - name: rte
+        image: luke275/surv-cloud:rte
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+        args: ["tp:5011 -p 5013"]
+        ports:
+        - containerPort: 5013
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rte
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 5013
+    protocol: TCP
+    targetPort: 5013
+    name: tcp-rte
+  selector:
+    app: rte
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: feed
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: feed
+      version: 1.0.0
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: feed
+        version: 1.0.0
+    spec:
+      containers:
+      - name: feed
+        image: luke275/surv-cloud:feed
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
+        args: ["rte:5013 -p 5014"]
+        ports:
+        - containerPort: 5014
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: feed
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 5014
+    protocol: TCP
+    targetPort: 5014
+    name: tcp-feed
+  selector:
+    app: feed
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gui-dash
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: gui-dash
+      version: 0.8.2
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: gui-dash
+        version: 0.8.2
+    spec:
+      containers:
+      - name: gui-dash
+        image: registry.dl.kx.com/kxi-gui-dash:0.8.2
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: kxregistry-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gui-dash
+  namespace: surv-cloud
+spec:
+  type: NodePort
+  #clusterIP: None
+  ports:
+  - 
+    nodePort: 30090
+    port: 9090
+    protocol: TCP
+    targetPort: 8080
+    name: tcp-gui-dash
+  selector:
+    app: gui-dash
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: gui-gateway
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: gui-gateway
+      version: 0.10.1
+  serviceName: "gui-gateway"
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: gui-gateway
+        version: 0.10.1
+    spec:
+      containers:
+      - name: gui-gateway
+        image: registry.dl.kx.com/kxi-gui-gateway:0.10.1
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
+        ports:
+        - containerPort: 10001
+        volumeMounts:
+        - mountPath: /opt/kx/app/data
+          name: gw-data
+      imagePullSecrets:
+      - name: kxregistry-secret
+      volumes:
+      - name: gw-data
+        hostPath: 
+          path: /home/docker/surv-cloud/dash
+          type: Directory
+  volumeClaimTemplates:
+  - metadata:
+      name: gui-gateway-data
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gui-gateway
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 10001
+    protocol: TCP
+    targetPort: 10001
+    name: tcp-gui-gateway
+  selector:
+    app: gui-gateway
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gui-data
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: gui-data
+      version: 0.8.0
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: gui-data
+        version: 0.8.0
+    spec:
+      containers:
+      - name: gui-data
+        image: registry.dl.kx.com/kxi-gui-data:0.10.1
+        env: 
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="        
+        ports:
+        - containerPort: 6812
+        volumeMounts:
+        - mountPath: /opt/kx/app/sample/hdb/date
+          name: gui-data-hdb
+      imagePullSecrets:
+      - name: kxregistry-secret
+      volumes:
+      - name: gui-data-hdb
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gui-data
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 6812
+    protocol: TCP
+    targetPort: 6812
+    name: tcp-gui-data
+  selector:
+    app: gui-data
