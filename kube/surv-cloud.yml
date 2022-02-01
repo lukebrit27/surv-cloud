@@ -223,15 +223,12 @@ metadata:
   name: gui-dash
   namespace: surv-cloud
 spec:
-  type: NodePort
+  type: LoadBalancer
   #clusterIP: None
   ports:
-  -
-    nodePort: 30090
-    port: 9090
+  - port: 9090
     protocol: TCP
     targetPort: 8080
-    name: tcp-gui-dash
   selector:
     app: gui-dash
 ---
@@ -257,7 +254,7 @@ spec:
       - name: gw-data-download
         image: alpine:3.7
         command: ["/bin/sh","-c"]
-        args: ['apk add --no-cache git && git clone https://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:x-oauth-basic@github.com/lukebrit27/surv-cloud.git && mkdir -p /opt/kx/app/data && cp -r surv-cloud/dash/* /opt/kx/app/data/']
+        args: ['apk add --no-cache git && git clone https://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:x-oauth-basic@github.com/lukebrit27/surv-cloud.git && mkdir -p /opt/kx/app/data && cp -r surv-cloud/dash/gw-data/* /opt/kx/app/data/']
         volumeMounts:
         - mountPath: /opt/kx/app/data
           name: gw-data
@@ -269,6 +266,9 @@ spec:
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
         ports:
         - containerPort: 10001
+        volumeMounts: 
+        - mountPath: /opt/kx/app/data
+          name: gw-data
       imagePullSecrets:
       - name: kxregistry-secret
       volumes:
