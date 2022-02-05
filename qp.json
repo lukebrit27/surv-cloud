@@ -10,6 +10,9 @@
   },
   "rte": {
     "entry": [ "tick/rte.q" ]
+  },
+  "hdb": {
+    "entry": [ "tick/hdb.q" ]
   }
 }
 

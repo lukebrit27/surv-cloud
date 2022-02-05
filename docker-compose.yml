@@ -25,11 +25,25 @@ services:
       - 5012:5012
     volumes:
       - ./tplogs:/opt/surv-cloud/app/tplogs
+      - ./hdb:/opt/surv-cloud/app/hdb
     env_file:
       - qpbuild/.env
     depends_on:
       - tp
-    command: tp:5011 hdb -p 5012
+    command: tp:5011 hdb:5015 /opt/surv-cloud/app/hdb -p 5012
+    networks:
+      - surv-cloud
+    tty: true
+    stdin_open: true
+  hdb:
+    image: "${hdb}"
+    ports:
+      - 5015:5015
+    volumes:
+      - ./hdb:/opt/surv-cloud/app/hdb
+    env_file:
+      - qpbuild/.env
+    command: /opt/surv-cloud/app/hdb -p 5015
     networks:
       - surv-cloud
     tty: true
