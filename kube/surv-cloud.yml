@@ -52,6 +52,59 @@ spec:
     app: tp
 ---
 apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: hdb
+  namespace: surv-cloud
+spec:
+  selector:
+    matchLabels:
+      app: hdb
+      version: 1.0.0
+  serviceName: "hdb"
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: hdb
+        version: 1.0.0
+    spec:
+      securityContext:
+        fsGroup: 2000
+      containers:
+      - name: hdb
+        image: luke275/surv-cloud:hdb
+        env:
+        - name: KDB_LICENSE_B64
+          value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
+        args: ["/opt/surv-cloud/app/hdb -p 5015"]
+        ports:
+        - containerPort: 5015
+        volumeMounts:
+        - mountPath: /opt/surv-cloud/app/hdb
+          name: hdbdir
+      volumes:
+      - name: hdbdir
+        persistentVolumeClaim:
+          claimName: hdb-data
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hdb
+  namespace: surv-cloud
+spec:
+  type: ClusterIP
+  clusterIP: None
+  ports:
+  - port: 5015
+    protocol: TCP
+    targetPort: 5015
+    name: tcp-hdb
+  selector:
+    app: hdb
+---
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: rdb
@@ -76,16 +129,21 @@ spec:
         env:
         - name: KDB_LICENSE_B64
           value: "vv/ocaSM1KD+PsER4ur1TjjP4Wi+PWLTUiMLeQV+rsnaH1zn7YedAOUKAgqNYkNsq4uZk/9DQJ2xWBHcEm2hS7nksisAarz9Cp+3MbMDyc0tyOvLYs6qFw3OJSDKBP6MaBaiA9dInXUeDM1OsjcUOgTBPx4yEBcYyRIgUnJi7xcuA2YspwWRX6777t2Evd2vvyIYjmx1jymqvPBH6UCyraMLTHWXIEQdhhcS6bps+TeRqbocGbK8P2+Fp7PY5WZAjJZW3YkmaJMuYYEihyXsRvMbIM4N93khX8Sfg1ep7sNQ1f0madeYg4JP8W84vHO5YJGDmPDFWbv8wnrkhshSVDl06bbQvTZFik81tI3SoWkTnYFu84rRJ1aCmqMFupewxKNxj0bl7KDlKzygwVJpdN/RIcfMdw=="
-        args: ["tp:5011 hdb -p 5012"]
+        args: ["tp:5011 hdb:5015 /opt/surv-cloud/app/hdb -p 5012"]
         ports:
         - containerPort: 5012
         volumeMounts:
         - mountPath: /opt/surv-cloud/app/tplogs
           name: tplogs
+        - mountPath: /opt/surv-cloud/app/hdb
+          name: hdbdir
       volumes:
       - name: tplogs
         persistentVolumeClaim:
           claimName: tp-data
+      - name: hdbdir
+        persistentVolumeClaim:
+          claimName: hdb-data
 ---
 apiVersion: v1
 kind: Service
