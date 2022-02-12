@@ -327,7 +327,7 @@ spec:
         volumeMounts: 
         - mountPath: /opt/kx/app/data
           name: gw-data
-      imagePullSecrets:ck
+      imagePullSecrets:
       - name: kxregistry-secret
       volumes:
       - name: gw-data
