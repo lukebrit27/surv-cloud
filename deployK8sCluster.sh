@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Login required to https://nexus.dl.kx.com."
+echo "Login required to registry.dl.kx.com."
 read -p "Enter Username: " user
 read -s -p "Enter Password: " pass
 echo ""
