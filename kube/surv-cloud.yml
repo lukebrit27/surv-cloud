@@ -312,7 +312,7 @@ spec:
       - name: gw-data-download
         image: alpine:3.7
         command: ["/bin/sh","-c"]
-        args: ['apk add --no-cache git && git clone https://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:x-oauth-basic@github.com/lukebrit27/surv-cloud.git && mkdir -p /opt/kx/app/data && cp -r surv-cloud/dash/gw-data/* /opt/kx/app/data/']
+        args: ['apk add --no-cache git && git clone https://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:x-oauth-basic@github.com/lukebrit27/surv-cloud.git && mkdir -p /opt/kx/app/data && cp -r surv-cloud/dash/gw-data/* /opt/kx/app/data/']
         volumeMounts:
         - mountPath: /opt/kx/app/data
           name: gw-data
