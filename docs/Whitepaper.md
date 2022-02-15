@@ -101,7 +101,7 @@ alert:{[args]
   cols[orderAlerts]#alerts
 }
 ```
-The first thing to note, is that since the data is being ingested in real-time, we need to maintain a cache, so we can lookback on past events along with the current bucket to identify patterns of behavior. The size of this cache is determined by the `lookbackInterval` , a configurable time window. We set this lookback in the **spoofingThresholds.csv** file:
+The first thing to note, is that since the data is being ingested in real-time, a cache needs to be maintained, so we can lookback on past events along with the current bucket to identify patterns of behavior. The size of this cache is determined by the `lookbackInterval` , a configurable time window. This lookback is set in the **spoofingThresholds.csv** file:
 ```
 cancelQtyThreshold,cancelCountThreshold,lookbackInterval
 4000,3,0D00:00:25.0000000
@@ -169,7 +169,7 @@ Here's the **qp.json** file:
 ```
 It's a fairly intuitive configuration file, we specify a name for each process and then map each name to a q file. QPacker favors a [microservice architecture](https://cloud.google.com/learn/what-is-microservices-architecture#:~:text=Microservices%20architecture%20%28often%20shortened%20to,its%20own%20realm%20of%20responsibility.), so a separate image will be built for each process, with each q file specified serving as the entry-point. 
 
-To kick off the build process we call `qp build` in the root directory of the application folder.  Under the covers QPacker uses docker, so once the build process is finished, we can view the new images by running `docker image ls`. Initially the images won't have names, but we can remedy this using `docker tag`. Here's a bash script that automates this procedure:
+To kick off the build process we call `qp build` in the root directory of the application folder.  Under the covers QPacker uses docker, so once the build process is finished, we can view the new images by running `docker image ls`. Initially the images won't have names, but this can be remedied using `docker tag`. Here's a bash script that automates this procedure:
 ```
 #!/bin/bash
 
@@ -253,7 +253,7 @@ spec:
 
 ```
 
-Within the deployment we specify that a single RDB container will run within the pod and there will be 1 replica of the pod running. The container will be created using the image `luke275/surv-cloud:rdb` that we pushed to the public docker repository earlier, and will be accessible on port 5012 within the pod.
+Within the deployment we specify that a single RDB container will run within the pod and there will be only 1 replica of the pod running. The container will be created using the image `luke275/surv-cloud:rdb` that we pushed to the public docker repository earlier, and will be accessible on port 5012 within the pod.
 
 The container mounts 2 volumes. **Volumes** provide a mechanism for data to be persisted. How long the data is persisted, depends on the type of volume used. In this case, the container is mounting a **persistent volume**, which is unique from other types of volumes as it has a lifecycle independent of any individual pods. This means if all pods are deleted, the volume will still exist, which is not true for regular volumes. 
 The volumes themselves aren't directly created within the deployment, they simply reference existing persistent volume claims, which are requests for the cluster to create new persistent volumes. They have their own specification:
@@ -280,7 +280,7 @@ spec:
     requests:
       storage: 1Gi
 ```
-With each claim, we are asking the cluster to dynamically provision a volume. How the volume is provisioned, depends on the **storage class**, a resource in Kubernetes responsible for managing the dynamic provisioning of volumes. Since there's no storage class defined in the specification above, the default storage class will be used. 
+With each claim, we are asking the cluster to dynamically provision a volume. How the volume is provisioned, depends on the **storage class**, a resource in Kubernetes responsible for managing the dynamic provisioning of volumes. Since there's no storage class defined in the specification above, the default storage class of the cluster will be used. 
 
 To expose the RDB to other pods in the cluster, a service has to be created. **Services** provide a consistent endpoint that other pods can communicate with. Below is the service specification for the RDB:
 ```
