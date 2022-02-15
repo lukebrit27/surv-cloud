@@ -356,7 +356,7 @@ containers:
 An `initContainer` allows us to initialize a pod before it starts up any containers. In this case, the `initContainer` is cloning a git repository that contains the Spoofing dashboard files and moving those files to a directory mounted by a volume. When the `gui-gateway` container starts up, it will pick up these files, as it mounts the same volume.
 
 This is what the Spoofing dashboard looks like:
-![Spoofing Dashboard](img/SpoofingDashSnip.PNG)
+![Spoofing Dashboard](img/15-SpoofingDashSnip.PNG)
 
 The bottom data grid shows the test order data set. We can push this data into the application by clicking 'Push Data'. Any alerts raised from the data are displayed in the top data grid.
  
