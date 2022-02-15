@@ -423,7 +423,7 @@ Like with the local deployment, we connect to the UI via the `gui-dash` service.
 
 ![enter image description here](img/6-eks-services.png)
 
-The port we assigned to the  `gui-dash` service was 9090, as shown in the configuration [earlier](#ui). We use the external IP + this port to access the UI, as shown here: 
+The port assigned to the  `gui-dash` service was 9090, as shown in the configuration [earlier](#ui). We use the external IP + this port to access the UI, as shown here: 
 
 ![eks-spoofing-dashboard](img/5-eks-dashboard.png)
 
