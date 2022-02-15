@@ -457,7 +457,7 @@ And once more the Surveillance application is deployed to the cloud, this time i
 
 ## Conclusion
 
-As alluded to at the start of the paper, Trade Surveillance systems are only going to become more complex and data intensive. We only need to look at the explosion of cryptocurrency over the last few years, and the web of new regulatory complexities that it's created, in conjunction with an average daily trading volume of $91 billion, as an example. As a result, fast, robust and scalable Surveillance solutions are now a must. Building Surveillance applications in kdb+ provides unrivalled computational speed on large datasets, and as shown, deploying them using Kubernetes offers the scalability and built-in fault-tolerance we crave without having to become surgically attached to a single cloud provider. 
+As alluded to at the start of the paper, Trade Surveillance systems are only going to become more complex and data intensive. A prime example is the explosion of cryptocurrency over the last few years, now with an average daily trading volume of over $91 billion, creating a web of new regulatory complexities. As a result, fast, robust and scalable Surveillance solutions are now a must. Building Surveillance applications in kdb+ provides unrivalled computational speed on large datasets, and as shown, deploying them using Kubernetes offers the scalability and built-in fault-tolerance we crave without having to become surgically attached to a single cloud provider. 
 
 
 
