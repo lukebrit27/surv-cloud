@@ -361,7 +361,7 @@ This is what the Spoofing dashboard looks like:
 The bottom data grid shows the test order data set. We can push this data into the application by clicking 'Push Data'. Any alerts raised from the data are displayed in the top data grid.
  
 ## Deploying to Different Clusters
-With everything configured, we can deploy the application into a Kubernetes cluster. To interact with the cluster, we use the Kubernetes command line interface, `kubectl`. `kubectl` allows us to create new objects in the cluster with the command `kubectl create`.  The below shell script,  `deployK8sCluster.sh`, creates the objects for the application and deploys them into the cluster. 
+With everything configured, the application can now be deployed into a Kubernetes cluster. To interact with a cluster, we use the Kubernetes command line interface, `kubectl`. `kubectl` allows us to create new objects in the cluster with the command `kubectl create`.  The below shell script,  `deployK8sCluster.sh`, creates the objects for the application and deploys them into a cluster. 
 ```
 #!/bin/bash
 
@@ -395,7 +395,7 @@ And that's it! We've deployed the application to a Kubernetes cluster on a local
 
 ![localgetpods](img/12-local-pods.png)
 
-To access the UI of the application, we need to connect to the service associated with the `gui-dash` deployment. We can connect to the service using `minikube service` , a command in minikube that returns a URL that can be used to connect to a service. See the command in action below:
+To access the UI of the application, we need to connect to the service associated with the `gui-dash` deployment. minikube provides the command `minikube service` to this, it returns a URL that can be used to connect to a service. See the command in action below:
 
 ![localgetservices](img/11-local-services.png)
 
@@ -438,7 +438,7 @@ To create a new Kubernetes cluster in GCP, we go to GKE on the GCP management co
 
 In the above picture we already have a cluster created called `surv-cloud-wp-gcp` that we will use to deploy the Surveillance application. See the GCP documentation for detailed information on creating clusters on the management console. 
 
-The GCP CLI, `gcloud`, allows us to connect to the cluster we created from a local machine.  We connect by running the command `gcloud container clusters get-credentials` to retrieve the cluster data and update the Kubernetes context to point at it. See the command running here:
+The GCP CLI, `gcloud`, allows us to connect to the cluster we created from a local machine.  We connect by running the command `gcloud container clusters get-credentials`, which retrieves the cluster data and updates the Kubernetes context to point at it. See the command running here:
 ![gcp-initalize-cluster](img/3-gke-initialize.png)
 
 Connected to the cluster, we can deploy the application, once again running the `deployK8sCluster.sh` script: 
