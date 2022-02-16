@@ -395,7 +395,7 @@ And that's it! We've deployed the application to a Kubernetes cluster on a local
 
 ![localgetpods](img/12-local-pods.png)
 
-To access the UI of the application, we need to connect to the service associated with the `gui-dash` deployment. minikube provides the command `minikube service` to this, it returns a URL that can be used to connect to a service. See the command in action below:
+To access the UI of the application, we need to connect to the service associated with the `gui-dash` deployment. minikube provides the command `minikube service` to do this, it returns a URL that can be used to connect to a service. See the command in action below:
 
 ![localgetservices](img/11-local-services.png)
 
