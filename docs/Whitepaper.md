@@ -1,8 +1,8 @@
 ﻿# Surveillance in the Cloud
 
-Trade Surveillance systems analyze up to terabytes of order and trade data daily, in an effort to detect potential illegal algorithmic trading. The logic to identify these transgressors is complex, and computationally expensive over such large data sets. For financial institutions that fail to report illegal activity within their ranks in a timely manner, regulatory fines loom.
+Trade Surveillance systems analyze up to terabytes of order and trade data daily, in an effort to detect potential market abuses. The logic to identify these transgressors is complex, and computationally expensive over such large data sets. For financial institutions that fail to report illegal activity within their ranks in a timely manner, regulatory fines loom.
 
-That's why many exchanges, brokers and investment banks opt for [KX Surveillance](https://kx.com/solutions/surveillance/), built on the [world's fasted time series database](https://kx.com/news/kx-vexata-break-records-stac-benchmarks-tick-data-analytics/), kdb+. With kdb+, complex analyses of trading behavior across real-time and historical data can be done at record speeds, ensuring regulatory deadlines are always met. 
+That's why many exchanges, brokers and investment banks opt for [KX Surveillance](https://kx.com/solutions/surveillance/), built on the [world's fasted time series database](https://kx.com/news/kx-vexata-break-records-stac-benchmarks-tick-data-analytics/), kdb+. With kdb+, complex analysis of trading behavior across real-time and historical data can be done at record speeds, ensuring regulatory deadlines are always met. 
 
 But speed is not the only important factor of a Surveillance system, there's also a need for fault-tolerance and scalability. Cloud infrastructure has revolutionized the way we can approach building applications. We can now auto-scale resources as data volumes increase, dynamically provision new disk storage as needed, and quickly spawn replications of an application in the event of a fault. These are desirable features for a Surveillance system, that can provide increased performance and reliability. However, committing to a single cloud provider can be daunting, as it can be difficult to untangle an application from the cloud provider once it's been built there.
 
@@ -12,7 +12,7 @@ In this paper we will build a mini Surveillance kdb+ application and deploy it l
 
 ## The Application
 
-The first step is to construct a mini Surveillance application. The application will run one alert called Spoofing. Spoofing is a form of market manipulation where a market participant or group of market participants try to move the price of a financial instrument by placing orders on one side of the book, feigning an interest in the instrument and causing the price to shift. Once the price has shifted, the orders are cancelled and new orders are placed on the other side of the book, taking advantage of the price change.
+The first step is to construct a mini Surveillance application. The application will run one alert called Spoofing. Spoofing is a form of market manipulation where a market participant or group of market participants try to move the price of a financial instrument by placing non bona-fide orders on one side of the book, feigning an interest in the instrument and causing the price to shift. Once the price has shifted, the orders are cancelled and new orders are placed on the other side of the book, taking advantage of the price change.
 
 ![Architecture](img/16-wpArchitecture.png)
 
