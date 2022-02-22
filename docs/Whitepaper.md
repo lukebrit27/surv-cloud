@@ -69,7 +69,9 @@ We won't be going over the code for the tickerplant as it remains largely unchan
 ### Real-Time Engine (RTE)
 The **RTE** is the core of the application, responsible for detecting bad actors attempting to spoof the market. It receives a real-time stream of order data from the **TP**, which it will run alert logic over. Any suspicious activity detected will trigger an alert to be sent back to the **TP**, which will be published to the **RDB**. 
 
-Let's have a look at the spoofing alert code:
+Let's have a look at the spoofing alert code.
+
+**Note:** *This is a simplified version of a spoofing alert that only analyzes order data, monitoring the cancelled orders of each entity. A more complex version would also ingest trade data to look for a trade executed on the opposite side of the cancelled orders, and may also ingest market quotes to determine how far orders placed are from the best bid and ask.*
 
 ```
 alert:{[args]
