@@ -28,11 +28,9 @@ Small market surveillance application packaged using qpacker, a kdb+ cloud packa
 
 ### Run
 1. `minikube start`
-2. `minikube ssh` and run `docker login registry.dl.kx.com -u username -p password`
-3. Once successfully logged in, run `exit`
-4. `./deployK8sCluster.sh`
-5. Run `kubectl get pods -n surv-cloud --output=wide`. Wait for all pods to be marked as ready.
-6. Run `minikube service gui-dash` to open the dashboards in your local browser
+2. `./deployK8sCluster.sh`
+3. Run `kubectl get pods -n surv-cloud --output=wide`. Wait for all pods to be marked as ready.
+4. Run `minikube service gui-dash` to open the dashboards in your local browser
 
 ## Images
 The pre-built application images can be found in this docker repository https://hub.docker.com/repository/docker/luke275/surv-cloud/
