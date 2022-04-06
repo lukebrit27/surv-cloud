@@ -29,12 +29,12 @@ system"l repo/cron.q";
 
 \d .fd
 h:hopen `$":",.z.x 0;
-pubData:();
+pubData:([]table:`$();data:();rows:"j"$());
 
 // add new data to the queue to be pubbed down stream 
 // specify how many rows you want published per bucket
 addDataToQueue:{[n;tab;data] 
-  pubData,:enlist  enlist[n],enlist[tab],enlist data
+  `.fd.pubData upsert (tab;data;n)
   };
 
 // func to pub data
@@ -43,9 +43,9 @@ pub:{[tab;data] neg[h] (`upd;tab;data)};
 // Grab next buckets from tables in the queue and pub downsteam
 pubNextBuckets:{[]
   if[count pubData;
-    newPubData:{pub[x[1];x[0] sublist x[2]];x[2]:x[0]_x[2];x} each pubData;
-    pubData::newPubData where  not  0=count  each newPubData[;2]
-    ];
+      newPubData:{pub[x[`table];x[`rows] sublist x[`data]];x[`data]:x[`rows]_x[`data];x} each pubData;
+      pubData::newPubData where not 0=count each newPubData[;`data]
+      ];
   };
 
 \d .
