@@ -81,7 +81,7 @@ alert:{[args]
 
   // cache data
   // entity = sym+trader+side
-  data:update  entity:`$({x,'"_",'y}/)(string[sym];trader;string[side]), val:1  from data;
+  data:update  entity:`$sv["_"] each flip (string[sym];trader;string[side]), val:1  from data;
   `.spoofing.orderCache  upsert data;
   delete  from  `.spoofing.orderCache  where time<min[data`time]-thresholds`lookbackInterval;
 
