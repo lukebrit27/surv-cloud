@@ -8,7 +8,7 @@ But speed is not the only important factor of a Surveillance system, there's als
 
 Thus, we also want a Surveillance system that's portable, not dependent on any one cloud provider. This can be achieved using Kubernetes. Kubernetes is an open-source container orchestration platform, that allows us to automate a lot of the manual steps involved in deploying, managing and scaling containerized applications. Applications built using Kubernetes can be deployed across all the main cloud providers (AWS, GCP and Azure) and immediately take advantage of their scalable resources. Kubernetes is the gateway to the Cloud, providing all it's advantages, without having to fully commit to any single Cloud provider. 
 
-In this paper we will build a mini Surveillance kdb+ application and deploy it locally, on AWS and on GCP using Kubernetes. This will demonstrate how Kubernetes helps to unlock the power of the cloud, while retaining fine-tuned control over the application's components and where they ultimately reside. 
+In this paper we will build a mini Surveillance kdb+ application and deploy it locally, on AWS and on GCP using Kubernetes. This will demonstrate how Kubernetes helps to unlock the power of the cloud, while retaining fine-tuned control over the application's components and where they ultimately reside. It will also emphasise the benefits of building applications on top of a Kubernetes centric data platform, such as [KX Insights](https://code.kx.com/insights/index.html).
 
 ## The Application
 
@@ -459,7 +459,7 @@ And once more the Surveillance application is deployed to the cloud, this time i
 
 ## Conclusion
 
-As alluded to at the start of the paper, Trade Surveillance systems are only going to become more complex and data intensive. A prime example is the explosion of cryptocurrency over the last few years, now with an average daily trading volume of over $91 billion, creating a web of new regulatory complexities. As a result, fast, robust and scalable Surveillance solutions are now a must. Building Surveillance applications in kdb+ provides unrivalled computational speed on large datasets, and as shown, deploying them using Kubernetes offers the scalability and built-in fault-tolerance we crave without having to become surgically attached to a single cloud provider. 
+As alluded to at the start of the paper, Trade Surveillance systems are only going to become more complex and data intensive. A prime example is the explosion of cryptocurrency over the last few years, now with an average daily trading volume of over $91 billion, creating a web of new regulatory complexities. As a result, fast, robust and scalable Surveillance solutions are now a must. Building Surveillance applications in kdb+ provides unrivalled computational speed on large datasets, and as shown, deploying them using Kubernetes offers the scalability and built-in fault-tolerance we crave without having to become surgically attached to a single cloud provider. This is the approach adopted by [KX Insights](https://code.kx.com/insights/index.html), where processes like the tickerplant, RDB and HDB are implemented as microservices that can be flexibly orchestrated into robust, scalable solutions.
 
 
 
